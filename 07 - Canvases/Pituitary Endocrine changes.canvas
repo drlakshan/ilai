@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{
+			"id":"c4fe054882e4aa50",
+			"type":"file",
+			"file":"01 - Fleeting Notes/Endocrine aspects of pituitary surgery.md",
+			"styleAttributes":{},
+			"x":-420,
+			"y":-240,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"be59e674b06fe6a7",
+			"type":"text",
+			"text":"Normal Endocrine Function\nAxis: Hypothalamo-Pituitary- Adrenal\nHPT\nHPG\nPosterior : ADH",
+			"styleAttributes":{},
+			"x":276,
+			"y":-229,
+			"width":250,
+			"height":209
+		}
+	],
+	"edges":[
+		{"id":"60a657db6c91da8d","fromNode":"c4fe054882e4aa50","fromSide":"right","toNode":"be59e674b06fe6a7","toSide":"left"}
+	],
+	"metadata":{}
+}

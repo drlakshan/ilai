@@ -1,0 +1,207 @@
+{
+  "nodes": [
+    {
+      "type": "text",
+      "text": "Use RSS feeds REEDER and qx reeed",
+      "id": "15c7bc84798bb5ea",
+      "styleAttributes": {},
+      "x": 24,
+      "y": 927,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "What next steps I need to improve my learning",
+      "id": "80fa116f5c477306",
+      "styleAttributes": {},
+      "x": 8,
+      "y": 130,
+      "width": 200,
+      "height": 113,
+      "color": "3"
+    },
+    {
+      "type": "text",
+      "text": "Process ",
+      "id": "adf44eb3f67ca638",
+      "styleAttributes": {},
+      "x": -402,
+      "y": 27,
+      "width": 200,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "type": "text",
+      "text": "Improving learning",
+      "id": "45d391f3b9818664",
+      "styleAttributes": {},
+      "x": -113,
+      "y": -65,
+      "width": 200,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "type": "text",
+      "text": "Obsidian",
+      "id": "0b00654eb4dc7140",
+      "styleAttributes": {},
+      "x": 180,
+      "y": 499,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "How can I enter all knowledge pertaining to ENT to the system?",
+      "id": "4ac480b77d260c61",
+      "styleAttributes": {},
+      "x": -114,
+      "y": 720,
+      "width": 250,
+      "height": 104
+    },
+    {
+      "type": "text",
+      "text": "Go through FRCS papers ?",
+      "id": "75fc5ab01f3df108",
+      "styleAttributes": {},
+      "x": -261,
+      "y": 933,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "file",
+      "file": "03 - Permanent Notes/Anki word meaning.md",
+      "id": "cea031621d1a3ba3",
+      "styleAttributes": {},
+      "x": -602,
+      "y": 499,
+      "width": 400,
+      "height": 298
+    },
+    {
+      "type": "file",
+      "file": "03 - Permanent Notes/zotero.md",
+      "id": "d22e17c0af66fb44",
+      "styleAttributes": {},
+      "x": -661,
+      "y": 220,
+      "width": 400,
+      "height": 164
+    },
+    {
+      "type": "text",
+      "text": "think of a way to create a video galary of AAO HNS lectures",
+      "id": "80c4ab81db455667",
+      "styleAttributes": {},
+      "x": 320,
+      "y": -35,
+      "width": 200,
+      "height": 122
+    },
+    {
+      "type": "text",
+      "text": "Use Obsidian to create cards from AAO HNS Lectures",
+      "id": "ddb443bf33a38b52",
+      "styleAttributes": {},
+      "x": 320,
+      "y": 130,
+      "width": 200,
+      "height": 113
+    },
+    {
+      "type": "text",
+      "text": "Update and enhance Zotero collection",
+      "id": "0a0d69fa1870c633",
+      "styleAttributes": {},
+      "x": 320,
+      "y": 324,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "f1a0b4e8d104f402",
+      "fromNode": "80fa116f5c477306",
+      "fromSide": "right",
+      "toNode": "ddb443bf33a38b52",
+      "toSide": "left"
+    },
+    {
+      "id": "ffc53b3fe2f6d022",
+      "fromNode": "45d391f3b9818664",
+      "fromSide": "bottom",
+      "toNode": "80fa116f5c477306",
+      "toSide": "top"
+    },
+    {
+      "id": "08bfbff25057300b",
+      "fromNode": "45d391f3b9818664",
+      "fromSide": "left",
+      "toNode": "adf44eb3f67ca638",
+      "toSide": "right"
+    },
+    {
+      "id": "0f51e55f96187580",
+      "fromNode": "adf44eb3f67ca638",
+      "fromSide": "bottom",
+      "toNode": "d22e17c0af66fb44",
+      "toSide": "top"
+    },
+    {
+      "id": "e244722962829083",
+      "fromNode": "d22e17c0af66fb44",
+      "fromSide": "right",
+      "toNode": "0b00654eb4dc7140",
+      "toSide": "left"
+    },
+    {
+      "id": "6c32239927961b61",
+      "fromNode": "0b00654eb4dc7140",
+      "fromSide": "bottom",
+      "toNode": "cea031621d1a3ba3",
+      "toSide": "top"
+    },
+    {
+      "id": "716ffd72c5b2eef6",
+      "fromNode": "80fa116f5c477306",
+      "fromSide": "right",
+      "toNode": "0a0d69fa1870c633",
+      "toSide": "left"
+    },
+    {
+      "id": "33e82a1c56c73b1c",
+      "fromNode": "80fa116f5c477306",
+      "fromSide": "right",
+      "toNode": "80c4ab81db455667",
+      "toSide": "left"
+    },
+    {
+      "id": "3c1af5387e958d4a",
+      "fromNode": "0b00654eb4dc7140",
+      "fromSide": "bottom",
+      "toNode": "4ac480b77d260c61",
+      "toSide": "top"
+    },
+    {
+      "id": "4ed05c1d3f6c2bab",
+      "fromNode": "4ac480b77d260c61",
+      "fromSide": "bottom",
+      "toNode": "75fc5ab01f3df108",
+      "toSide": "top"
+    },
+    {
+      "id": "c8615b7f66b8e0ab",
+      "fromNode": "4ac480b77d260c61",
+      "fromSide": "bottom",
+      "toNode": "15c7bc84798bb5ea",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

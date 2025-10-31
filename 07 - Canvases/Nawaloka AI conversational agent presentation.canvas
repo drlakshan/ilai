@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"c01ff84ec1438a96","x":-560,"y":-240,"width":250,"height":60,"type":"text","text":"Why?"},
+		{"id":"1a8b9f76f717f1c2","x":-200,"y":-240,"width":250,"height":60,"type":"text","text":"Nawaloka AI"},
+		{"id":"596d3fa2e1269de0","x":100,"y":-240,"width":250,"height":60,"type":"text","text":"What do people want to see?\n"},
+		{"id":"28e65bde3b9731a3","x":-280,"y":-38,"width":250,"height":60,"color":"2","type":"text","text":"How can I channel a doctor"},
+		{"id":"9de228160cb4c73b","x":-280,"y":52,"width":250,"height":60,"color":"2","type":"text","text":"How much does it cost to ...?"},
+		{"id":"d870e1a2b940f535","x":-280,"y":140,"width":250,"height":60,"color":"2","type":"text","text":"How do I get x service done?"},
+		{"id":"1f4b24d801745d27","x":40,"y":-38,"width":250,"height":60,"color":"2","type":"text","text":"How can I contact someone to give me information?"},
+		{"id":"6ad381c552dad83c","x":40,"y":52,"width":250,"height":60,"color":"2","type":"text","text":"Does X work here?"},
+		{"id":"1afaff1ecfdc062f","x":40,"y":140,"width":250,"height":60,"color":"2","type":"text","text":"Is \"x\" service available at Nawaloka?"},
+		{"id":"4e5841a06f4b58da","x":480,"y":-239,"width":250,"height":60,"type":"text","text":"What if we can blend all this information to a single conversational agent?"},
+		{"id":"1992412b2db74462","x":820,"y":-239,"width":250,"height":60,"type":"text","text":"Nawaloka AI"},
+		{"id":"970c0982e1cc298a","x":1170,"y":-240,"width":250,"height":60,"type":"text","text":"Next Steps"},
+		{"id":"80279531c8ab7eba","x":1525,"y":-327,"width":250,"height":60,"type":"text","text":"Run through a group of local volunteers"},
+		{"id":"edc05148c8b2963c","x":1536,"y":-214,"width":250,"height":60,"type":"text","text":"Prettify"},
+		{"id":"0f6efc7958a45c01","x":1534,"y":-124,"width":250,"height":60,"type":"text","text":"Sinhala and Tamil Versions"}
+	],
+	"edges":[
+		{"id":"60c64bea4474832d","fromNode":"c01ff84ec1438a96","fromSide":"right","toNode":"1a8b9f76f717f1c2","toSide":"left"},
+		{"id":"1ec6b5460048288d","fromNode":"1a8b9f76f717f1c2","fromSide":"right","toNode":"596d3fa2e1269de0","toSide":"left"},
+		{"id":"9719e96aad00c3eb","fromNode":"596d3fa2e1269de0","fromSide":"bottom","toNode":"28e65bde3b9731a3","toSide":"top"},
+		{"id":"7e45cfb765febd2e","fromNode":"596d3fa2e1269de0","fromSide":"bottom","toNode":"9de228160cb4c73b","toSide":"top"},
+		{"id":"f8c2f42af9679e4e","fromNode":"596d3fa2e1269de0","fromSide":"bottom","toNode":"d870e1a2b940f535","toSide":"top"},
+		{"id":"9f3ddb84676580c0","fromNode":"596d3fa2e1269de0","fromSide":"bottom","toNode":"1f4b24d801745d27","toSide":"top"},
+		{"id":"4739af9f6a0e6df1","fromNode":"596d3fa2e1269de0","fromSide":"bottom","toNode":"6ad381c552dad83c","toSide":"top"},
+		{"id":"9a2138377828c84d","fromNode":"596d3fa2e1269de0","fromSide":"bottom","toNode":"1afaff1ecfdc062f","toSide":"top"},
+		{"id":"7ccb813d66aaa66f","fromNode":"596d3fa2e1269de0","fromSide":"right","toNode":"4e5841a06f4b58da","toSide":"left"},
+		{"id":"4927fcf07f7e00ec","fromNode":"4e5841a06f4b58da","fromSide":"right","toNode":"1992412b2db74462","toSide":"left"},
+		{"id":"7d271f14deed97c2","fromNode":"1992412b2db74462","fromSide":"right","toNode":"970c0982e1cc298a","toSide":"left"},
+		{"id":"af87c6511269fb62","fromNode":"970c0982e1cc298a","fromSide":"right","toNode":"80279531c8ab7eba","toSide":"left"},
+		{"id":"6c731a34d6c568c7","fromNode":"970c0982e1cc298a","fromSide":"right","toNode":"edc05148c8b2963c","toSide":"left"},
+		{"id":"b1a6e6e3931e2609","fromNode":"970c0982e1cc298a","fromSide":"right","toNode":"0f6efc7958a45c01","toSide":"left"}
+	]
+}

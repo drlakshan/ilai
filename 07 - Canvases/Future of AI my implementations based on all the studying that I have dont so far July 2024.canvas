@@ -1,0 +1,290 @@
+{
+  "nodes": [
+    {
+      "id": "5c7862cb91ba8993",
+      "type": "text",
+      "text": "LLMs : Large language models will be used to do whatever I want to do ",
+      "x": -660,
+      "y": -400,
+      "width": 260,
+      "height": 160
+    },
+    {
+      "id": "8692ba4f25696f4b",
+      "type": "text",
+      "text": "other models",
+      "x": -320,
+      "y": -460,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "8af773bdea02d9c3",
+      "type": "text",
+      "text": "Video etc",
+      "x": -40,
+      "y": -490,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "a5b703ad1d3767e7",
+      "type": "text",
+      "text": "DALL - E",
+      "x": -40,
+      "y": -430,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "5dfb81e4e9804bdc",
+      "type": "text",
+      "text": "Research about a topic",
+      "x": -664,
+      "y": -115,
+      "width": 260,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "136e63764dfd0ae5",
+      "type": "text",
+      "text": "Current Practice\n\nI use perplexity preferentially to Google. And atleast do two rewrites GPT 4o and claude 3.5\n\n",
+      "x": -820,
+      "y": 31,
+      "width": 260,
+      "height": 289
+    },
+    {
+      "id": "4c3d671c3555b608",
+      "type": "text",
+      "text": "Create a visaulisation of a sheet for better comprehension and retention",
+      "x": -391,
+      "y": 140,
+      "width": 260,
+      "height": 160
+    },
+    {
+      "id": "3d0438329418c806",
+      "type": "text",
+      "text": "Create interactive learning experiences using LLMs :",
+      "x": -390,
+      "y": 369,
+      "width": 260,
+      "height": 151
+    },
+    {
+      "id": "fec390518065cee5",
+      "type": "text",
+      "text": "Undergraduates",
+      "x": -26,
+      "y": 330,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1dedf052cab23b01",
+      "type": "text",
+      "text": "Medical Officers",
+      "x": -26,
+      "y": 415,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "39dfc34d6b52cde2",
+      "type": "text",
+      "text": "? Onboarding apps",
+      "x": 321,
+      "y": 416,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "cae96fa745b7f336",
+      "type": "text",
+      "text": "For me : let it ineteact with me",
+      "x": -21,
+      "y": 531,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "92707ad8f6d71ccc",
+      "type": "text",
+      "text": "I can get this output feed in to an agent who can make a markdown file and atomic notes",
+      "x": -390,
+      "y": -55,
+      "width": 260,
+      "height": 158
+    },
+    {
+      "id": "cf2faff2fec40af3",
+      "type": "text",
+      "text": "For note making help",
+      "x": -26,
+      "y": -6,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "11e94af4c3aa55aa",
+      "type": "text",
+      "text": "Teaching materials",
+      "x": -391,
+      "y": 561,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "47eee93baf853f9d",
+      "type": "text",
+      "text": "Project Brainstorming",
+      "x": 640,
+      "y": -66,
+      "width": 260,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "08a8bd88ed2ad496",
+      "type": "text",
+      "text": "Meeting Preperation",
+      "x": 660,
+      "y": 54,
+      "width": 260,
+      "height": 50
+    },
+    {
+      "id": "75e2b4aa1080f5a0",
+      "type": "text",
+      "text": "Lecture Preparation",
+      "x": 655,
+      "y": 170,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "6461592e29ad9988",
+      "fromNode": "8692ba4f25696f4b",
+      "fromSide": "right",
+      "toNode": "a5b703ad1d3767e7",
+      "toSide": "left"
+    },
+    {
+      "id": "4766487f115eabf8",
+      "fromNode": "8692ba4f25696f4b",
+      "fromSide": "right",
+      "toNode": "8af773bdea02d9c3",
+      "toSide": "left"
+    },
+    {
+      "id": "be77ae5bd1b9b107",
+      "fromNode": "5c7862cb91ba8993",
+      "fromSide": "right",
+      "toNode": "8692ba4f25696f4b",
+      "toSide": "left"
+    },
+    {
+      "id": "9f0ec8f0dc43877b",
+      "fromNode": "5c7862cb91ba8993",
+      "fromSide": "bottom",
+      "toNode": "5dfb81e4e9804bdc",
+      "toSide": "top"
+    },
+    {
+      "id": "a4efb2ea754a6045",
+      "fromNode": "5dfb81e4e9804bdc",
+      "fromSide": "bottom",
+      "toNode": "136e63764dfd0ae5",
+      "toSide": "top"
+    },
+    {
+      "id": "8ab538f1a4b9643e",
+      "fromNode": "136e63764dfd0ae5",
+      "fromSide": "right",
+      "toNode": "92707ad8f6d71ccc",
+      "toSide": "left"
+    },
+    {
+      "id": "06441d4b562e4144",
+      "fromNode": "136e63764dfd0ae5",
+      "fromSide": "right",
+      "toNode": "4c3d671c3555b608",
+      "toSide": "left"
+    },
+    {
+      "id": "0aa52d743f9f4605",
+      "fromNode": "136e63764dfd0ae5",
+      "fromSide": "right",
+      "toNode": "3d0438329418c806",
+      "toSide": "left"
+    },
+    {
+      "id": "5276c86b34cf4c82",
+      "fromNode": "3d0438329418c806",
+      "fromSide": "right",
+      "toNode": "fec390518065cee5",
+      "toSide": "left"
+    },
+    {
+      "id": "37fc80e859a20f28",
+      "fromNode": "3d0438329418c806",
+      "fromSide": "right",
+      "toNode": "1dedf052cab23b01",
+      "toSide": "left"
+    },
+    {
+      "id": "58428724153ebf04",
+      "fromNode": "1dedf052cab23b01",
+      "fromSide": "right",
+      "toNode": "39dfc34d6b52cde2",
+      "toSide": "left"
+    },
+    {
+      "id": "3c25622315e8e6df",
+      "fromNode": "3d0438329418c806",
+      "fromSide": "right",
+      "toNode": "cae96fa745b7f336",
+      "toSide": "left"
+    },
+    {
+      "id": "1acf9743d8b69d95",
+      "fromNode": "136e63764dfd0ae5",
+      "fromSide": "right",
+      "toNode": "11e94af4c3aa55aa",
+      "toSide": "left"
+    },
+    {
+      "id": "18e8b197aa6a7b6a",
+      "fromNode": "92707ad8f6d71ccc",
+      "fromSide": "right",
+      "toNode": "cf2faff2fec40af3",
+      "toSide": "left"
+    },
+    {
+      "id": "9907cc7483bfca72",
+      "fromNode": "5c7862cb91ba8993",
+      "fromSide": "bottom",
+      "toNode": "47eee93baf853f9d",
+      "toSide": "top"
+    },
+    {
+      "id": "e836fb055a3a5121",
+      "fromNode": "5c7862cb91ba8993",
+      "fromSide": "bottom",
+      "toNode": "08a8bd88ed2ad496",
+      "toSide": "top"
+    },
+    {
+      "id": "25c9b6377fe75bb8",
+      "fromNode": "5c7862cb91ba8993",
+      "fromSide": "bottom",
+      "toNode": "75e2b4aa1080f5a0",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

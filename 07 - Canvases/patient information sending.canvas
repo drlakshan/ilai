@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "0e5b49b20ad39583",
+      "type": "text",
+      "text": "formulated a mx plan",
+      "styleAttributes": {},
+      "x": -360,
+      "y": -220,
+      "width": 240,
+      "height": 60
+    },
+    {
+      "id": "26b0380ee2df8314",
+      "type": "text",
+      "text": "prescription emailed",
+      "styleAttributes": {},
+      "x": 12,
+      "y": -219,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "c19b8f9fd019ae64",
+      "type": "text",
+      "text": "Surgery information ",
+      "styleAttributes": {},
+      "x": 13,
+      "y": -91,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b49346a7d6b4f501",
+      "type": "text",
+      "text": "How to",
+      "styleAttributes": {},
+      "x": 52,
+      "y": 48,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "230e4d8187da52c8",
+      "type": "text",
+      "text": "Reminder to come again\n",
+      "styleAttributes": {},
+      "x": 40,
+      "y": 152,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "fba82a0297a7aca0",
+      "type": "text",
+      "text": "Feed Back\n",
+      "styleAttributes": {},
+      "x": 52,
+      "y": 240,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "dcc3c1af7e84815f",
+      "type": "text",
+      "text": "SMS",
+      "styleAttributes": {},
+      "x": -536,
+      "y": -36,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "6cb43fbfc314bb34",
+      "type": "text",
+      "text": "Email",
+      "styleAttributes": {},
+      "x": -328,
+      "y": -18,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "dbef094cf30f2a29",
+      "fromNode": "0e5b49b20ad39583",
+      "fromSide": "right",
+      "toNode": "26b0380ee2df8314",
+      "toSide": "left"
+    },
+    {
+      "id": "cecfe3438adba430",
+      "fromNode": "0e5b49b20ad39583",
+      "fromSide": "right",
+      "toNode": "c19b8f9fd019ae64",
+      "toSide": "left"
+    },
+    {
+      "id": "a07c8f42f62161e8",
+      "fromNode": "0e5b49b20ad39583",
+      "fromSide": "right",
+      "toNode": "b49346a7d6b4f501",
+      "toSide": "left"
+    },
+    {
+      "id": "04eeba13125be134",
+      "fromNode": "0e5b49b20ad39583",
+      "fromSide": "right",
+      "toNode": "230e4d8187da52c8",
+      "toSide": "left"
+    },
+    {
+      "id": "a70a693b9ab4b071",
+      "fromNode": "0e5b49b20ad39583",
+      "fromSide": "right",
+      "toNode": "fba82a0297a7aca0",
+      "toSide": "left"
+    },
+    {
+      "id": "fbe0608d0b4bf0ea",
+      "fromNode": "0e5b49b20ad39583",
+      "fromSide": "bottom",
+      "toNode": "dcc3c1af7e84815f",
+      "toSide": "top"
+    },
+    {
+      "id": "f615bf9c29068e43",
+      "fromNode": "0e5b49b20ad39583",
+      "fromSide": "bottom",
+      "toNode": "6cb43fbfc314bb34",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

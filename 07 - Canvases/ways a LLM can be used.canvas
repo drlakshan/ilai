@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"ad8d459890f97a3a","x":-80,"y":-80,"width":220,"height":60,"type":"text","text":"ways LLM can be used"},
+		{"id":"1f267ffc69122234","x":-540,"y":-180,"width":250,"height":260,"type":"text","text":"Foundation Models\nchatGPT\nClaude\nGemini\nPerplexity\nDeepSeek\n\nFREE tier and Subscriptions\n"},
+		{"id":"119f051f430c1eca","x":-142,"y":340,"width":375,"height":405,"type":"text","text":"API based use cases\n1. in IDE\n\t1. Cursor\n\t2. CodeLM\n\t3. Windsurf\n\t4. VSCode with extensions Cline\n2. create scripts with API's in it\n3. Local Software\n\t1. Ollama\n\t2. OpenWeb UI\n\t3. Msty\n\t4. LM Studio\n\t5. AnythingLLM"},
+		{"id":"5629267952587890","x":-540,"y":320,"width":250,"height":102,"type":"text","text":"Custom GPTs\nProjects Claude\nGemini Gems"},
+		{"id":"99021528a75527b7","x":360,"y":-143,"width":250,"height":186,"type":"text","text":"Specific AI trained for a specific task\n\nNotebookLM\nScispace\nConnected Papers\n"},
+		{"id":"18ee9fa237401ff6","x":380,"y":220,"width":250,"height":176,"type":"text","text":"Automations\nn8n\nZapier\nflowwise"},
+		{"id":"42d81eec723367e1","x":380,"y":80,"width":250,"height":60,"type":"text","text":"stand Alone Agents"},
+		{"id":"606e2dcdb293990b","x":416,"y":523,"width":250,"height":437,"type":"text","text":"Real Agentic Workflows\nManus Ai\nComputer Use"}
+	],
+	"edges":[
+		{"id":"76711f76d3626409","fromNode":"ad8d459890f97a3a","fromSide":"left","toNode":"1f267ffc69122234","toSide":"right"},
+		{"id":"293baa27a27585c0","fromNode":"ad8d459890f97a3a","fromSide":"bottom","toNode":"5629267952587890","toSide":"top"},
+		{"id":"be1df817019bc19b","fromNode":"ad8d459890f97a3a","fromSide":"bottom","toNode":"119f051f430c1eca","toSide":"top"},
+		{"id":"6b5404af2de2864f","fromNode":"ad8d459890f97a3a","fromSide":"right","toNode":"99021528a75527b7","toSide":"left"},
+		{"id":"16b66f018a791fe3","fromNode":"ad8d459890f97a3a","fromSide":"right","toNode":"42d81eec723367e1","toSide":"left"},
+		{"id":"d180595fe99140c5","fromNode":"ad8d459890f97a3a","fromSide":"right","toNode":"18ee9fa237401ff6","toSide":"left"},
+		{"id":"0d31bbbaa66b4e4a","fromNode":"ad8d459890f97a3a","fromSide":"right","toNode":"606e2dcdb293990b","toSide":"left"}
+	]
+}

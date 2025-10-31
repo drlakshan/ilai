@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      or:
+        - file.hasTag("Lecture")
+        - file.hasTag("ai-lecture")
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 626

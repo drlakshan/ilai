@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"08771a0aeb4d6ad4","type":"file","file":"01 - Fleeting Notes/sjogren's disease diagnosis.md","x":1866,"y":-1067,"width":290,"height":333,"color":"3"},
+		{"id":"9dfe136a75a9032e","type":"file","file":"01 - Fleeting Notes/Sarcoidosis.md","x":1866,"y":-685,"width":290,"height":333,"color":"3"},
+		{"id":"f421f5cc51fa35c0","type":"text","text":"# Kimura \n\noesinophilic granulamata\nskin, LN, parotid enlargment\nperipheral blood oesoniphilia, raised IgE, rarely renal involvement\n\n","x":1877,"y":-301,"width":279,"height":235,"color":"3"},
+		{"id":"3c5ed65344f57fa3","type":"file","file":"01 - Fleeting Notes/Sarcoidosis definition.md","x":2250,"y":-685,"width":290,"height":333,"color":"3"},
+		{"id":"d1d6d869f85fea0e","type":"text","text":"\nFBC\nCRP\nESR\nanti RO\nanti LA\nACE\nSerum and Urinary Calcium\nCANCA pANCA","x":1368,"y":-226,"width":260,"height":319,"color":"4"},
+		{"id":"1cdafd5a235a94fd","type":"text","text":"CXR\nCT Chest\nUSS parotids\nCT /MRI","x":1375,"y":140,"width":260,"height":60,"color":"4"},
+		{"id":"2d8d7f5d52dc3bd8","type":"text","text":"FNAC TruCut\nminor salivary\nnasal lining biopsy","x":1375,"y":260,"width":260,"height":60,"color":"4"},
+		{"id":"d7a0f5440ff5be07","type":"text","text":"Sialography\nSalivary flow rates\nSalivary analysis","x":1375,"y":380,"width":260,"height":60,"color":"4"},
+		{"id":"97af9d3fc1cbfb6b","type":"text","text":"Patient with bilateral parotid enlargement","x":-120,"y":-900,"width":260,"height":100},
+		{"id":"0eaa61ec11610233","type":"text","text":"What are the possible differential diagnoses","x":-121,"y":-661,"width":260,"height":71},
+		{"id":"cdd5fe5fb4e334a2","type":"text","text":"With that at the back of the mind how should I proceed with Ix?","x":-121,"y":57,"width":260,"height":143},
+		{"id":"0fe47b33047c5961","type":"text","text":"Investigations","x":720,"y":93,"width":260,"height":65,"color":"4"},
+		{"id":"48f055da0cc08f8e","x":720,"y":-650,"width":260,"height":60,"type":"text","text":"DD"},
+		{"id":"575c0f9b7e3003db","type":"text","text":"Others:\nsialosis\npsuedo : masseter\nhaematological : leuk lymphoma\ninfections : viral including HIV, Bacterial, \nWegener's\nKimuras\nwarthins\nMALTS","x":1375,"y":-500,"width":253,"height":232,"color":"3"},
+		{"id":"237332a3e8ece1b6","type":"text","text":"Sarcoidosis","x":1375,"y":-590,"width":253,"height":72,"color":"3"},
+		{"id":"ea500f7e07f389eb","type":"text","text":"Sjogren's disease","x":1375,"y":-685,"width":253,"height":60,"color":"3"},
+		{"id":"7ab2664072af0cff","type":"file","file":"03 - Permanent Notes/Wegener's granulomatosis.md","x":1850,"y":-30,"width":400,"height":400,"color":"4"},
+		{"id":"0780cddf90bede49","x":-120,"y":560,"width":260,"height":60,"type":"text","text":"Treatment is obviously tailored to the diagnosis"}
+	],
+	"edges":[
+		{"id":"6806ef3f08ee097b","fromNode":"97af9d3fc1cbfb6b","fromSide":"bottom","toNode":"0eaa61ec11610233","toSide":"top"},
+		{"id":"59bb8ac324c58b80","fromNode":"237332a3e8ece1b6","fromSide":"right","toNode":"9dfe136a75a9032e","toSide":"left"},
+		{"id":"b2b82ec8e48dd8af","fromNode":"9dfe136a75a9032e","fromSide":"right","toNode":"3c5ed65344f57fa3","toSide":"left"},
+		{"id":"f1025e02a1eb37cf","fromNode":"ea500f7e07f389eb","fromSide":"right","toNode":"08771a0aeb4d6ad4","toSide":"left"},
+		{"id":"e714186042ef85d5","fromNode":"575c0f9b7e3003db","fromSide":"right","toNode":"f421f5cc51fa35c0","toSide":"left"},
+		{"id":"cc9ff7b0a4fa5194","fromNode":"0eaa61ec11610233","fromSide":"bottom","toNode":"cdd5fe5fb4e334a2","toSide":"top"},
+		{"id":"056a32c30c221101","fromNode":"cdd5fe5fb4e334a2","fromSide":"right","toNode":"0fe47b33047c5961","toSide":"left"},
+		{"id":"0e1551db2c6b88af","fromNode":"0fe47b33047c5961","fromSide":"right","toNode":"d1d6d869f85fea0e","toSide":"left","color":"4","label":"Lab"},
+		{"id":"be83c6db276a0249","fromNode":"0fe47b33047c5961","fromSide":"right","toNode":"1cdafd5a235a94fd","toSide":"left","color":"3","label":"Imaging"},
+		{"id":"1930a703561aadd2","fromNode":"0fe47b33047c5961","fromSide":"right","toNode":"2d8d7f5d52dc3bd8","toSide":"left","color":"5","label":"Tissue"},
+		{"id":"0c2c20185bc185c2","fromNode":"d1d6d869f85fea0e","fromSide":"right","toNode":"7ab2664072af0cff","toSide":"left"},
+		{"id":"97ed67b16c50a125","fromNode":"0fe47b33047c5961","fromSide":"right","toNode":"d7a0f5440ff5be07","toSide":"left","color":"6","label":"Others"},
+		{"id":"7170b043d901c6b7","fromNode":"cdd5fe5fb4e334a2","fromSide":"bottom","toNode":"0780cddf90bede49","toSide":"top"},
+		{"id":"7f18ac8ae2d79c20","fromNode":"0eaa61ec11610233","fromSide":"right","toNode":"48f055da0cc08f8e","toSide":"left"},
+		{"id":"41a86c949f75a173","fromNode":"48f055da0cc08f8e","fromSide":"right","toNode":"ea500f7e07f389eb","toSide":"left"},
+		{"id":"03a1f02f641ee902","fromNode":"48f055da0cc08f8e","fromSide":"right","toNode":"237332a3e8ece1b6","toSide":"left"},
+		{"id":"f7278ada7450ce60","fromNode":"48f055da0cc08f8e","fromSide":"right","toNode":"575c0f9b7e3003db","toSide":"left"}
+	],
+	"metadata":{}
+}

@@ -1,0 +1,263 @@
+{
+  "nodes": [
+    {
+      "id": "dc3dc517ea02afc0",
+      "type": "group",
+      "x": -2140,
+      "y": 550,
+      "width": 840,
+      "height": 630,
+      "label": "Tinnitus Interest Group Inauguration 12 November 2023"
+    },
+    {
+      "id": "74672e19d16b0812",
+      "type": "text",
+      "text": "Tinnitus Interest group ",
+      "x": -1600,
+      "y": 570,
+      "width": 250,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "5ae4fa083be743bd",
+      "type": "text",
+      "text": "AGENDA\n\n1. Opening Remarks\n2. Understanding Tinnitus - MDT approach\n3. Current State of Tinnitus Management\n4. Open Discussion on challenges and opportunities\n5. Innovations and Future Directions\n6. Creating a roadmap for collaboration\n7. Framework for future communications\n8. Closing remarks ",
+      "x": -2120,
+      "y": 660,
+      "width": 250,
+      "height": 460,
+      "color": "2"
+    },
+    {
+      "id": "06b6c9b79526d081",
+      "type": "text",
+      "text": "Membership",
+      "x": -1855,
+      "y": 764,
+      "width": 250,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "9d603236f5c8d0ac",
+      "type": "text",
+      "text": "```dataview\nLIST\nfrom #tinnitus \n```\n\n```dataview\ntable from #savings \n```\n```\n```dataview\n\nlist\nwhere\nicontains(file.name,\"sinusi\")\n```\n",
+      "x": -1960,
+      "y": -440,
+      "width": 520,
+      "height": 420
+    },
+    {
+      "id": "4f2022f9a5d67fe7",
+      "type": "file",
+      "file": "03 - Permanent Notes/somatosensory tinnitus.md",
+      "x": -1320,
+      "y": -600,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "61e56ddc33aa9e91",
+      "type": "file",
+      "file": "03 - Permanent Notes/classification of tinnitus.md",
+      "x": -800,
+      "y": -600,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "bcd00bf2f6ef128c",
+      "type": "file",
+      "file": "01 - Fleeting Notes/tinnitus may be enhanced by migraine.md",
+      "x": -1320,
+      "y": -80,
+      "width": 400,
+      "height": 680
+    },
+    {
+      "id": "9e6594958e22babf",
+      "type": "text",
+      "text": "",
+      "x": -406,
+      "y": -321,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "1396a03f0fed3a78",
+      "type": "file",
+      "file": "01 - Fleeting Notes/Tinnitus.md",
+      "x": -800,
+      "y": -80,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "95373534fd432583",
+      "type": "text",
+      "text": "Database",
+      "x": -1855,
+      "y": 890,
+      "width": 250,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "8d50e385463e0b83",
+      "type": "text",
+      "text": "Research",
+      "x": -1570,
+      "y": 890,
+      "width": 250,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "2f718364e1fe6192",
+      "type": "text",
+      "text": "Tinnitus Treatments role of non pharmoacological management",
+      "x": -124,
+      "y": -370,
+      "width": 250,
+      "height": 140
+    },
+    {
+      "id": "a199c3e0d5e032d5",
+      "type": "text",
+      "text": "Tinnitus Models",
+      "x": -124,
+      "y": -92,
+      "width": 250,
+      "height": 92
+    },
+    {
+      "id": "d14347568639d701",
+      "type": "file",
+      "file": "01 - Fleeting Notes/nortriptyline.md",
+      "x": -124,
+      "y": -880,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "8108c0c7d6019615",
+      "type": "file",
+      "file": "01 - Fleeting Notes/Typewriter Tinnitus.md",
+      "x": 40,
+      "y": 200,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "2654501f2be8df90",
+      "type": "file",
+      "file": "01 - Fleeting Notes/Cross modal Interaction among sensory cortex.md",
+      "x": 320,
+      "y": -568,
+      "width": 400,
+      "height": 536
+    }
+  ],
+  "edges": [
+    {
+      "id": "10bc2ee133cb18c7",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "left",
+      "toNode": "bcd00bf2f6ef128c",
+      "toSide": "right"
+    },
+    {
+      "id": "c1d38db5e7d76695",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "left",
+      "toNode": "4f2022f9a5d67fe7",
+      "toSide": "right"
+    },
+    {
+      "id": "ebaf8bc4195941bf",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "left",
+      "toNode": "61e56ddc33aa9e91",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e769ae81f3551dd3",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "right",
+      "toNode": "2f718364e1fe6192",
+      "toSide": "left"
+    },
+    {
+      "id": "167f7d703a48fb6f",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "right",
+      "toNode": "8108c0c7d6019615",
+      "toSide": "left"
+    },
+    {
+      "id": "f51c796e1451523d",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "right",
+      "toNode": "a199c3e0d5e032d5",
+      "toSide": "left"
+    },
+    {
+      "id": "97fca509b703f340",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "right",
+      "toNode": "2654501f2be8df90",
+      "toSide": "left"
+    },
+    {
+      "id": "c5e9e7d2186bb8e1",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "right",
+      "toNode": "d14347568639d701",
+      "toSide": "left"
+    },
+    {
+      "id": "f75230eb57f7a27b",
+      "fromNode": "1396a03f0fed3a78",
+      "fromSide": "bottom",
+      "toNode": "74672e19d16b0812",
+      "toSide": "top"
+    },
+    {
+      "id": "fe0c916f036b95bd",
+      "fromNode": "74672e19d16b0812",
+      "fromSide": "bottom",
+      "toNode": "5ae4fa083be743bd",
+      "toSide": "top"
+    },
+    {
+      "id": "052c556ff1efecb0",
+      "fromNode": "74672e19d16b0812",
+      "fromSide": "bottom",
+      "toNode": "06b6c9b79526d081",
+      "toSide": "top"
+    },
+    {
+      "id": "6d4254f3a62e1751",
+      "fromNode": "74672e19d16b0812",
+      "fromSide": "bottom",
+      "toNode": "8d50e385463e0b83",
+      "toSide": "top"
+    },
+    {
+      "id": "a24b5f59236640c1",
+      "fromNode": "74672e19d16b0812",
+      "fromSide": "bottom",
+      "toNode": "95373534fd432583",
+      "toSide": "top"
+    },
+    {
+      "id": "fe69979617413950",
+      "fromNode": "95373534fd432583",
+      "fromSide": "right",
+      "toNode": "8d50e385463e0b83",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}

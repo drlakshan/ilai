@@ -1,0 +1,315 @@
+{
+  "nodes": [
+    {
+      "id": "0f380f2211138521",
+      "type": "text",
+      "text": "",
+      "x": 955,
+      "y": -43,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "1e9e33a273088ab1",
+      "type": "text",
+      "text": "Components ",
+      "x": -125,
+      "y": -30,
+      "width": 250,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "a6e8545ebdfed57c",
+      "type": "text",
+      "text": "Programming Languages Python",
+      "x": -568,
+      "y": 14,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "3fc3e167cb695cdc",
+      "type": "text",
+      "text": "Concepts : Machine Learning, LLM, Computer Vision, Neural Network",
+      "x": -459,
+      "y": 182,
+      "width": 250,
+      "height": 118
+    },
+    {
+      "id": "92b0dbf9d8b98668",
+      "type": "text",
+      "text": "Using already available software",
+      "x": -340,
+      "y": -209,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "7b5a24bd61dfa0a0",
+      "type": "text",
+      "text": "Personal Work",
+      "x": -541,
+      "y": -323,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "e4a2640d20c6de8c",
+      "type": "text",
+      "text": "Scientific Work",
+      "x": -260,
+      "y": -323,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "b93c913622a57ef8",
+      "type": "text",
+      "text": "Building Models for use on your own",
+      "x": -18,
+      "y": -247,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "1bc83c8ce41cd27e",
+      "type": "text",
+      "text": "Creating software",
+      "x": 177,
+      "y": -101,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "368c1bfab267857a",
+      "type": "text",
+      "text": "Lecture on AI cough Interst Group",
+      "x": 780,
+      "y": 380,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "8325e43a3161df98",
+      "type": "text",
+      "text": "Flow of the lecture",
+      "x": 737,
+      "y": 651,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "3e5bb38beb175c3b",
+      "type": "file",
+      "file": "01 - Fleeting Notes/Pyramid for AI lecture.md",
+      "x": 100,
+      "y": 560,
+      "width": 366,
+      "height": 400
+    },
+    {
+      "id": "6aea32d9b1b367ee",
+      "type": "text",
+      "text": "Why me ? Why Now? What am I going to talk about?",
+      "x": 680,
+      "y": 990,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "dc6494e058053932",
+      "type": "text",
+      "text": "Welcome to Future",
+      "x": 380,
+      "y": 990,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "20e346f5d69eba7e",
+      "type": "text",
+      "text": "What I am not going to talk about?",
+      "isStartNode": false,
+      "x": 960,
+      "y": 990,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "e819617a22d73492",
+      "type": "text",
+      "text": "LLM",
+      "x": 1260,
+      "y": 990,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "af27e0442d1a356b",
+      "type": "text",
+      "text": "Other Use cases overview",
+      "x": 380,
+      "y": 1080,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "22673be68f9f49e3",
+      "type": "text",
+      "text": "Individual Use Cases as a Consultant",
+      "x": 693,
+      "y": 1080,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "727e11cf4c3598fc",
+      "type": "text",
+      "text": "SciSpace",
+      "x": 972,
+      "y": 1081,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "ea122cd70d9067bf",
+      "type": "text",
+      "text": "PDFGear",
+      "x": 1271,
+      "y": 1081,
+      "width": 250,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "57a6a22c9b5b8e19",
+      "fromNode": "1e9e33a273088ab1",
+      "fromSide": "left",
+      "toNode": "a6e8545ebdfed57c",
+      "toSide": "right"
+    },
+    {
+      "id": "87c8d45245360751",
+      "fromNode": "1e9e33a273088ab1",
+      "fromSide": "bottom",
+      "toNode": "3fc3e167cb695cdc",
+      "toSide": "top"
+    },
+    {
+      "id": "5fe2d04feb0e5d9e",
+      "fromNode": "1e9e33a273088ab1",
+      "fromSide": "top",
+      "toNode": "92b0dbf9d8b98668",
+      "toSide": "bottom"
+    },
+    {
+      "id": "cfc0e5729bf6168f",
+      "fromNode": "92b0dbf9d8b98668",
+      "fromSide": "top",
+      "toNode": "7b5a24bd61dfa0a0",
+      "toSide": "bottom"
+    },
+    {
+      "id": "144cd1cb76e1d77a",
+      "fromNode": "92b0dbf9d8b98668",
+      "fromSide": "top",
+      "toNode": "e4a2640d20c6de8c",
+      "toSide": "bottom"
+    },
+    {
+      "id": "8806358bdec7958f",
+      "fromNode": "1e9e33a273088ab1",
+      "fromSide": "top",
+      "toNode": "b93c913622a57ef8",
+      "toSide": "bottom"
+    },
+    {
+      "id": "f98b727a0996e79e",
+      "fromNode": "1e9e33a273088ab1",
+      "fromSide": "right",
+      "toNode": "1bc83c8ce41cd27e",
+      "toSide": "bottom"
+    },
+    {
+      "id": "296a41658245509b",
+      "fromNode": "1e9e33a273088ab1",
+      "fromSide": "bottom",
+      "toNode": "368c1bfab267857a",
+      "toSide": "top"
+    },
+    {
+      "id": "aed1a6cac8fa2b71",
+      "fromNode": "368c1bfab267857a",
+      "fromSide": "bottom",
+      "toNode": "3e5bb38beb175c3b",
+      "toSide": "top"
+    },
+    {
+      "id": "88923e08f7c9c70f",
+      "fromNode": "368c1bfab267857a",
+      "fromSide": "bottom",
+      "toNode": "8325e43a3161df98",
+      "toSide": "top"
+    },
+    {
+      "id": "65fdde9eb6fe815d",
+      "fromNode": "8325e43a3161df98",
+      "fromSide": "left",
+      "toNode": "dc6494e058053932",
+      "toSide": "top"
+    },
+    {
+      "id": "2a7965afa3b0d52c",
+      "fromNode": "dc6494e058053932",
+      "fromSide": "right",
+      "toNode": "6aea32d9b1b367ee",
+      "toSide": "left"
+    },
+    {
+      "id": "df920d6a580424d8",
+      "fromNode": "6aea32d9b1b367ee",
+      "fromSide": "right",
+      "toNode": "20e346f5d69eba7e",
+      "toSide": "left"
+    },
+    {
+      "id": "31da3574926c91d0",
+      "fromNode": "20e346f5d69eba7e",
+      "fromSide": "right",
+      "toNode": "e819617a22d73492",
+      "toSide": "left"
+    },
+    {
+      "id": "10de8f89ff3f1793",
+      "fromNode": "e819617a22d73492",
+      "fromSide": "right",
+      "toNode": "af27e0442d1a356b",
+      "toSide": "left"
+    },
+    {
+      "id": "2a58e7cb196917a5",
+      "fromNode": "af27e0442d1a356b",
+      "fromSide": "right",
+      "toNode": "22673be68f9f49e3",
+      "toSide": "left"
+    },
+    {
+      "id": "c9eec83e9ce9ec2a",
+      "fromNode": "22673be68f9f49e3",
+      "fromSide": "right",
+      "toNode": "727e11cf4c3598fc",
+      "toSide": "left"
+    },
+    {
+      "id": "09cc0498d743c6aa",
+      "fromNode": "727e11cf4c3598fc",
+      "fromSide": "right",
+      "toNode": "ea122cd70d9067bf",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}

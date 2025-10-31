@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "05aa52dd42a6c5f1",
+      "type": "group",
+      "x": -180,
+      "y": 60,
+      "width": 935,
+      "height": 512,
+      "label": "AI"
+    },
+    {
+      "id": "8450bd18edb4b244",
+      "type": "text",
+      "text": "Video Creation for Teaching Keynote, OBS and Imovie",
+      "x": -580,
+      "y": -45,
+      "width": 250,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "11428926dd4cf672",
+      "type": "text",
+      "text": "Obsidian Zotero Anki Based Knowledge Management System",
+      "x": -580,
+      "y": -240,
+      "width": 280,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "b5e5511fc20a554e",
+      "type": "text",
+      "text": "YouTube",
+      "x": 300,
+      "y": 377,
+      "width": 186,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "b9ca40534a6f2ad5",
+      "type": "text",
+      "text": "Reeder5",
+      "x": 384,
+      "y": 492,
+      "width": 250,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "7d1195b96a7bf629",
+      "type": "text",
+      "text": "LLM Training, Python etc",
+      "x": -160,
+      "y": 218,
+      "width": 250,
+      "height": 92,
+      "color": "5"
+    },
+    {
+      "id": "14d07a6732da44c0",
+      "type": "text",
+      "text": "Consumer Level Training on productivity enhancements",
+      "x": 135,
+      "y": 223,
+      "width": 250,
+      "height": 87,
+      "color": "5"
+    },
+    {
+      "id": "a51e27fdd5dec503",
+      "type": "text",
+      "text": "AI",
+      "x": 120,
+      "y": 80,
+      "width": 250,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "8782f74fcd7bab28",
+      "type": "text",
+      "text": "Developing Communication as part of 2024 Theme",
+      "x": -240,
+      "y": -240,
+      "width": 240,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "12d79d72090c54fa",
+      "type": "text",
+      "text": "App Development Google Appscript ",
+      "x": -580,
+      "y": 123,
+      "width": 250,
+      "height": 100,
+      "color": "3"
+    },
+    {
+      "id": "3d10bcbb5d90a114",
+      "type": "text",
+      "text": "Keeping abreast with the new developments in the AI sphere especially academic",
+      "x": 460,
+      "y": 200,
+      "width": 250,
+      "height": 93,
+      "color": "5"
+    },
+    {
+      "id": "d1c6cb505c37dcdf",
+      "type": "text",
+      "text": "RSS",
+      "x": 534,
+      "y": 360,
+      "width": 201,
+      "height": 50,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "6786eaddd8dc2e50",
+      "fromNode": "a51e27fdd5dec503",
+      "fromSide": "bottom",
+      "toNode": "7d1195b96a7bf629",
+      "toSide": "top"
+    },
+    {
+      "id": "4374f241bc50cd5a",
+      "fromNode": "a51e27fdd5dec503",
+      "fromSide": "bottom",
+      "toNode": "14d07a6732da44c0",
+      "toSide": "top"
+    },
+    {
+      "id": "d9dbfa9cb97e85a4",
+      "fromNode": "a51e27fdd5dec503",
+      "fromSide": "bottom",
+      "toNode": "3d10bcbb5d90a114",
+      "toSide": "top"
+    },
+    {
+      "id": "50b17dc86a59a7ae",
+      "fromNode": "3d10bcbb5d90a114",
+      "fromSide": "bottom",
+      "toNode": "b5e5511fc20a554e",
+      "toSide": "top"
+    },
+    {
+      "id": "96e7a12df1173239",
+      "fromNode": "3d10bcbb5d90a114",
+      "fromSide": "bottom",
+      "toNode": "d1c6cb505c37dcdf",
+      "toSide": "top"
+    },
+    {
+      "id": "d971ad574440de32",
+      "fromNode": "3d10bcbb5d90a114",
+      "fromSide": "bottom",
+      "toNode": "b9ca40534a6f2ad5",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

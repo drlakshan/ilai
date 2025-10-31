@@ -1,0 +1,16 @@
+
+# This command allows the user to get a summary of recent notes.
+command_name = "recent_notes"
+description = "Finds and summarizes recent notes within a specified duration (e.g., '7 days', '2 weeks')."
+
+# The prompt that will be sent to the model when the command is run.
+# The `{{argument}}` will be replaced with the duration provided by the user.
+prompt = """
+Synthesize the notes created or modified in the last {{argument}}.
+
+1.  First, identify the files. Use the `run_shell_command` with `find` to locate all markdown files in the vault (`/Users/drlakshan/Desktop/Obsidian-AWS/`) that were modified within the timeframe of `{{argument}}`. You'll need to parse the duration string (e.g., '7 days' -> '-mtime -7', '3 weeks' -> '-mtime -21', '1 month' -> '-mtime -30').
+
+2.  Once you have the list of file paths, use the `read_many_files` tool to get their content.
+
+3.  Finally, synthesize the content. Identify the main themes, key insights, and any action items or questions raised in the notes. Present this as a concise summary.
+"""

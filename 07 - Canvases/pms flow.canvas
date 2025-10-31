@@ -1,0 +1,321 @@
+{
+  "nodes": [
+    {
+      "id": "11f5ba5435ce2eff",
+      "type": "text",
+      "text": "",
+      "x": -600,
+      "y": -424,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "Forms collect the data",
+      "id": "b38ca27d0afbf7f2",
+      "x": -620,
+      "y": -200,
+      "width": 250,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "type": "text",
+      "text": "Spreadsheet collects data",
+      "id": "983ed3419917bde1",
+      "x": -235,
+      "y": -200,
+      "width": 250,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "type": "text",
+      "text": "search data and clarify edit and update the row",
+      "id": "0936b3a3398fc147",
+      "x": -235,
+      "y": -40,
+      "width": 250,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "type": "text",
+      "text": "populate referral letter",
+      "id": "dd055caff1c92b66",
+      "x": 48,
+      "y": 86,
+      "width": 250,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "type": "text",
+      "text": "edit the details",
+      "id": "2ab46e208917a104",
+      "x": 436,
+      "y": 86,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "Print",
+      "id": "d79a41b378ae7e9f",
+      "x": 782,
+      "y": 86,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "This goes to the folder created on the name of the patient",
+      "id": "fcc156c3522525eb",
+      "x": 790,
+      "y": -360,
+      "width": 250,
+      "height": 140
+    },
+    {
+      "type": "text",
+      "text": "Populate Prescription Template",
+      "id": "454a8c756ff54d8d",
+      "x": 48,
+      "y": -40,
+      "width": 250,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "type": "text",
+      "text": "populate feedback letter",
+      "id": "a7a43ad278741a29",
+      "x": 48,
+      "y": 200,
+      "width": 250,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "type": "text",
+      "text": "Edit to put the clinical details and add the prescription meds",
+      "id": "e84dcb2c3b7e7b80",
+      "x": 436,
+      "y": -60,
+      "width": 250,
+      "height": 100
+    },
+    {
+      "type": "text",
+      "text": "edit the details",
+      "id": "0a713867c4110927",
+      "x": 436,
+      "y": 200,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "print",
+      "id": "c64d16fa722fba57",
+      "x": 782,
+      "y": -40,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "Print",
+      "id": "f3d66f57ac8b3c35",
+      "x": 782,
+      "y": 200,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "Second visit",
+      "id": "415304bf926e6ee4",
+      "x": -620,
+      "y": 116,
+      "width": 250,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "type": "text",
+      "text": "It creates a Google Sheets Book with templates named on first name - last name - dob  -uniiqeid with a qr",
+      "id": "fb5e3a7377cdc261",
+      "x": -132,
+      "y": -480,
+      "width": 250,
+      "height": 162
+    },
+    {
+      "type": "text",
+      "text": "add to the surgical wait list",
+      "id": "5931efac92568e36",
+      "x": -257,
+      "y": 380,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "24177d42b3f0abab",
+      "type": "text",
+      "text": "Need a way to Clearly follow surgical pathways\n",
+      "x": -515,
+      "y": 599,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "5f01590bee7a90f7",
+      "type": "file",
+      "file": "07 - Canvases/Surgery Pathway of My Patients CANVAS.canvas",
+      "isStartNode": true,
+      "x": -900,
+      "y": 759,
+      "width": 768,
+      "height": 541
+    },
+    {
+      "type": "text",
+      "text": "the problem is adding unique ID every time a new record happens doesnt happen",
+      "id": "91b6ec0091ebb8fe",
+      "x": -580,
+      "y": -435,
+      "width": 250,
+      "height": 117
+    }
+  ],
+  "edges": [
+    {
+      "id": "f84a9e0b289a02e9",
+      "fromNode": "b38ca27d0afbf7f2",
+      "fromSide": "right",
+      "toNode": "983ed3419917bde1",
+      "toSide": "left"
+    },
+    {
+      "id": "87aac37229648c3a",
+      "fromNode": "983ed3419917bde1",
+      "fromSide": "bottom",
+      "toNode": "0936b3a3398fc147",
+      "toSide": "top"
+    },
+    {
+      "id": "c52c2f99b15af67f",
+      "fromNode": "0936b3a3398fc147",
+      "fromSide": "right",
+      "toNode": "454a8c756ff54d8d",
+      "toSide": "left"
+    },
+    {
+      "id": "effcca58369b1736",
+      "fromNode": "454a8c756ff54d8d",
+      "fromSide": "right",
+      "toNode": "e84dcb2c3b7e7b80",
+      "toSide": "left"
+    },
+    {
+      "id": "174d68b7db53eaf1",
+      "fromNode": "e84dcb2c3b7e7b80",
+      "fromSide": "right",
+      "toNode": "c64d16fa722fba57",
+      "toSide": "left"
+    },
+    {
+      "id": "39a47ddb009aa972",
+      "fromNode": "0936b3a3398fc147",
+      "fromSide": "bottom",
+      "toNode": "dd055caff1c92b66",
+      "toSide": "left"
+    },
+    {
+      "id": "ea96a10c371e5385",
+      "fromNode": "dd055caff1c92b66",
+      "fromSide": "right",
+      "toNode": "2ab46e208917a104",
+      "toSide": "left"
+    },
+    {
+      "id": "e0f9a608afab9e35",
+      "fromNode": "2ab46e208917a104",
+      "fromSide": "right",
+      "toNode": "d79a41b378ae7e9f",
+      "toSide": "left"
+    },
+    {
+      "id": "b586a571f858b412",
+      "fromNode": "a7a43ad278741a29",
+      "fromSide": "right",
+      "toNode": "0a713867c4110927",
+      "toSide": "left"
+    },
+    {
+      "id": "282ec09802e5b827",
+      "fromNode": "0a713867c4110927",
+      "fromSide": "right",
+      "toNode": "f3d66f57ac8b3c35",
+      "toSide": "left"
+    },
+    {
+      "id": "a3ba2c01da9c6e5c",
+      "fromNode": "0936b3a3398fc147",
+      "fromSide": "bottom",
+      "toNode": "a7a43ad278741a29",
+      "toSide": "left"
+    },
+    {
+      "id": "2e403829be835239",
+      "fromNode": "0936b3a3398fc147",
+      "fromSide": "bottom",
+      "toNode": "5931efac92568e36",
+      "toSide": "left"
+    },
+    {
+      "id": "5edf12d962627663",
+      "fromNode": "e84dcb2c3b7e7b80",
+      "fromSide": "top",
+      "toNode": "fcc156c3522525eb",
+      "toSide": "bottom"
+    },
+    {
+      "id": "55394c12f33c11e9",
+      "fromNode": "415304bf926e6ee4",
+      "fromSide": "right",
+      "toNode": "0936b3a3398fc147",
+      "toSide": "left"
+    },
+    {
+      "id": "2eefd26e76c7d0a3",
+      "fromNode": "b38ca27d0afbf7f2",
+      "fromSide": "top",
+      "toNode": "91b6ec0091ebb8fe",
+      "toSide": "bottom"
+    },
+    {
+      "id": "6d3f7b2d687d42de",
+      "fromNode": "b38ca27d0afbf7f2",
+      "fromSide": "top",
+      "toNode": "fb5e3a7377cdc261",
+      "toSide": "bottom"
+    },
+    {
+      "id": "853fd9298c016a61",
+      "fromNode": "5931efac92568e36",
+      "fromSide": "bottom",
+      "toNode": "24177d42b3f0abab",
+      "toSide": "top"
+    },
+    {
+      "id": "c892aab91edead07",
+      "fromNode": "24177d42b3f0abab",
+      "fromSide": "bottom",
+      "toNode": "5f01590bee7a90f7",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

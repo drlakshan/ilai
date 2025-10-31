@@ -1,0 +1,11 @@
+# Obsidian workspace files (these are machine-specific)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# My excluded large folder
+04 - Files 

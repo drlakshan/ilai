@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"691afd3dd6093045","x":-100,"y":-60,"width":300,"height":300,"color":"1","type":"text","text":"An otherwise normal infant, aged 3 months, fails a routine screening hearing test at a\nBaby Health Clinic. Discuss the investigations leading to a diagnosis of severe to\nprofound sensorineural hearing loss. Discuss also the immediate and long term\nmanagement."},
+		{"id":"ae88b7adb30d6a18","x":-400,"y":30,"width":250,"height":60,"color":"6","type":"text","text":"New Born Hearing Screening"},
+		{"id":"b8368ec1f6b65fff","x":-733,"y":-114,"width":250,"height":174,"type":"text","text":"What tests available\n\nOAE\nTg\nABR AC BC\nASSR\n"},
+		{"id":"112f8dc61ba60b11","x":-808,"y":161,"width":250,"height":79,"type":"text","text":"Why ABR done instead of ASSR?"},
+		{"id":"42b7d9b9e9f68640","x":-421,"y":-163,"width":250,"height":60,"type":"text","text":"What to do if the hearing screeing fails?"},
+		{"id":"91e546fb101f95a2","x":-137,"y":-335,"width":250,"height":60,"type":"text","text":"Definitive treatment options"},
+		{"id":"a7c42a2932ade613","x":69,"y":-463,"width":250,"height":60,"type":"text","text":"Hearing Aids"},
+		{"id":"ca90c403f0d00c5b","x":-920,"y":-967,"width":400,"height":400,"type":"link","url":"https://pubmed.ncbi.nlm.nih.gov/23072960/"},
+		{"id":"07927a942d1895b2","x":-880,"y":-515,"width":250,"height":165,"type":"text","text":"Medical management of 17 infants with persistent conductive hearing loss included monitoring, antibiotic treatment, examination under anesthesia, and grommet insertion."},
+		{"id":"b6abd79fab993703","x":-75,"y":-720,"width":250,"height":60,"type":"text","text":"Complications"},
+		{"id":"3525e77201f18c01","x":-370,"y":-720,"width":250,"height":60,"type":"text","text":"Indications"},
+		{"id":"32fed1e1da230138","x":-225,"y":-597,"width":250,"height":60,"type":"text","text":"Cochlear Implantation"},
+		{"id":"aa8ab11d730bd9a8","x":-440,"y":-463,"width":250,"height":105,"type":"text","text":"Could there be conductive type hearing losses? If so how important to treat them at an early phase?"},
+		{"id":"5d784a7b4ac7f12a","x":-1460,"y":-802,"width":400,"height":740,"type":"file","file":"01 - Fleeting Notes/Auditory Brainstem Responses Peaks Graph.md"},
+		{"id":"381cc23532d1d0fe","x":-1460,"y":30,"width":400,"height":880,"type":"file","file":"01 - Fleeting Notes/Auditory Neuropathy Spectrum Disorder ANSD Features.md"},
+		{"id":"15f7b82ad42f2f28","x":-780,"y":510,"width":400,"height":400,"type":"file","file":"01 - Fleeting Notes/Differences between ABR and ASSR.md"}
+	],
+	"edges":[
+		{"id":"b51c64ac53063287","fromNode":"ae88b7adb30d6a18","fromSide":"left","toNode":"b8368ec1f6b65fff","toSide":"right"},
+		{"id":"d869236c678c875c","fromNode":"b8368ec1f6b65fff","fromSide":"bottom","toNode":"112f8dc61ba60b11","toSide":"top"},
+		{"id":"18e20495441f7e44","fromNode":"ae88b7adb30d6a18","fromSide":"top","toNode":"42b7d9b9e9f68640","toSide":"bottom"},
+		{"id":"c12a701b4ed453ab","fromNode":"42b7d9b9e9f68640","fromSide":"top","toNode":"91e546fb101f95a2","toSide":"bottom"},
+		{"id":"0659242775eefaeb","fromNode":"91e546fb101f95a2","fromSide":"top","toNode":"a7c42a2932ade613","toSide":"bottom"},
+		{"id":"7fc7ea59831a1d5f","fromNode":"91e546fb101f95a2","fromSide":"top","toNode":"32fed1e1da230138","toSide":"bottom"},
+		{"id":"6d6fa2525100c5de","fromNode":"32fed1e1da230138","fromSide":"top","toNode":"3525e77201f18c01","toSide":"bottom"},
+		{"id":"76f16fc744d945a5","fromNode":"32fed1e1da230138","fromSide":"top","toNode":"b6abd79fab993703","toSide":"bottom"},
+		{"id":"dbf11c5da5e052f3","fromNode":"91e546fb101f95a2","fromSide":"top","toNode":"aa8ab11d730bd9a8","toSide":"bottom"},
+		{"id":"9fd8c141fe4c0c97","fromNode":"691afd3dd6093045","fromSide":"top","toNode":"ae88b7adb30d6a18","toSide":"right"},
+		{"id":"df155e2ff8300e1d","fromNode":"b8368ec1f6b65fff","fromSide":"left","toNode":"5d784a7b4ac7f12a","toSide":"right"},
+		{"id":"2acfb1c4e350b19d","fromNode":"381cc23532d1d0fe","fromSide":"right","toNode":"b8368ec1f6b65fff","toSide":"left"},
+		{"id":"1bfa5df76b3dab93","fromNode":"112f8dc61ba60b11","fromSide":"bottom","toNode":"15f7b82ad42f2f28","toSide":"top"},
+		{"id":"2dcf2b90c3b25382","fromNode":"ca90c403f0d00c5b","fromSide":"right","toNode":"aa8ab11d730bd9a8","toSide":"left"},
+		{"id":"ee4f99f89d84f30a","fromNode":"ca90c403f0d00c5b","fromSide":"bottom","toNode":"07927a942d1895b2","toSide":"top"}
+	]
+}

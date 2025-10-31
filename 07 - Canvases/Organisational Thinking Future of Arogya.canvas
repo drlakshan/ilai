@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "58a27ab73180bedb",
+      "type": "text",
+      "text": "organisational thinking framework",
+      "styleAttributes": {},
+      "x": -140,
+      "y": -300,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "4a4862b8a5bb17c2",
+      "type": "text",
+      "text": "Health.LK as the main organisation for work/life",
+      "styleAttributes": {},
+      "x": -140,
+      "y": -113,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "c918f3e3cb634ab6",
+      "type": "text",
+      "text": "Lakshent@gmail.com Personal Domain",
+      "styleAttributes": {},
+      "x": -437,
+      "y": 104,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "2e118bef8224ac9c",
+      "type": "text",
+      "text": "Finance Department",
+      "styleAttributes": {},
+      "x": -140,
+      "y": 104,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "220e9fa7171239d1",
+      "type": "text",
+      "text": "Education and development",
+      "styleAttributes": {},
+      "x": 140,
+      "y": 104,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "08f2f66fc7fa087e",
+      "type": "text",
+      "text": "Marketing",
+      "styleAttributes": {},
+      "x": 440,
+      "y": 104,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "2d663dbacaf736c8",
+      "type": "text",
+      "text": "Ai Lead",
+      "styleAttributes": {},
+      "x": -717,
+      "y": 115,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "8e7c8b05cd18f7ba",
+      "type": "text",
+      "text": "create a sort of google group with these external emails and have regualr back and forth communications in  a meaningful way. \na. it will save a trace of discussions \nb useful for further reseach\n",
+      "styleAttributes": {},
+      "x": -240,
+      "y": 260,
+      "width": 510,
+      "height": 140
+    },
+    {
+      "id": "27c7f280bbe125c2",
+      "type": "text",
+      "text": "Power Different personalities with AI personas from Perplexity/claude/openAi",
+      "styleAttributes": {},
+      "x": 500,
+      "y": 271,
+      "width": 260,
+      "height": 119
+    },
+    {
+      "id": "d9f073350bc08d5e",
+      "type": "text",
+      "text": "This is to plan for the next decade of my Practice. This is to develop an ENT service that could be within 10 best in the world! This can be achieved.",
+      "styleAttributes": {},
+      "x": 270,
+      "y": -300,
+      "width": 260,
+      "height": 187,
+      "color": "6"
+    },
+    {
+      "id": "1b1aa44db89f821b",
+      "type": "text",
+      "text": "think of this as a Meritorius Sacrifice - AROGYA",
+      "styleAttributes": {},
+      "x": 570,
+      "y": -244,
+      "width": 260,
+      "height": 76,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "d0c449d7fc75ffb9",
+      "styleAttributes": {},
+      "fromNode": "4a4862b8a5bb17c2",
+      "fromSide": "bottom",
+      "toNode": "2e118bef8224ac9c",
+      "toSide": "top"
+    },
+    {
+      "id": "033920e7f09dd0be",
+      "styleAttributes": {},
+      "fromNode": "58a27ab73180bedb",
+      "fromSide": "bottom",
+      "toNode": "4a4862b8a5bb17c2",
+      "toSide": "top"
+    },
+    {
+      "id": "54b00414aa65c370",
+      "styleAttributes": {},
+      "fromNode": "4a4862b8a5bb17c2",
+      "fromSide": "bottom",
+      "toNode": "c918f3e3cb634ab6",
+      "toSide": "top"
+    },
+    {
+      "id": "13c9f664d02cf607",
+      "styleAttributes": {},
+      "fromNode": "4a4862b8a5bb17c2",
+      "fromSide": "bottom",
+      "toNode": "220e9fa7171239d1",
+      "toSide": "top"
+    },
+    {
+      "id": "781a2afb0c9a4400",
+      "styleAttributes": {},
+      "fromNode": "4a4862b8a5bb17c2",
+      "fromSide": "bottom",
+      "toNode": "08f2f66fc7fa087e",
+      "toSide": "top"
+    },
+    {
+      "id": "90301ba8f64ef5c0",
+      "styleAttributes": {},
+      "fromNode": "4a4862b8a5bb17c2",
+      "fromSide": "bottom",
+      "toNode": "2d663dbacaf736c8",
+      "toSide": "top"
+    },
+    {
+      "id": "28c265420cafb6c7",
+      "styleAttributes": {},
+      "fromNode": "4a4862b8a5bb17c2",
+      "fromSide": "bottom",
+      "toNode": "8e7c8b05cd18f7ba",
+      "toSide": "top"
+    },
+    {
+      "id": "e972f87b4840b4f4",
+      "styleAttributes": {},
+      "fromNode": "8e7c8b05cd18f7ba",
+      "fromSide": "right",
+      "toNode": "27c7f280bbe125c2",
+      "toSide": "left"
+    },
+    {
+      "id": "53c02dd59f38e279",
+      "styleAttributes": {},
+      "fromNode": "d9f073350bc08d5e",
+      "fromSide": "right",
+      "toNode": "1b1aa44db89f821b",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}

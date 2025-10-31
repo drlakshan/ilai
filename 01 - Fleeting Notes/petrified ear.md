@@ -1,0 +1,1 @@
+Petrified ear is a rare diagnosis caused by calcification or ossification of auricular cartilage, often associated with trauma, frostbite, inflammation, and endocrinopathies, such as adrenal insufficiency.

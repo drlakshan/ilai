@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"f5aa986cf57587b3","type":"text","text":"","x":-1389,"y":230,"width":250,"height":60},
+		{"type":"text","text":"","id":"2dd527a1239645e1","x":-468,"y":-520,"width":250,"height":60},
+		{"type":"text","text":"ChatGPT and the like and how it will distrupt medical education","id":"2c3ffa534d467a96","x":-125,"y":-30,"width":250,"height":90},
+		{"type":"text","text":"Teacher","id":"f63daae595a3fbb4","x":-121,"y":-181,"width":250,"height":60},
+		{"type":"text","text":"Student Monitoring","id":"6cfb2509a1eb892b","x":-366,"y":-293,"width":250,"height":60},
+		{"type":"text","text":"Professional Development","id":"c373c08cfd208b6c","x":-28,"y":-324,"width":250,"height":60},
+		{"type":"text","text":"Academic work","id":"cdd2d7097e1ebca9","x":180,"y":-272,"width":250,"height":60},
+		{"type":"text","text":"Importance of human interaction ","id":"6954bb7a1956f125","x":162,"y":-135,"width":250,"height":60},
+		{"type":"text","text":"Creation of a non thinking student and overcoming of it","id":"734d4a9c2056a8e0","x":222,"y":60,"width":250,"height":60},
+		{"type":"text","text":"How will the student use it","id":"0e8813fe4b27c1da","x":-420,"y":120,"width":250,"height":60},
+		{"type":"text","text":"Future of medical eduction","id":"8c89e5eb43be18ee","x":-10,"y":160,"width":250,"height":60},
+		{"type":"text","text":"Explain","id":"dfb416b367aef7f9","x":-514,"y":-218,"width":250,"height":60},
+		{"type":"text","text":"Quiz","id":"95efba0ab676b72f","x":-639,"y":-30,"width":250,"height":60},
+		{"type":"text","text":"Summarise","id":"e3e32af9bcab985e","x":-639,"y":-125,"width":176,"height":50},
+		{"type":"text","text":"Feedback","id":"e9da44de5ea42815","x":-588,"y":92,"width":250,"height":60},
+		{"type":"text","text":"Limimtations","id":"8e5008419f146f75","x":-199,"y":215,"width":250,"height":60},
+		{"type":"text","text":"Postive ways ","id":"955fe6dee8afe6b3","x":-389,"y":-105,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"736b75270ba4a57c","fromNode":"2c3ffa534d467a96","fromSide":"bottom","toNode":"0e8813fe4b27c1da","toSide":"top"},
+		{"id":"a8242af7c026a1c1","fromNode":"2c3ffa534d467a96","fromSide":"left","toNode":"955fe6dee8afe6b3","toSide":"bottom"},
+		{"id":"8dec32e092ec7d66","fromNode":"2c3ffa534d467a96","fromSide":"top","toNode":"f63daae595a3fbb4","toSide":"bottom"},
+		{"id":"8f4c5fcf93f4ca5c","fromNode":"f63daae595a3fbb4","fromSide":"top","toNode":"6cfb2509a1eb892b","toSide":"bottom"},
+		{"id":"a17afd65a1fb03cb","fromNode":"f63daae595a3fbb4","fromSide":"top","toNode":"c373c08cfd208b6c","toSide":"bottom"},
+		{"id":"de61850e6a7c494e","fromNode":"f63daae595a3fbb4","fromSide":"top","toNode":"cdd2d7097e1ebca9","toSide":"bottom"},
+		{"id":"dd925b2000157ac7","fromNode":"f63daae595a3fbb4","fromSide":"top","toNode":"6954bb7a1956f125","toSide":"bottom"},
+		{"id":"09f7304638045791","fromNode":"2c3ffa534d467a96","fromSide":"top","toNode":"734d4a9c2056a8e0","toSide":"bottom"},
+		{"id":"f5f33eb4131c6fc3","fromNode":"2c3ffa534d467a96","fromSide":"bottom","toNode":"8c89e5eb43be18ee","toSide":"top"},
+		{"id":"27f884effab97952","fromNode":"955fe6dee8afe6b3","fromSide":"top","toNode":"dfb416b367aef7f9","toSide":"bottom"},
+		{"id":"d24eed613acebc42","fromNode":"955fe6dee8afe6b3","fromSide":"top","toNode":"e3e32af9bcab985e","toSide":"bottom"},
+		{"id":"3451493da0745e51","fromNode":"955fe6dee8afe6b3","fromSide":"top","toNode":"95efba0ab676b72f","toSide":"bottom"},
+		{"id":"4981b8df0096a2ca","fromNode":"955fe6dee8afe6b3","fromSide":"bottom","toNode":"e9da44de5ea42815","toSide":"top"},
+		{"id":"0ed0eeedd87f5625","fromNode":"2c3ffa534d467a96","fromSide":"bottom","toNode":"8e5008419f146f75","toSide":"top"}
+	],
+	"metadata":{}
+}

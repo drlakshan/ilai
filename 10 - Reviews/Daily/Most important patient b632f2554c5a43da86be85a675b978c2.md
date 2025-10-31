@@ -1,0 +1,10 @@
+
+---
+type: journal
+---
+# Most important patient
+
+Date: November 26, 2021
+Signicant Event: Yes
+
+PATIENT HAS BEEN ADMITTED TO YOU BHT : 2117995 NAME : REV (M) M. SUDASSANA THERO ROOM : 10009 NURSE STATION : 10 TH FLOOR MSG FROM NAWALOKA HOSPITAL @ 26/11/2021 02:35 PM

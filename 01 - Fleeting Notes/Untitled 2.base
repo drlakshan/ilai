@@ -1,0 +1,45 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: AI Output
+    filters:
+      or:
+        - tags.contains("AI")
+        - tags.contains("ai-lecture")
+    order:
+      - file.name
+      - file.ctime
+      - URL
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
+      - property: URL
+        direction: ASC
+      - property: Start_Date
+        direction: DESC
+    columnSize:
+      file.name: 574
+  - type: cards
+    name: AI in a card view
+    filters:
+      and:
+        - tags.containsAny("AI")
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 170
+    imageFit: ""
+    imageAspectRatio: 1
+    image: file.file
+  - type: table
+    name: vertigo
+    filters:
+      or:
+        - file.name.contains("vertigo")
+        - file.hasTag("vertigo")
+    sort:
+      - property: date
+        direction: DESC

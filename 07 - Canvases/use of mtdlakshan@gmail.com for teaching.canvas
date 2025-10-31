@@ -1,0 +1,161 @@
+{
+  "nodes": [
+    {
+      "id": "d2370bbf34ab0c0b",
+      "type": "text",
+      "text": "If I have to log in to a public computer to present I dont have to worry about losing private data as I wont use my personal or professional email",
+      "styleAttributes": {},
+      "x": -165,
+      "y": 100,
+      "width": 260,
+      "height": 205
+    },
+    {
+      "id": "c3fce2e47b394f5b",
+      "type": "text",
+      "text": "Lakshent@gmail.com\nmy personal Google One Account",
+      "styleAttributes": {},
+      "x": -422,
+      "y": 450,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "9a13f0bc5018566f",
+      "type": "text",
+      "text": "lakshan@health.lk\nmy work\nprofessional email",
+      "styleAttributes": {},
+      "x": -130,
+      "y": 450,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "72b53badeb97e5dd",
+      "type": "text",
+      "text": "mtdlakshan@gmail.com\nmy teaching account\n",
+      "styleAttributes": {},
+      "x": 160,
+      "y": 450,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "d82bb1c7385568c4",
+      "type": "text",
+      "text": "Whenever I need to search for a teaching thing I know where to go\n\nsimilarly i can know whats personal, banking, tax etc, what is work related etc",
+      "styleAttributes": {},
+      "x": -520,
+      "y": 104,
+      "width": 260,
+      "height": 156
+    },
+    {
+      "id": "874525ce5f0853a1",
+      "type": "text",
+      "text": "keep the google drives separately for separate purposes",
+      "styleAttributes": {},
+      "x": 160,
+      "y": 104,
+      "width": 260,
+      "height": 108
+    },
+    {
+      "id": "4228da5117ac8b6e",
+      "type": "text",
+      "text": " Advantages",
+      "styleAttributes": {},
+      "x": -130,
+      "y": -180,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "8da50127d645bff8",
+      "type": "text",
+      "text": "Disadvantages",
+      "styleAttributes": {},
+      "x": 420,
+      "y": -180,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "01c411c37be3a01e",
+      "type": "text",
+      "text": "Keeping custom purpose driven email addresses",
+      "styleAttributes": {},
+      "x": 160,
+      "y": -360,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "9c172c4aea10c1db",
+      "styleAttributes": {},
+      "fromNode": "4228da5117ac8b6e",
+      "fromSide": "bottom",
+      "toNode": "d82bb1c7385568c4",
+      "toSide": "top"
+    },
+    {
+      "id": "f873aedb66aeff21",
+      "styleAttributes": {},
+      "fromNode": "4228da5117ac8b6e",
+      "fromSide": "bottom",
+      "toNode": "d2370bbf34ab0c0b",
+      "toSide": "top"
+    },
+    {
+      "id": "1005297837786409",
+      "styleAttributes": {},
+      "fromNode": "d2370bbf34ab0c0b",
+      "fromSide": "bottom",
+      "toNode": "c3fce2e47b394f5b",
+      "toSide": "top"
+    },
+    {
+      "id": "e3ae3ed3d28b045a",
+      "styleAttributes": {},
+      "fromNode": "d2370bbf34ab0c0b",
+      "fromSide": "bottom",
+      "toNode": "9a13f0bc5018566f",
+      "toSide": "top"
+    },
+    {
+      "id": "bd19564dfd75a43b",
+      "styleAttributes": {},
+      "fromNode": "d2370bbf34ab0c0b",
+      "fromSide": "bottom",
+      "toNode": "72b53badeb97e5dd",
+      "toSide": "top"
+    },
+    {
+      "id": "48726800f3ef8603",
+      "styleAttributes": {},
+      "fromNode": "4228da5117ac8b6e",
+      "fromSide": "bottom",
+      "toNode": "874525ce5f0853a1",
+      "toSide": "top"
+    },
+    {
+      "id": "709e6a526d4a4335",
+      "styleAttributes": {},
+      "fromNode": "01c411c37be3a01e",
+      "fromSide": "bottom",
+      "toNode": "4228da5117ac8b6e",
+      "toSide": "top"
+    },
+    {
+      "id": "080a84a19dc14b96",
+      "styleAttributes": {},
+      "fromNode": "01c411c37be3a01e",
+      "fromSide": "bottom",
+      "toNode": "8da50127d645bff8",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

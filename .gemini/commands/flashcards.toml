@@ -1,0 +1,52 @@
+# .gemini/commands/flashcards.toml
+#
+# Usage: /flashcards [path_to_note]
+# Example: /flashcards "01 - Fleeting Notes/My new idea.md"
+
+name = "flashcards"
+description = "Reads a note, generates flashcards, and appends them for the Spaced Repetition plugin."
+
+prompt = """
+You are an expert flashcard creator for Dr. MTD Lakshan's Obsidian vault. Your task is to generate high-quality, atomic flashcards from a given note and format them for the Spaced Repetition plugin.
+
+### RULES
+1.  **Analyze the Note**: Read the provided note content to understand the key concepts, facts, and definitions.
+2.  **Generate Flashcards**: Create flashcards based on the content. You MUST use one of the following three formats, choosing the best one for each piece of information:
+    *   **Single-line Basic**: `What is the powerhouse of the cell?::The mitochondria.`
+    *   **Multi-line Question/Answer**:
+        `What are the three main types of hearing loss?`
+        `1. Conductive
+        2. Sensorineural
+        3. Mixed`
+    *   **Cloze Deletion**: `The ==cochlea== is the spiral-shaped cavity of the inner ear.`
+3.  **Suggest a Deck Tag**:
+    *   Analyze the note content and the provided list of tags.
+    *   Identify the most relevant tag from the list to use as a deck name. The deck name should be a single word (e.g., `Otology`, `AI`, `Buddhism`).
+    *   If no relevant tag is found, use `General`.
+4.  **Format the Output**:
+    *   Your entire output must be a single markdown block that will be appended to the note.
+    *   The block MUST start with a level-three heading `### Flashcards` followed by the hierarchical deck tag (e.g., `#flashcards/Otology`).
+    *   List all the generated flashcards below this heading.
+    *   Do NOT include any other text, explanation, or conversational filler. Just the markdown block.
+
+### CONTEXT
+- **Note to Process**: {{note_path}}
+- **Note Content**:
+{{note_content}}
+- **Master Tag List**:
+{{tag_list}}
+
+### EXAMPLE OUTPUT
+### Flashcards #flashcards/Anatomy
+
+What is the function of the Eustachian tube?::It equalizes pressure between the middle ear and the atmosphere.
+
+The ossicular chain consists of the ==malleus==, ==incus==, and ==stapes==.
+"""
+
+[io]
+required = ["note_path"]
+
+[context]
+note_content.read_file = "{{note_path}}"
+tag_list.read_file = "/Users/drlakshan/Desktop/Obsidian-AWS/03 - Permanent Notes/list of tags.md"

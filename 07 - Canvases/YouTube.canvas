@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"05de1e2c27161959","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"YouTube Video pathway"},
+		{"id":"1214a62202e9245c","x":-453,"y":-201,"width":250,"height":60,"type":"text","text":"Idea generation"},
+		{"id":"8581d71f863dfea3","x":-78,"y":-232,"width":250,"height":60,"type":"text","text":"Scripting editing rehearsing <2min"},
+		{"id":"9cf7afe487846e74","x":156,"y":-217,"width":250,"height":50,"type":"text","text":"deciding on AV"}
+	],
+	"edges":[
+		{"id":"8595e0272ca543c3","fromNode":"05de1e2c27161959","fromSide":"top","toNode":"1214a62202e9245c","toSide":"bottom"},
+		{"id":"24222c5c5a022c65","fromNode":"05de1e2c27161959","fromSide":"top","toNode":"8581d71f863dfea3","toSide":"bottom"},
+		{"id":"78d6ecc99131326d","fromNode":"05de1e2c27161959","fromSide":"top","toNode":"9cf7afe487846e74","toSide":"bottom"}
+	]
+}

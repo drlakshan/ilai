@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "f740f2bb87d2132b",
+      "type": "text",
+      "text": "Migraine and headaches",
+      "x": -140,
+      "y": -320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "61bac579c74515d1",
+      "type": "text",
+      "text": "Should I create awareness and treatment program aimed at public on this subject",
+      "x": -371,
+      "y": -154,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "8a6628231f0a0c83",
+      "type": "text",
+      "text": "```dataviewjs\n// Get all pages in the vault let pages = dv.pages(); // Filter pages to include only those with \"migraine\" in the title or body let migrainePages = pages.filter(p => p.file.name.toLowerCase().includes(\"migraine\") || p.file.content.toLowerCase().includes(\"migraine\") ); // Display the results in a table dv.table([\"Title\", \"Link\"], migrainePages.map(p => [p.file.name, p.file.link]));\n```\n```dataviewjs\n// Get all pages in the vault let pages = dv.pages(); // Filter pages to include only those with \"migraine\" in the title or body let migrainePages = pages.filter(p => p.file.name.toLowerCase().includes(\"migraine\") || p.file.content.toLowerCase().includes(\"migraine\") ); // Display the results in a table dv.table([\"Title\", \"Link\"], migrainePages.map(p => [p.file.name, p.file.link]));\n```\n",
+      "x": -582,
+      "y": 36,
+      "width": 442,
+      "height": 324
+    }
+  ],
+  "edges": [
+    {
+      "id": "01d224b649563683",
+      "fromNode": "f740f2bb87d2132b",
+      "fromSide": "bottom",
+      "toNode": "61bac579c74515d1",
+      "toSide": "top"
+    },
+    {
+      "id": "afc7c585ab640470",
+      "fromNode": "61bac579c74515d1",
+      "fromSide": "bottom",
+      "toNode": "8a6628231f0a0c83",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

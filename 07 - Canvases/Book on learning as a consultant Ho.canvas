@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"ac1128e93e03cdd9","x":-140,"y":-140,"width":250,"height":60,"color":"1","type":"text","text":"Book on learning as a Consultant in New Era"},
+		{"id":"75a145f7eb019204","x":-345,"y":-277,"width":250,"height":60,"color":"2","type":"text","text":"Why"},
+		{"id":"22c030708ad41d44","x":-652,"y":-345,"width":250,"height":68,"type":"text","text":"Responsibilities of a consultant"},
+		{"id":"ce9036bbf9154b84","x":-747,"y":-202,"width":250,"height":60,"type":"text","text":"Treating patients"},
+		{"id":"6a9dc7ca94d70cc2","x":-785,"y":-481,"width":250,"height":60,"type":"text","text":"Looking after one self"},
+		{"id":"0b888a43ba7b6702","x":-576,"y":-517,"width":250,"height":60,"type":"text","text":"Mangerial Role"},
+		{"id":"11ab8346f4545d58","x":-448,"y":-464,"width":250,"height":50,"type":"text","text":"Finances"},
+		{"id":"3124730c9bb13986","x":-1052,"y":-172,"width":332,"height":212,"type":"file","file":"01 - Fleeting Notes/Updating as a consultant.md"},
+		{"id":"379c5f38eaedecb0","x":-331,"y":4,"width":250,"height":60,"color":"2","type":"text","text":"How"},
+		{"id":"e564ef17c6f93ffb","x":193,"y":-155,"width":250,"height":60,"color":"2","type":"text","text":"Tips"},
+		{"id":"0b17d24061f8735b","x":-640,"y":251,"width":400,"height":400,"type":"file","file":"01 - Fleeting Notes/ZOA process.md"}
+	],
+	"edges":[
+		{"id":"8dc05d6a509432ba","fromNode":"ac1128e93e03cdd9","fromSide":"top","toNode":"75a145f7eb019204","toSide":"bottom"},
+		{"id":"d3b0df94ff2bb8ac","fromNode":"75a145f7eb019204","fromSide":"top","toNode":"22c030708ad41d44","toSide":"bottom"},
+		{"id":"3c2ab37da683f160","fromNode":"22c030708ad41d44","fromSide":"bottom","toNode":"ce9036bbf9154b84","toSide":"top"},
+		{"id":"58981b5339ae2d45","fromNode":"22c030708ad41d44","fromSide":"top","toNode":"6a9dc7ca94d70cc2","toSide":"bottom"},
+		{"id":"95ce423ecea98c13","fromNode":"22c030708ad41d44","fromSide":"top","toNode":"0b888a43ba7b6702","toSide":"bottom"},
+		{"id":"eb5f7f1082c1e67b","fromNode":"22c030708ad41d44","fromSide":"top","toNode":"11ab8346f4545d58","toSide":"bottom"},
+		{"id":"e1099d2a06919c00","fromNode":"22c030708ad41d44","fromSide":"left","toNode":"3124730c9bb13986","toSide":"top"},
+		{"id":"0fe9cdf914f81575","fromNode":"ac1128e93e03cdd9","fromSide":"bottom","toNode":"379c5f38eaedecb0","toSide":"top"},
+		{"id":"e973f4365d810bad","fromNode":"ac1128e93e03cdd9","fromSide":"right","toNode":"e564ef17c6f93ffb","toSide":"left"},
+		{"id":"a4f54f2ab97773fa","fromNode":"379c5f38eaedecb0","fromSide":"bottom","toNode":"0b17d24061f8735b","toSide":"top"}
+	]
+}

@@ -1,0 +1,162 @@
+{
+	"nodes":[
+		{
+			"id":"988928fa1cd5048d",
+			"type":"file",
+			"file":"01 - Fleeting Notes/Tactics that can be used to develop Ikigai.md",
+			"styleAttributes":{},
+			"x":-773,
+			"y":-1401,
+			"width":400,
+			"height":400
+		},
+		{
+			"type":"text",
+			"text":"Charachter Development",
+			"id":"8881da3c65207b45",
+			"styleAttributes":{},
+			"x":-80,
+			"y":60,
+			"width":323,
+			"height":50
+		},
+		{
+			"type":"link",
+			"url":"https://www.youtube.com/watch?v=WUmQ1EjOpEM",
+			"id":"59e0775ef0ee55de",
+			"styleAttributes":{},
+			"x":-740,
+			"y":880,
+			"width":640,
+			"height":360
+		},
+		{
+			"type":"file",
+			"file":"04 - Files/Dokodo_-_The_Way_of_Walking_Alone.png",
+			"id":"19e4000a4500c0e5",
+			"styleAttributes":{},
+			"x":502,
+			"y":1180,
+			"width":400,
+			"height":328
+		},
+		{
+			"type":"file",
+			"file":"03 - Permanent Notes/My Widely Important Goals.md",
+			"id":"187ced8a16c617f1",
+			"styleAttributes":{},
+			"x":1887,
+			"y":551,
+			"width":400,
+			"height":400
+		},
+		{
+			"type":"text",
+			"text":"I need to develop \nand I will\nusing 5 principles [[My 5 principles and practices of character building]]",
+			"id":"41738e95c460fc28",
+			"styleAttributes":{},
+			"x":740,
+			"y":491,
+			"width":250,
+			"height":229
+		},
+		{
+			"id":"e2cf32a281f95855",
+			"type":"file",
+			"file":"04 - Files/20220910_133901.jpg",
+			"styleAttributes":{},
+			"x":243,
+			"y":-382,
+			"width":357,
+			"height":476
+		},
+		{"id":"53a9d47eceba971d","type":"file","file":"03 - Permanent Notes/seven timeless Japanese thinking patterns that will help me craft my ideal life style.md","x":1420,"y":-1282,"width":694,"height":980},
+		{
+			"type":"file",
+			"file":"01 - Fleeting Notes/Karaniya metta sutta virtues.md",
+			"id":"730e4e67b54d87ba",
+			"styleAttributes":{},
+			"x":1637,
+			"y":-190,
+			"width":500,
+			"height":500
+		},
+		{
+			"type":"file",
+			"file":"01 - Fleeting Notes/My 5 principles and practices of character building.md",
+			"id":"65e25b0eef453b0d",
+			"styleAttributes":{},
+			"x":1230,
+			"y":880,
+			"width":380,
+			"height":360
+		},
+		{
+			"type":"file",
+			"file":"01 - Fleeting Notes/Benjamin Franklin virtues.md",
+			"id":"e66537abea160600",
+			"styleAttributes":{},
+			"x":82,
+			"y":-1326,
+			"width":420,
+			"height":650
+		},
+		{
+			"type":"file",
+			"file":"01 - Fleeting Notes/Dokkodo Principles of living.md",
+			"id":"392755b31ea09a46",
+			"styleAttributes":{},
+			"x":104,
+			"y":394,
+			"width":638,
+			"height":715
+		},
+		{
+			"type":"file",
+			"file":"03 - Permanent Notes/35 stations mentioned in the Ikgai Journey Book.md",
+			"id":"399c8fc5933ca3e8",
+			"styleAttributes":{},
+			"x":-1440,
+			"y":-302,
+			"width":460,
+			"height":455
+		},
+		{
+			"type":"link",
+			"url":"https://www.youtube.com/watch?v=GYxcUEu0d2E",
+			"id":"79934411bd4cb276",
+			"styleAttributes":{},
+			"x":-1760,
+			"y":360,
+			"width":640,
+			"height":360
+		},
+		{
+			"id":"90485ddb758f4ccc",
+			"type":"file",
+			"file":"01 - Fleeting Notes/stoicism cardinal values.md",
+			"styleAttributes":{},
+			"x":-230,
+			"y":1508,
+			"width":400,
+			"height":400
+		},
+		{"id":"79f5d76e94a8bbbf","type":"file","file":"01 - Fleeting Notes/Six principles of war strategy according to Robert Greene.md","x":680,"y":-1180,"width":400,"height":504}
+	],
+	"edges":[
+		{"id":"f62144e5e54c31ab","fromNode":"8881da3c65207b45","fromSide":"top","toNode":"e66537abea160600","toSide":"bottom","label":"Benjamin"},
+		{"id":"e0da91328f125a38","fromNode":"8881da3c65207b45","fromSide":"right","toNode":"730e4e67b54d87ba","toSide":"left","label":"Karaneeya Metta Sutta"},
+		{"id":"c4108d58159dcd81","fromNode":"8881da3c65207b45","fromSide":"left","toNode":"399c8fc5933ca3e8","toSide":"right","label":"Ikigai"},
+		{"id":"ec364260f246be3b","fromNode":"8881da3c65207b45","fromSide":"bottom","toNode":"79934411bd4cb276","toSide":"top","label":"Dokkodo"},
+		{"id":"717f98d2518c6862","fromNode":"79934411bd4cb276","fromSide":"right","toNode":"392755b31ea09a46","toSide":"left"},
+		{"id":"a7526bbd100e0184","fromNode":"19e4000a4500c0e5","fromSide":"top","toNode":"392755b31ea09a46","toSide":"bottom"},
+		{"id":"e5002237b5ff5ff4","fromNode":"59e0775ef0ee55de","fromSide":"right","toNode":"392755b31ea09a46","toSide":"left"},
+		{"id":"beaa22481e527e2d","fromNode":"8881da3c65207b45","fromSide":"bottom","toNode":"65e25b0eef453b0d","toSide":"top"},
+		{"id":"e6334d4ab76f605e","fromNode":"65e25b0eef453b0d","fromSide":"right","toNode":"187ced8a16c617f1","toSide":"left"},
+		{"id":"2015f0065113e139","fromNode":"8881da3c65207b45","fromSide":"right","toNode":"41738e95c460fc28","toSide":"left"},
+		{"id":"fdf61be914bd9c49","fromNode":"8881da3c65207b45","fromSide":"top","toNode":"988928fa1cd5048d","toSide":"bottom"},
+		{"id":"180f5dea2af63410","fromNode":"8881da3c65207b45","fromSide":"right","toNode":"53a9d47eceba971d","toSide":"left"},
+		{"id":"bea94b9b7788368b","fromNode":"8881da3c65207b45","fromSide":"top","toNode":"79f5d76e94a8bbbf","toSide":"bottom"}
+	],
+	"metadata":{}
+}

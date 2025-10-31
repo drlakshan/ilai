@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"294f998cd808facd","x":-125,"y":-30,"width":105,"height":60,"type":"text","text":"Roles"},
+		{"id":"40ae0ed830289835","x":-591,"y":10,"width":250,"height":60,"type":"text","text":"Senior Lecturer in Medical Education"},
+		{"id":"1cbf2ecd719529a5","x":-582,"y":-158,"width":250,"height":60,"type":"text","text":"ENT Surgeon"},
+		{"id":"193a6dae6120d16a","x":-591,"y":189,"width":250,"height":60,"type":"text","text":"Head of NHREF"},
+		{"id":"b6a611a4276b9f16","x":60,"y":-158,"width":250,"height":60,"type":"text","text":"Father"},
+		{"id":"e09c6a1755b59ace","x":60,"y":0,"width":250,"height":60,"type":"text","text":"Son"},
+		{"id":"7be17e999276f006","x":-240,"y":-240,"width":250,"height":60,"color":"6","type":"text","text":"Buddhist"},
+		{"id":"280aa6fccb1b6d18","x":100,"y":219,"width":250,"height":60,"type":"text","text":"Financial Expert"},
+		{"id":"2c0170469ad932cb","x":-264,"y":209,"width":250,"height":60,"type":"text","text":"AI Specialist"},
+		{"id":"49dda0c6d5d9d965","x":-940,"y":10,"width":250,"height":60,"type":"text","text":"Research"},
+		{"id":"76d5f50f5f3e4c4f","x":-1079,"y":-187,"width":250,"height":60,"type":"text","text":"Literature Search"}
+	],
+	"edges":[
+		{"id":"7c3f9bf6b4dd54fa","fromNode":"294f998cd808facd","fromSide":"top","toNode":"1cbf2ecd719529a5","toSide":"bottom"},
+		{"id":"261a7369aa770f69","fromNode":"294f998cd808facd","fromSide":"top","toNode":"b6a611a4276b9f16","toSide":"bottom"},
+		{"id":"32c7b9579358284c","fromNode":"294f998cd808facd","fromSide":"top","toNode":"e09c6a1755b59ace","toSide":"bottom"},
+		{"id":"c50b9b02d397e1ac","fromNode":"294f998cd808facd","fromSide":"top","toNode":"7be17e999276f006","toSide":"bottom"},
+		{"id":"319ce29366c6d768","fromNode":"294f998cd808facd","fromSide":"bottom","toNode":"193a6dae6120d16a","toSide":"top"},
+		{"id":"619687a9c7bb7035","fromNode":"294f998cd808facd","fromSide":"left","toNode":"40ae0ed830289835","toSide":"right"},
+		{"id":"bd22fb84cda4a31d","fromNode":"294f998cd808facd","fromSide":"bottom","toNode":"280aa6fccb1b6d18","toSide":"top"},
+		{"id":"19597719ceb2c0cf","fromNode":"294f998cd808facd","fromSide":"bottom","toNode":"2c0170469ad932cb","toSide":"top"},
+		{"id":"d09321d7f2a53b80","fromNode":"49dda0c6d5d9d965","fromSide":"top","toNode":"76d5f50f5f3e4c4f","toSide":"bottom"}
+	]
+}

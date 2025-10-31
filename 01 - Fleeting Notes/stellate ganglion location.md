@@ -1,0 +1,1 @@
+![Stroke: A Complication of Stellate Ganglion Block | SpringerLink](https://media.springernature.com/original/springer-static/image/chp:10.1007%2F978-3-319-60072-7_19/MediaObjects/334271_1_En_19_Fig1_HTML.gif)

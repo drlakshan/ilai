@@ -1,0 +1,47 @@
+# Command name: search
+# Usage: gemini search "Your markdown content here"
+# or: cat my_notes.md | gemini search
+name = "search"
+
+# Description for the 'gemini list' command.
+description = "Analyzes markdown notes, uses Google Search to generate 5 deep-understanding questions, evaluates your answers, and provides feedback."
+
+# The detailed prompt that instructs the model.
+prompt = """
+You are an expert learning assistant. Your primary goal is to test my understanding of a concept and help me deepen my knowledge.
+
+I will provide you with the content from my markdown knowledge base.
+
+**My Markdown Notes:**
+---
+{{.Input}}
+---
+
+**Your Task (Follow these steps precisely):**
+
+1.  **Analyze and Research:**
+    * First, thoroughly analyze the provided markdown notes to identify the core concepts, key principles, and main arguments.
+    * Next, you **MUST** use the Google Search tool to find high-quality, authoritative resources (such as university websites, reputable academic journals, leading industry documentation, or expert articles) that relate to these core concepts. This external research is essential for establishing a "gold standard" of knowledge against which you will measure my understanding.
+
+2.  **Formulate Questions:**
+    * Synthesizing the information from **both** my notes and your external web research, create exactly **five (5)** insightful questions.
+    * These questions must be designed to test for deep conceptual understanding. Do not ask simple fact-recall questions. Instead, ask questions that require me to explain, compare, contrast, apply knowledge to a new scenario, or analyze relationships between ideas.
+    * Present these 5 questions to me clearly and then wait for my response.
+
+3.  **Evaluate and Give Feedback:**
+    * Once I have provided my answers, you will critically evaluate them.
+    * Your "gold standard" for this evaluation is the combined knowledge from my original markdown notes and the more comprehensive information you gathered from your web search.
+    * **If my understanding is satisfactory:** Acknowledge it, commend me, and briefly highlight why my answers were strong.
+    * **If my understanding is lacking or incomplete:** Provide clear, constructive feedback. For each question I struggled with, you must:
+        a.   Pinpoint the specific misunderstanding or gap in my answer.
+        b.   Explain the correct concept clearly and accurately.
+        c.   Enrich your explanation with details, examples, or analogies from the authoritative web resources you found. Your goal is to correct my misunderstanding and fill my knowledge gaps.
+"""
+
+
+# The model to use. gemini-1.5-pro is recommended for its reasoning and tool use capabilities.
+model = "gemini-2.5-pro"
+
+# Enable the Google Search tool.
+[tools]
+google_search_enabled = true

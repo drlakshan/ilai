@@ -1,0 +1,16 @@
+---
+type: newjournal
+---
+# Thoughts
+
+
+
+
+
+
+# Updates
+
+
+
+
+

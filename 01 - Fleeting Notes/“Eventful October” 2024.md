@@ -1,0 +1,34 @@
+- 5th 39th Nawaloka Anniversary Dinner Cinnamon Grand hotel lovely photo social media
+- 7th BOC branch opening 
+- 9th Ovindi Birthday
+- 10th Randhir Wedding 
+- 11th Management Meeting
+- 11th Hemas owner’s son Septoplasty
+- Birthday parties 4
+- 24th ENT UNIT meeting and lunch
+- 25th Jayawardanapura University lecture
+- first LinkedIn article
+- first Medium Article
+- Took over Nawaloka Hospitals Research and Education foundation work
+- 28th Colors Night
+- 30th Nawaloka AGM
+- Board Meeting
+- Illnesses Minudi 
+- Illnesses Ovindi
+- Illnesses Lakshan back
+- 30th Paid for second part of dambadeniya construction 
+- Vap poya
+- Kelaniya wandanawa 
+- 10A get-together
+- Great Stepedectomy
+- Loku mallis  car accident
+- Decision about Emergency care at Nawaloka
+- Bought IPad m4 12th
+- Wendy whatmore exam
+- Golden Bar Minudi Girl Guide achievement
+- 4th October Small backpack
+- 1st Ranjan Ramanayaka
+- posture concerned lifestyle 
+- Meaning of life is mind training and this
+- Got obsidian to sync across all the devices using Koofr wow,
+

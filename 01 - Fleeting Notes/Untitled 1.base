@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.name.containsAny("-04-2025")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.links

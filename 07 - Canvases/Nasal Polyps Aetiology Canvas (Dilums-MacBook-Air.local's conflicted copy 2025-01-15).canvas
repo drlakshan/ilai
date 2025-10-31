@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "fcbb944b1054bf9f",
+      "type": "text",
+      "text": "Nasal Polyp Aetiology",
+      "x": -120,
+      "y": 100,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "542c0423bcb2d568",
+      "type": "text",
+      "text": "CRSwNP",
+      "x": -348,
+      "y": -101,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "4639cb2fc8eacf1d",
+      "type": "text",
+      "text": "AERD",
+      "x": -34,
+      "y": -114,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "861746c81bc8375a",
+      "type": "text",
+      "text": "Fungal Sinusitis",
+      "x": 158,
+      "y": -38,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "516312857657c299",
+      "type": "text",
+      "text": "Underlying Systemic Disorders",
+      "x": 120,
+      "y": 235,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "35b3c13beb35d0c2",
+      "type": "text",
+      "text": "Cellular Level Changes",
+      "x": -338,
+      "y": 252,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "8031d0e1de1f4c7a",
+      "type": "file",
+      "file": "03 - Permanent Notes/eCRS.md",
+      "x": 960,
+      "y": -1040,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "661516f8dda043c4",
+      "type": "file",
+      "file": "03 - Permanent Notes/non eCRS.md",
+      "x": 1120,
+      "y": -360,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "2389358e87532663",
+      "type": "file",
+      "file": "03 - Permanent Notes/CCAD.md",
+      "x": 1420,
+      "y": -1040,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "2f3097c0ce184941",
+      "type": "text",
+      "text": "Non TH2",
+      "x": 760,
+      "y": -300,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "f55b01e4612dc752",
+      "type": "text",
+      "text": "Macrolide therapy",
+      "x": 1625,
+      "y": -191,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "d0af3c15dce9f549",
+      "type": "file",
+      "file": "08 - Excalidraw/Drawing 2023-02-12 18.29.43.excalidraw.md",
+      "x": 640,
+      "y": -54,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "68eb6d2be4aa50a6",
+      "type": "file",
+      "file": "03 - Permanent Notes/endotype.md",
+      "x": -195,
+      "y": -700,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "4139d4a90269ad5a",
+      "type": "file",
+      "file": "03 - Permanent Notes/endotypes in sinusitis.md",
+      "x": 283,
+      "y": -591,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "ea324f1e4fb82dc2",
+      "type": "text",
+      "text": "TH2",
+      "x": 715,
+      "y": -640,
+      "width": 250,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "c4fcd14efc5f54d6",
+      "fromNode": "fcbb944b1054bf9f",
+      "fromSide": "top",
+      "toNode": "542c0423bcb2d568",
+      "toSide": "bottom"
+    },
+    {
+      "id": "c537965fc8104fad",
+      "fromNode": "fcbb944b1054bf9f",
+      "fromSide": "top",
+      "toNode": "4639cb2fc8eacf1d",
+      "toSide": "bottom"
+    },
+    {
+      "id": "4d7c475b3f3d43de",
+      "fromNode": "fcbb944b1054bf9f",
+      "fromSide": "right",
+      "toNode": "861746c81bc8375a",
+      "toSide": "bottom"
+    },
+    {
+      "id": "0441cabf1e15477b",
+      "fromNode": "fcbb944b1054bf9f",
+      "fromSide": "bottom",
+      "toNode": "516312857657c299",
+      "toSide": "top"
+    },
+    {
+      "id": "8e94f5e666dc867c",
+      "fromNode": "fcbb944b1054bf9f",
+      "fromSide": "bottom",
+      "toNode": "35b3c13beb35d0c2",
+      "toSide": "top"
+    },
+    {
+      "id": "3081847cb4c83bc8",
+      "fromNode": "4139d4a90269ad5a",
+      "fromSide": "right",
+      "toNode": "8031d0e1de1f4c7a",
+      "toSide": "left"
+    },
+    {
+      "id": "673105c09ce630db",
+      "fromNode": "4139d4a90269ad5a",
+      "fromSide": "right",
+      "toNode": "661516f8dda043c4",
+      "toSide": "left"
+    },
+    {
+      "id": "0a57cf4a57fa0077",
+      "fromNode": "8031d0e1de1f4c7a",
+      "fromSide": "right",
+      "toNode": "2389358e87532663",
+      "toSide": "left"
+    },
+    {
+      "id": "2a815f2629902fb8",
+      "fromNode": "661516f8dda043c4",
+      "fromSide": "right",
+      "toNode": "f55b01e4612dc752",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}

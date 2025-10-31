@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      or:
+        - file.tags.contains("lecture")
+        - file.tags.contains("academic")
+        - file.name.contains("workshop")
+        - file.name.contains("medical education")

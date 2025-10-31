@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"problem_group","type":"group","x":-900,"y":-520,"width":1800,"height":500,"color":"#FFC0CB","label":"The Problem: How AI Can Hinder Learning"},
+		{"id":"solution_group","type":"group","x":-900,"y":40,"width":1800,"height":500,"color":"#ADD8E6","label":"The Solution: Reclaiming Critical Thinking"},
+		{"id":"solution1_group","type":"group","parent":"solution_group","x":-880,"y":140,"width":820,"height":350,"color":"2","label":"Personal Responsibility"},
+		{"id":"solution2_group","type":"group","parent":"solution_group","x":-40,"y":140,"width":820,"height":350,"color":"3","label":"Systemic Change"},
+		{"id":"quotes_group","type":"group","x":-250,"y":700,"width":500,"height":350,"label":"Key Quotes"},
+		{"id":"title","type":"text","text":"## Is AI making us Dumber? - A Visual Summary\n### TED Talk by Charlie Gedeon\n\n[[Is AI making us Dumber? TED Talk Charlie Gedeon.md]]","x":-250,"y":-1140,"width":500,"height":140},
+		{"id":"summary","type":"text","text":"**Core Argument:** AI, combined with a flawed education system focused on grades, encourages 'cognitive offloading.' This hinders our ability to think critically. The solution requires personal vigilance (skepticism, verification) and systemic change (education reform, regulation).","x":-250,"y":-900,"width":500,"height":180},
+		{"id":"takeaway","type":"text","text":"**One-Sentence Takeaway:** We must use AI as a tool to assist our thinking, not as a shortcut.","x":-250,"y":-680,"width":500,"height":60},
+		{"id":"fd8da5181c3813ca","x":-123,"y":1149,"width":250,"height":251,"type":"text","text":"[[How critical think he is going to be important in the age of AI]]\n\n[[cognitive offloading]]"},
+		{"id":"quote1","type":"text","text":"\"The biggest revolution that AI is bringing to education is... highlighting the incentives of the education system that have always been broken.\"","parent":"quotes_group","x":-230,"y":780,"width":460,"height":100},
+		{"id":"quote2","type":"text","text":"\"You're not going to learn to learn if you're not going to be able to sit with discomfort.\"","parent":"quotes_group","x":-230,"y":890,"width":460,"height":100},
+		{"id":"habits","type":"text","text":"##### Habits to Cultivate\n- Be a skeptic: Always verify AI-generated information.\n- Cross-reference multiple sources.\n- Embrace the discomfort and struggle of the learning process.","parent":"solution1_group","x":-860,"y":220,"width":380,"height":240},
+		{"id":"recommendations_personal","type":"text","text":"##### How to Use AI Wisely\n- Use AI to **assist**, not replace, your thinking.\n- Use it for examples, not final answers.\n- Challenge yourself to solve problems first.","parent":"solution1_group","x":-460,"y":220,"width":380,"height":240},
+		{"id":"education_reform","type":"text","text":"##### Education Reform\n- Shift focus from grades back to genuine learning.\n- Teach children about disinformation from a young age.","parent":"solution2_group","x":-20,"y":220,"width":380,"height":240},
+		{"id":"regulation","type":"text","text":"##### Regulation\n- Governments and institutions must implement robust regulations for AI tools.","parent":"solution2_group","x":380,"y":220,"width":380,"height":200},
+		{"id":"problem3","type":"text","text":"#### AI's Deceptive Nature\n- Provides a single, unverified answer, unlike Google's multiple sources.\n- Uses a validating, persuasive tone ('dark pattern') to build unearned trust.","parent":"problem_group","x":-20,"y":-420,"width":400,"height":270,"color":"6"},
+		{"id":"problem4","type":"text","text":"#### Strategic Exploitation\nAI companies strategically release powerful new models during high-stakes exam periods, preying on student desperation.","parent":"problem_group","x":400,"y":-420,"width":400,"height":270,"color":"4"},
+		{"id":"problem1","type":"text","text":"#### Flawed Education Incentives\nThe system prioritizes getting an \"A+\" over genuine learning, making AI a tempting shortcut.","parent":"problem_group","x":-880,"y":-420,"width":400,"height":270,"color":"2"},
+		{"id":"problem2","type":"text","text":"#### Cognitive Offloading\nStudents use AI to offload thinking, leading to a decline in independent problem-solving and intellectual resilience.","parent":"problem_group","x":-460,"y":-420,"width":400,"height":270,"color":"1"}
+	],
+	"edges":[
+		{"id":"edge1","fromNode":"title","fromSide":"bottom","toNode":"summary","toSide":"top"},
+		{"id":"edge2","fromNode":"summary","fromSide":"bottom","toNode":"takeaway","toSide":"top"},
+		{"id":"edge3","fromNode":"takeaway","fromSide":"bottom","toNode":"problem_group","toSide":"top"},
+		{"id":"edge4","fromNode":"problem_group","fromSide":"bottom","toNode":"solution_group","toSide":"top","label":"leads to"},
+		{"id":"edge5","fromNode":"solution_group","fromSide":"bottom","toNode":"quotes_group","toSide":"top"}
+	]
+}

@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "id": "549eddcdedca0515",
+      "type": "text",
+      "text": "following considerations",
+      "x": -119,
+      "y": -108,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "deb02d89a6975b6b",
+      "type": "text",
+      "text": "What am I trying to achieve?",
+      "x": -367,
+      "y": 30,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "18b63d3564098eb3",
+      "type": "text",
+      "text": "Ability to agentic AI projects ?",
+      "x": -502,
+      "y": 158,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1aa8a93919f4a6a0",
+      "type": "text",
+      "text": "Ability to customise  AI Platforms",
+      "x": -340,
+      "y": 260,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "e3fc0d26150d323d",
+      "type": "text",
+      "text": "Just for Fun",
+      "x": -224,
+      "y": 198,
+      "width": 260,
+      "height": 32
+    },
+    {
+      "id": "704f8beeac309bd4",
+      "type": "text",
+      "text": "It creates things for me",
+      "x": -60,
+      "y": 128,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "af23c8a66f2c9cf7",
+      "type": "text",
+      "text": "Structured Thinking pattern",
+      "x": -131,
+      "y": 273,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "8ba60c19586a17f7",
+      "type": "text",
+      "text": "Time concerns",
+      "x": 289,
+      "y": 97,
+      "width": 260,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "d1aa1177bba7adc4",
+      "type": "text",
+      "text": "What outcome am I trying to achieve",
+      "x": 300,
+      "y": 188,
+      "width": 260,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "8878040580864aa1",
+      "type": "text",
+      "text": "Learning Programming as a hobbysit",
+      "x": -107,
+      "y": -380,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "e62d49b04af45356",
+      "x": 640,
+      "y": -78,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "One SOLUTION is to go to google colab and start working there without  trying to sort out all the local machine problems\n\n"
+    }
+  ],
+  "edges": [
+    {
+      "id": "2a4e89e4d6a0b28a",
+      "fromNode": "8878040580864aa1",
+      "fromSide": "bottom",
+      "toNode": "549eddcdedca0515",
+      "toSide": "top"
+    },
+    {
+      "id": "11c7ddcfda8609cf",
+      "fromNode": "549eddcdedca0515",
+      "fromSide": "bottom",
+      "toNode": "deb02d89a6975b6b",
+      "toSide": "top"
+    },
+    {
+      "id": "f7424e1ffc69125a",
+      "fromNode": "deb02d89a6975b6b",
+      "fromSide": "bottom",
+      "toNode": "18b63d3564098eb3",
+      "toSide": "top"
+    },
+    {
+      "id": "bb186d54d0720bbe",
+      "fromNode": "deb02d89a6975b6b",
+      "fromSide": "bottom",
+      "toNode": "1aa8a93919f4a6a0",
+      "toSide": "top"
+    },
+    {
+      "id": "896780ff86d1eb38",
+      "fromNode": "deb02d89a6975b6b",
+      "fromSide": "bottom",
+      "toNode": "e3fc0d26150d323d",
+      "toSide": "top"
+    },
+    {
+      "id": "f131a91f37f37bed",
+      "fromNode": "deb02d89a6975b6b",
+      "fromSide": "bottom",
+      "toNode": "704f8beeac309bd4",
+      "toSide": "left"
+    },
+    {
+      "id": "944ce439963f76a3",
+      "fromNode": "deb02d89a6975b6b",
+      "fromSide": "bottom",
+      "toNode": "af23c8a66f2c9cf7",
+      "toSide": "top"
+    },
+    {
+      "id": "bf89e477a7ce7107",
+      "fromNode": "549eddcdedca0515",
+      "fromSide": "bottom",
+      "toNode": "8ba60c19586a17f7",
+      "toSide": "top"
+    },
+    {
+      "id": "2358d0e6887fb048",
+      "fromNode": "549eddcdedca0515",
+      "fromSide": "bottom",
+      "toNode": "d1aa1177bba7adc4",
+      "toSide": "top"
+    },
+    {
+      "id": "4a2cb94f5e2ddfdc",
+      "fromNode": "8ba60c19586a17f7",
+      "fromSide": "top",
+      "toNode": "e62d49b04af45356",
+      "toSide": "bottom"
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,8 @@
+ [[what are the important issues for singers?]]
+[[what are the basic anatomy areas that need coverage?]]
+[[voice production physiology]]
+[[how would the voice damage be brought about?]]
+[[what can be done to minimise or prevent such an event?]]
+[[what are the diseases associated with voice problems?]]
+[[what investigations are necessary ]]
+[[what are the treatment options]]

@@ -1,0 +1,17 @@
+filters:
+  or:
+    - tags.containsAny("ai", "AI")
+    - tags.contains("AI")
+formulas:
+  "": ""
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Description
+      - Start_Date
+    sort: []
+    columnSize:
+      note.Description: 404

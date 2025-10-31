@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"daa8c009bfa9fbff","type":"text","text":"Action of the presentation\n","x":-300,"y":-280,"width":250,"height":60},
+		{"id":"a7c3c488584d0f88","type":"file","file":"04 - Files/Excalidraw/Communication Pyramid.md","x":-820,"y":-250,"width":400,"height":400},
+		{"id":"a804df1c4f5197fc","type":"text","text":"Context and the Audience","x":-301,"y":-125,"width":250,"height":60},
+		{"id":"884c7681f51b9873","type":"text","text":"Brainstorm for insights / beliefs : me and AI","x":-302,"y":17,"width":250,"height":60},
+		{"id":"7d4832b2fc9e0ed5","type":"text","text":"Finalise them","x":-305,"y":129,"width":250,"height":60},
+		{"id":"63b5fcd5e8885354","type":"text","text":"brainstorm for knowlege /facts","x":-306,"y":226,"width":250,"height":60},
+		{"id":"b12eb3994d5f7ebf","type":"text","text":"agree on the facts","x":-307,"y":329,"width":250,"height":60},
+		{"id":"e454a4a94e2e5061","type":"text","text":"Create a flow using a framework","x":-309,"y":458,"width":250,"height":60},
+		{"id":"76f3be7b06c4818e","type":"file","file":"01 - Fleeting Notes/Scqa framework of storytelling.md","x":29,"y":285,"width":400,"height":400},
+		{"id":"3c392633de35a54c","type":"text","text":"Create the content slides","x":-307,"y":672,"width":250,"height":60},
+		{"id":"0715d8d4d99fd897","type":"text","text":"Create a google appscript file to use this to create automatic slide deck","x":-307,"y":771,"width":250,"height":89},
+		{"id":"ef4ab9d56d0a58db","type":"text","text":"Go to Google Slides and do it,","x":-44,"y":903,"width":250,"height":60},
+		{"id":"d396477b454e0729","type":"link","url":"https://www.youtube.com/watch?v=_9pKAG_XabM","x":-1040,"y":732,"width":640,"height":360}
+	],
+	"edges":[
+		{"id":"57d03b0674317499","fromNode":"daa8c009bfa9fbff","fromSide":"bottom","toNode":"a7c3c488584d0f88","toSide":"top"},
+		{"id":"0f36c9f948c3e92b","fromNode":"daa8c009bfa9fbff","fromSide":"bottom","toNode":"a804df1c4f5197fc","toSide":"top"},
+		{"id":"8323618468ab4f43","fromNode":"a804df1c4f5197fc","fromSide":"bottom","toNode":"884c7681f51b9873","toSide":"top"},
+		{"id":"3d038b1d66cf334f","fromNode":"884c7681f51b9873","fromSide":"bottom","toNode":"7d4832b2fc9e0ed5","toSide":"top"},
+		{"id":"14eaf9db53530f34","fromNode":"7d4832b2fc9e0ed5","fromSide":"bottom","toNode":"63b5fcd5e8885354","toSide":"top"},
+		{"id":"14b3a99fe382eec5","fromNode":"63b5fcd5e8885354","fromSide":"bottom","toNode":"b12eb3994d5f7ebf","toSide":"top"},
+		{"id":"b7b5bcbd30bdfbd1","fromNode":"b12eb3994d5f7ebf","fromSide":"bottom","toNode":"e454a4a94e2e5061","toSide":"top"},
+		{"id":"8982bb4d8ade51f5","fromNode":"e454a4a94e2e5061","fromSide":"right","toNode":"76f3be7b06c4818e","toSide":"left"},
+		{"id":"fb49e5ac498f16b3","fromNode":"e454a4a94e2e5061","fromSide":"bottom","toNode":"3c392633de35a54c","toSide":"top"},
+		{"id":"dc0994fe88694a02","fromNode":"3c392633de35a54c","fromSide":"bottom","toNode":"0715d8d4d99fd897","toSide":"top"},
+		{"id":"3feb8530bde435f1","fromNode":"0715d8d4d99fd897","fromSide":"bottom","toNode":"ef4ab9d56d0a58db","toSide":"top"},
+		{"id":"d9ecfc3c0e8641e4","fromNode":"0715d8d4d99fd897","fromSide":"left","toNode":"d396477b454e0729","toSide":"right"}
+	],
+	"metadata":{}
+}

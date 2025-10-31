@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"36ded146f13d4b27","x":-80,"y":-360,"width":250,"height":60,"type":"text","text":"Presenting Complaint\ne.g earache"},
+		{"id":"4e50ce5dd471973c","x":-330,"y":-60,"width":250,"height":100,"type":"text","text":"Possible Complications\nsever pain (cellulitis) ? malignant OE"},
+		{"id":"d7e899b9060f8a94","x":190,"y":-220,"width":250,"height":60,"type":"text","text":"Aetiology /risk factors\nDiabetes ...."},
+		{"id":"8ec9e38598bef42e","x":190,"y":-60,"width":250,"height":60,"type":"text","text":"Predisposing factors\nCotton bud use ...."},
+		{"id":"6acad7abab9adb48","x":-60,"y":60,"width":250,"height":140,"type":"text","text":"treatment modifiers like allergies PHMx Social and Other Circumstances\ne.g Awaiting a swimming meet"},
+		{"id":"afcc4e5d7e6be8df","x":-330,"y":-220,"width":250,"height":60,"type":"text","text":"system inquiry \nother related symptoms ..."}
+	],
+	"edges":[]
+}

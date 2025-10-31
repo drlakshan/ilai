@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "newjournal"
+    order:
+      - file.name
+    sort:
+      - property: file.ctime
+        direction: DESC
+  - type: cards
+    name: View
+    filters:
+      and:
+        - type == "newjournal"
+    order:
+      - file.name
+      - file.embeds
+    sort:
+      - property: file.ctime
+        direction: DESC
+    cardSize: 110
+    image: file.file
+    imageFit: ""
+    imageAspectRatio: 0.75

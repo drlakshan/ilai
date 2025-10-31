@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"type":"file","file":"07 - Canvases/Investment Instruments decision making.canvas","id":"3d4a7a1295b60c78","x":160,"y":-140,"width":400,"height":400},
+		{"type":"text","text":"","id":"658a1348b933e794","x":-125,"y":-30,"width":250,"height":60},
+		{"type":"text","text":"Stock Market Investiments","id":"f531f42f4099f33a","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"bb1239ae117352b7","x":-256,"y":141,"width":250,"height":60,"type":"text","text":"Something I did not consider fully"},
+		{"id":"52b5100e6c35c9bc","x":-104,"y":297,"width":250,"height":60,"type":"text","text":"Negatives"},
+		{"id":"6812bb27b603cefc","x":-226,"y":450,"width":250,"height":60,"type":"text","text":"Transparent Wealth"},
+		{"id":"0c21d01dc67ea515","x":73,"y":461,"width":250,"height":60,"type":"text","text":"Complicated attempt"},
+		{"id":"3ba1d88d0688744b","x":222,"y":386,"width":250,"height":60,"type":"text","text":"There is a long drawn learning curve"},
+		{"id":"9952aa018b501146","x":-526,"y":297,"width":250,"height":60,"type":"text","text":"Positives"},
+		{"id":"8fa5297d4471c9aa","x":-351,"y":578,"width":250,"height":60,"type":"text","text":"Does not always present a great opportunity"},
+		{"id":"e3ebefca9ae1a338","x":-651,"y":608,"width":250,"height":60,"type":"text","text":"Lets you play with the money in a more involved way"},
+		{"id":"5959d27dba813392","x":-760,"y":431,"width":250,"height":60,"type":"text","text":"Tax Benefits"}
+	],
+	"edges":[
+		{"id":"64c3d0541bc3e8b7","fromNode":"f531f42f4099f33a","fromSide":"right","toNode":"3d4a7a1295b60c78","toSide":"left"},
+		{"id":"a50b1353990c84cd","fromNode":"f531f42f4099f33a","fromSide":"bottom","toNode":"bb1239ae117352b7","toSide":"top"},
+		{"id":"2963691d4e997aff","fromNode":"bb1239ae117352b7","fromSide":"bottom","toNode":"9952aa018b501146","toSide":"top"},
+		{"id":"65bb58bc5a9f3ee5","fromNode":"bb1239ae117352b7","fromSide":"bottom","toNode":"52b5100e6c35c9bc","toSide":"top"},
+		{"id":"0c5f2d52cae034a2","fromNode":"9952aa018b501146","fromSide":"bottom","toNode":"5959d27dba813392","toSide":"top"},
+		{"id":"85499cbb90a828f5","fromNode":"52b5100e6c35c9bc","fromSide":"bottom","toNode":"6812bb27b603cefc","toSide":"top"},
+		{"id":"b215496b06ff97b2","fromNode":"52b5100e6c35c9bc","fromSide":"bottom","toNode":"0c21d01dc67ea515","toSide":"top"},
+		{"id":"e09f4cefadeee0ab","fromNode":"9952aa018b501146","fromSide":"bottom","toNode":"e3ebefca9ae1a338","toSide":"top"},
+		{"id":"4126b7a3808c9fd6","fromNode":"9952aa018b501146","fromSide":"bottom","toNode":"8fa5297d4471c9aa","toSide":"top"},
+		{"id":"be55b103509bb0eb","fromNode":"52b5100e6c35c9bc","fromSide":"bottom","toNode":"3ba1d88d0688744b","toSide":"top"}
+	]
+}

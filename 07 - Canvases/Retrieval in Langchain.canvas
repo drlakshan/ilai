@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "id": "ed05be2bfd25a90a",
+      "type": "text",
+      "text": "Maximal Marginal Relavance : a technique to get relavant information keeping the diversity high reducing the redunduncy e.g. Toy Example",
+      "x": -560,
+      "y": -360,
+      "width": 260,
+      "height": 280
+    },
+    {
+      "id": "8160613b882f2abb",
+      "type": "text",
+      "text": "LLM aided retrieval",
+      "x": -240,
+      "y": -360,
+      "width": 260,
+      "height": 280
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

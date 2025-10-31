@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"type":"text","text":"Create a problem based approach","id":"2a503bfae4267c19","x":-60,"y":-40,"width":250,"height":58},
+		{"type":"text","text":"With what can you do EES","id":"a824c559c51fd206","x":42,"y":-253,"width":250,"height":60},
+		{"type":"text","text":"What can you do ","id":"73da2ff8f17debe1","x":212,"y":-146,"width":250,"height":60},
+		{"type":"text","text":"Mastoidectomy","id":"8f29151cb0ccc848","x":317,"y":-235,"width":250,"height":60},
+		{"type":"text","text":"Stapedectomy","id":"1c074ada4ae0eb3e","x":387,"y":-78,"width":250,"height":60},
+		{"type":"text","text":"Glomus","id":"4247820575e88ba6","x":299,"y":54,"width":250,"height":60},
+		{"type":"text","text":"numerous Grommets and EUA","id":"70f696c1f7d7da24","x":202,"y":173,"width":250,"height":60},
+		{"type":"text","text":"Limitations of EES","id":"946cd09a5de77755","x":-72,"y":139,"width":250,"height":60},
+		{"type":"text","text":"Advantages of EES","id":"02f4e62347be154e","x":-308,"y":179,"width":250,"height":60},
+		{"type":"text","text":"if interested in EES what to do?","id":"e45a011464d325ed","x":-580,"y":153,"width":250,"height":60},
+		{"type":"text","text":"Where are you going to operate?","id":"7a63e4b2c1deefae","x":-540,"y":-175,"width":250,"height":60},
+		{"type":"text","text":"Video Tour of 15 min","id":"b4472135f4fdbdf4","x":-580,"y":-310,"width":250,"height":60},
+		{"type":"text","text":"Myringoplasty\n","id":"e9721594686ebd12","x":387,"y":-340,"width":250,"height":60},
+		{"type":"text","text":"Complications of middle ear surgery and how to avoid them","id":"fde75efb89cf7e80","x":-661,"y":5,"width":250,"height":60},
+		{"type":"text","text":"1.  Introduction to endoscopic ear surgery: An overview of the history, principles, and benefits of endoscopic techniques in ear surgery.\n2.  Anatomy of the ear: A detailed review of the ear's anatomy, including the temporal bone, the middle ear, and the inner ear.\n3.  Endoscopic examination of the ear: A step-by-step guide to performing a thorough endoscopic examination of the ear, including the use of different types of endoscopes.\n4.  Common conditions treated with endoscopic ear surgery: An overview of common ear conditions, such as cholesteatoma, otosclerosis, and tympanic membrane perforations, that can be treated with endoscopic surgery.\n5.  Endoscopic middle ear surgery: A deep dive into the various techniques used in endoscopic middle ear surgery, including ossiculoplasty and stapedotomy.\n6.  Endoscopic ear canal surgery: An in-depth exploration of the techniques used to treat conditions affecting the ear canal, such as exostoses and otitis externa.\n7.  Complications and management in endoscopic ear surgery: A discussion of potential complications associated with endoscopic ear surgery and strategies for preventing and managing them.\n8.  Advanced techniques in endoscopic ear surgery: A review of cutting-edge techniques, such as endoscopic cochlear implantation and endoscopic repair of congenital aural atresia.\n9.  Pediatric endoscopic ear surgery: A discussion of the unique considerations and challenges associated with performing endoscopic ear surgery in children.\n10.  Case presentations and discussion: A series of case presentations highlighting the application of endoscopic ear surgery in different clinical scenarios, followed by interactive discussions with the audience.","id":"7db5776980d64cc7","x":-31,"y":445,"width":483,"height":395},
+		{"type":"file","file":"03 - Permanent Notes/Describe the Middle ear endoscopic anatomy.md","id":"94b26598173e5527","x":-383,"y":-740,"width":400,"height":400},
+		{"id":"33f5f7416fbd714d","x":-797,"y":163,"width":250,"height":60,"type":"text","text":"Bleeding and "}
+	],
+	"edges":[
+		{"id":"ac7d705199fed197","fromNode":"2a503bfae4267c19","fromSide":"top","toNode":"7a63e4b2c1deefae","toSide":"bottom"},
+		{"id":"0aaaf56fde479d4c","fromNode":"7a63e4b2c1deefae","fromSide":"top","toNode":"b4472135f4fdbdf4","toSide":"bottom"},
+		{"id":"c18a5713f074b189","fromNode":"2a503bfae4267c19","fromSide":"top","toNode":"a824c559c51fd206","toSide":"bottom"},
+		{"id":"117d8611b460761e","fromNode":"2a503bfae4267c19","fromSide":"top","toNode":"73da2ff8f17debe1","toSide":"bottom"},
+		{"id":"f205178e22046182","fromNode":"73da2ff8f17debe1","fromSide":"top","toNode":"e9721594686ebd12","toSide":"bottom"},
+		{"id":"a88c654f36ed33a2","fromNode":"73da2ff8f17debe1","fromSide":"top","toNode":"8f29151cb0ccc848","toSide":"bottom"},
+		{"id":"cb5e6e4f7aa744f5","fromNode":"73da2ff8f17debe1","fromSide":"top","toNode":"1c074ada4ae0eb3e","toSide":"bottom"},
+		{"id":"76359e34f968bcfc","fromNode":"73da2ff8f17debe1","fromSide":"bottom","toNode":"4247820575e88ba6","toSide":"top"},
+		{"id":"fde65954f7f3ccad","fromNode":"73da2ff8f17debe1","fromSide":"bottom","toNode":"70f696c1f7d7da24","toSide":"top"},
+		{"id":"309078abafab3c90","fromNode":"2a503bfae4267c19","fromSide":"top","toNode":"946cd09a5de77755","toSide":"bottom"},
+		{"id":"1d308da9bce5340c","fromNode":"2a503bfae4267c19","fromSide":"bottom","toNode":"02f4e62347be154e","toSide":"top"},
+		{"id":"88668994f3031524","fromNode":"2a503bfae4267c19","fromSide":"bottom","toNode":"e45a011464d325ed","toSide":"top"},
+		{"id":"5a36809d0af9e006","fromNode":"7a63e4b2c1deefae","fromSide":"top","toNode":"94b26598173e5527","toSide":"bottom"},
+		{"id":"2f78efb662d57ed2","fromNode":"2a503bfae4267c19","fromSide":"left","toNode":"fde75efb89cf7e80","toSide":"right"},
+		{"id":"60a295548725b73b","fromNode":"2a503bfae4267c19","fromSide":"bottom","toNode":"7db5776980d64cc7","toSide":"top"},
+		{"id":"6f4e26288efee623","fromNode":"fde75efb89cf7e80","fromSide":"bottom","toNode":"33f5f7416fbd714d","toSide":"top"}
+	]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "type": "text",
+      "text": "email setup",
+      "id": "2a94e13caadbe1e3",
+      "x": -125,
+      "y": -30,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "em",
+      "id": "a42404c8f464b2f2",
+      "x": -100,
+      "y": -220,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "Health.LK Cpanel is been set up",
+      "id": "05d96286bdb3bddc",
+      "x": -563,
+      "y": 77,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "LK Domains\nnow got",
+      "id": "75851d4fe8f20f44",
+      "x": -518,
+      "y": 297,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "type": "text",
+      "text": "Domain Name Verification",
+      "id": "ba258899838e764f",
+      "x": -438,
+      "y": -90,
+      "width": 250,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "f426814f1d1c55fa",
+      "fromNode": "ba258899838e764f",
+      "fromSide": "bottom",
+      "toNode": "05d96286bdb3bddc",
+      "toSide": "top"
+    },
+    {
+      "id": "968abeb882f72210",
+      "fromNode": "ba258899838e764f",
+      "fromSide": "bottom",
+      "toNode": "75851d4fe8f20f44",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
