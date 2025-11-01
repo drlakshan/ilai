@@ -11,3 +11,4 @@
 [[larynx turban-like thickening of sarcoidosis]]
 [[Yellow submucosal nodules]]
 [[Heerfordt disease]]
+[[Sarcoidosis ENT manifestations]]

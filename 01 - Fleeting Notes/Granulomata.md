@@ -24,7 +24,7 @@ monocytes, T cells, fibroblasts
 [[pathophysiology of granuloma formation]]
 
 
-
+can cause [[Saddle Nose Deformity - Differential Diagnosis]]
 
 
 

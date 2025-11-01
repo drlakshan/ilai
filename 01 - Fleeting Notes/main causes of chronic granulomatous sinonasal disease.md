@@ -17,7 +17,7 @@ aliases:
 			3. Klebsiella rhinoscleromatis [[rhinoscleroma]]
 			4. Syphilis Treponema Pallidum
 		2. Fungal
-			1. GIFRS Granulomatous Invasive Fungal Rhinosinusitis
+			1. [[GIFRS Granulomatous Invasive Fungal Rhinosinusitis]]
 				1. Common Cause Aspergillus flavus
 			2. Acute Invasive fungal infection
 				1. Mucormycosis
@@ -28,7 +28,7 @@ aliases:
 			4. IgG4 Related disease [[nAjMnEoN - What is Kuttners tumour]]
 3. Neoplastic
 		1. Extranodal Nk/Tcell Lymphoma
-4. Cocaine Induced Midline Destructive lesions [[Five Major Categories of Necrotising Nasal lesions]] Now I think the Minister's Son would have had this.
+4. [[Cocaine Induced Midline Destructive lesion]]s [[Five Major Categories of Necrotising Nasal lesions]] Now I think the Minister's Son would have had this.
 		
 
 
