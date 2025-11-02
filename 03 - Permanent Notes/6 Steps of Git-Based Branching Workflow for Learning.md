@@ -1,4 +1,4 @@
-# Git-Based Branching Workflow for Learning
+
 
 This note outlines a structured workflow using Git to manage the lifecycle of a research idea, from initial exploration to integration as validated knowledge.
 
@@ -16,3 +16,7 @@ This note outlines a structured workflow using Git to manage the lifecycle of a 
     *   `git checkout main && git merge <research-branch-name>`
 6.  **Cleanup:** Push your changes and delete the now-merged research branch.
     *   `git push origin main && git branch -d <research-branch-name>`
+
+
+[[Branching Learning Hypotheses - Git Workflow for Clinical Research]]
+
