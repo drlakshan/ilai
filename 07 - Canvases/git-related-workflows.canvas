@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"1b7d4c24d7d8c43b","x":-360,"y":-220,"width":250,"height":60,"type":"text","text":"OBSIDIAN-AWS"},
+		{"id":"955c1878296762b3","x":60,"y":-305,"width":250,"height":231,"type":"text","text":"I study using the usual workflow : Deep Research, NotebookLM ; reports to the _Drafts_ folder and create atomic notes links flashcards etc and when I am happy about everything delete the draft as well branch"},
+		{"id":"ff7e4f8c09b27769","x":-360,"y":0,"width":250,"height":60,"type":"text","text":"AI journey"},
+		{"id":"4a5a7ca6045a7c8f","x":50,"y":-4,"width":260,"height":124,"type":"text","text":"What i do here is a way of documentation and learning AI tricks and stratergies. It will work as a log "},
+		{"id":"424e49e008e76224","x":-360,"y":200,"width":250,"height":60,"type":"text","text":"Curriculum Vitae"},
+		{"id":"b1aaea74c5b65278","x":-360,"y":360,"width":250,"height":60,"type":"text","text":"Research Paper writing"},
+		{"id":"598f686e57301363","x":53,"y":200,"width":250,"height":60,"type":"text","text":"Updated CV all the time. "},
+		{"id":"1c88ecbc0f2713a4","x":540,"y":-2,"width":340,"height":202,"type":"text","text":"the steps:\ngit status\ngit pull\ngit .\nDO THE WORK\ngit commit -m (SAVE FUNCTION)\ngit push\n"}
+	],
+	"edges":[
+		{"id":"74fdfd5d339534de","fromNode":"1b7d4c24d7d8c43b","fromSide":"right","toNode":"955c1878296762b3","toSide":"left"},
+		{"id":"f21f916eb8e4acf9","fromNode":"ff7e4f8c09b27769","fromSide":"right","toNode":"4a5a7ca6045a7c8f","toSide":"left"},
+		{"id":"a9e5d7d7d1b04803","fromNode":"424e49e008e76224","fromSide":"right","toNode":"598f686e57301363","toSide":"left"}
+	]
+}
