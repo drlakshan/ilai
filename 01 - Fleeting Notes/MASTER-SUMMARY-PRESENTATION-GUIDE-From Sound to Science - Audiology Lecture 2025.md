@@ -450,3 +450,14 @@ Your job is to inspire them to explore AI **mindfully, ethically, and courageous
 **Tags**: #Presentation-Guide #Master-Summary #Audiology #AI-in-Healthcare #Sri-Lanka #Conference-Keynote
 
 **Last Updated**: Created for 28th November 2025 presentation
+
+
+
+[[auditory-pathway-ai-framework]]
+[[buddhist-ethical-framework-ai]]
+[[complete-lecture-scriptAI-Audiology-Conference-30min]]
+[[current-ai-applications-research-audiology-ai lecture]]
+[[opening-clinical-vignette-audiology lecture-2025]]
+[[sri-lanka-ai-regulatory-environment -audiology lecture]]
+[[sri-lanka-audiology-context-audiology lecture 2025]]
+[[top-3-ai-tools-to-cite-audiology lecture 2025]]
