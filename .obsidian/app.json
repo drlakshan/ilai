@@ -3,5 +3,11 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "01 - Fleeting Notes",
   "attachmentFolderPath": "04 - Files",
-  "promptDelete": false
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

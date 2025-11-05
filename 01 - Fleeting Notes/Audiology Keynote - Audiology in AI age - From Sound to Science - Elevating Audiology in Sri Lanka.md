@@ -12,6 +12,7 @@ Gist  of the Lecture
 **28th November 2025, from 10.30 a.m. to 11.00 a.m. (Sri Lanka/India time)**
 
 
+[[MASTER-SUMMARY-PRESENTATION-GUIDE-From Sound to Science - Audiology Lecture 2025]]
 
 
 
