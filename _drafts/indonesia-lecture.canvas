@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"814b9dbd79e0cbef","x":-480,"y":-280,"width":250,"height":60,"type":"text","text":"Background knowledge"},
+		{"id":"f8fad61e4cdc8dd1","x":-480,"y":-160,"width":250,"height":60,"type":"text","text":"What is done worldwide"},
+		{"id":"cb6f0dfb997b2277","x":-480,"y":-40,"width":250,"height":60,"type":"text","text":"What can you do as an individual\n"},
+		{"id":"410a9063763b5698","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"Some Key Concepts\n"}
+	],
+	"edges":[]
+}
