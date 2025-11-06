@@ -141,7 +141,7 @@ AI is an augmentation tool, not a replacement - the laryngologist who embraces A
 ## Links to Supporting Notes
 
 - [[APLA - December 5 2025 Indonesia lecture on Artificial intelligence and how that could relate to practice of ENT]]
-- [[script for APLA Laryngology Indonesia Lecture December 2025]]
+- [[01 - Fleeting Notes/script for APLA Laryngology Indonesia Lecture December 2025]]
 - [[AI Learning Journey - So Far]]
 - [[Plan for AI Academic Commitments]]
 - [[Dhamma ChatBot Development]]

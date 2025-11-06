@@ -26,7 +26,7 @@ Pyramid
 
 Script 
 
-[[script for APLA Laryngology Indonesia Lecture December 2025]]
+[[01 - Fleeting Notes/script for APLA Laryngology Indonesia Lecture December 2025]]
 
 
 

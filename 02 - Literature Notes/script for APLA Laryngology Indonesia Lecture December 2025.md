@@ -4,24 +4,6 @@ aliases:
 ---
 
 
-Gist  of the Lecture
-
-
-
-
-
-
-
-
-
-Pyramid
-
-
-
-
-
-Script 
-
 
 # AI in Laryngology: Your Next Essential Instrument
 
