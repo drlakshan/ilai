@@ -61,6 +61,17 @@ This note outlines the current academic commitments related to Artificial Intell
 - **Next Action:** Contact organizers to confirm the scope and expectations for the symposium talk.
 - **Relevant Links:**
 
+
+
+**4th Annual Academic Sessions of the Association of**  Cardiothoracic and Thoracic Surgeons of Sri Lanka (ACTSSL)
+
+**Topic:** Harnessing AI in the Heart of Surgery: A 15 minute Primer
+- **Status:** Not Started
+- **Deadline:** 18th January 2026, 02:30 PM – 03:40 PM 20 minutes (03:10 PM- 03:30 PM) followed by 10 minutes for Q&A at the end of the symposium Co-Speakers: Dr,Damayanthi Herath, Prof.Jayampathy Dissanayake
+- **Priority:** Medium
+- **Next Action:** Contact organizers to confirm the scope and expectations for the symposium talk.
+- **Relevant Links:**
+
 ---
 ### Log
 *This plan was generated from the fleeting note [[AI Committments for Academic Work Committments.md]].*
