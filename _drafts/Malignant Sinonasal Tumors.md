@@ -10,6 +10,18 @@ aliases:
 ---
 08-11-2025
 
+
+
+Context: 
+
+operated on a 80 year old man who came with severe headache and found to have a unilateral polyp. on surgery it looked malignant. so did a literature search based on the vault and external using claude code with git hub "issue" cretion. I could have done this locally on this computer as well but wanted to do it that way to reinforce the path way of git hub work flow.
+
+
+
+
+
+
+
 # Malignant Sinonasal Tumors
 
 ## Overview
@@ -70,7 +82,7 @@ Second most common (10-20%)
 
 ### 2. Neuroectodermal Tumors
 
-#### Olfactory Neuroblastoma (Esthesioneuroblastoma)
+#### [[Olfactory Neuroblastoma (Esthesioneuroblastoma)]]
 - **Origin**: Olfactory epithelium (cribriform plate)
 - **Bimodal age**: 2nd and 6th decades
 - **Location**: Superior nasal cavity, cribriform region
