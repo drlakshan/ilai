@@ -27,4 +27,4 @@ Obama was putting a farce about racial discrimination early on that didn’t go 
 Define farce
 ?
 Comic dramatic work including buffoonery and horseplay
-<!--SR:!2025-11-04,26,330-->
+<!--SR:!2026-02-02,86,330-->

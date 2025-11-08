@@ -10,7 +10,7 @@ if the maxillary antral tumour is above the line the prognosis is poor.
 what is Onghren's line?
 ?
 An imaginary line from the medial canthus of the eye to the angle of the mandible
-<!--SR:!2025-10-26,28,290-->
+<!--SR:!2026-01-29,82,290-->
 
 
 

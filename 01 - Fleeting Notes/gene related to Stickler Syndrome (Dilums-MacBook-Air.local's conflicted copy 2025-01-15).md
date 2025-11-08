@@ -7,7 +7,7 @@
 What is the gene related to Stickler Syndrome?
 ?
 COL2A1 on Chormosome 12 for type II collagen
-<!--SR:!2025-11-03,25,270-->
+<!--SR:!2026-01-15,68,270-->
 
 
 [[stickler syndrome]]

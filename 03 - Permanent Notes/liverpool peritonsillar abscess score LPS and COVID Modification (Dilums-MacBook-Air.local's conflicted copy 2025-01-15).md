@@ -8,7 +8,7 @@ Q : How is the scoring of The Liverpool Peritonsillar Abscess Score Done?
 4. Hot Potato voice : 1
 4+ : peritonsillar abscess : quinsy more likely
 0-3 : unlikely
-<!--SR:!2025-10-28,21,230-->
+<!--SR:!2025-12-26,48,230-->
 
 
 
