@@ -261,7 +261,12 @@
 			"width":400,
 			"height":644
 		},
-		{"id":"28af10bccb446493","x":1568,"y":1518,"width":552,"height":362,"type":"text","text":"# 12 May 2025 Arogya Feature thoughts\n\n1. Creating Arogya Chatbot\n2. Automatic reminders\n3. voice tying of clinical situations\n4. detailed feedback using voice typing\n5. think of ways to monitor patients post surgical post clinical assessments\n6. "}
+		{"id":"28af10bccb446493","type":"text","text":"# 12 May 2025 Arogya Feature thoughts\n\n1. Creating Arogya Chatbot\n2. Automatic reminders\n3. voice tying of clinical situations\n4. detailed feedback using voice typing\n5. think of ways to monitor patients post surgical post clinical assessments\n6. ","x":1568,"y":1518,"width":552,"height":362},
+		{"id":"7b79940e493d5672","x":1620,"y":2225,"width":250,"height":60,"type":"text","text":"extra numbers"},
+		{"id":"5696bdb392dd3cef","x":1396,"y":2384,"width":250,"height":116,"type":"text","text":"patient wants an extra appointment and contacts 0717799499"},
+		{"id":"0bc67a9308eac920","x":1726,"y":2403,"width":250,"height":77,"type":"text","text":"Welcome greeting and how the process is happening. "},
+		{"id":"e531a9a49815828a","x":2080,"y":2398,"width":250,"height":89,"type":"text","text":"If agreeable : name, age, whatsapp mobile number morning or evening session"},
+		{"id":"3351e97e7bcd0e70","x":2440,"y":2384,"width":250,"height":196,"type":"text","text":"Confirmation and process:\narrive at 9th floor Room 949; inform the assistant : get the coupon and pay the bill at counter and produce the receipt please note its a first come first served basis\n"}
 	],
 	"edges":[
 		{"id":"66aa0338611cc525","fromNode":"0c2014aeaed85197","fromSide":"bottom","toNode":"4baca9c831c2182d","toSide":"top"},
@@ -312,7 +317,11 @@
 			"fromSide":"bottom",
 			"toNode":"9162308912126998",
 			"toSide":"top"
-		}
+		},
+		{"id":"d2c5c43fea613e2a","fromNode":"7b79940e493d5672","fromSide":"bottom","toNode":"5696bdb392dd3cef","toSide":"top"},
+		{"id":"08c1ab1638efe707","fromNode":"5696bdb392dd3cef","fromSide":"right","toNode":"0bc67a9308eac920","toSide":"left"},
+		{"id":"3e882ef755b1d01b","fromNode":"0bc67a9308eac920","fromSide":"right","toNode":"e531a9a49815828a","toSide":"left"},
+		{"id":"97e0a39fd3b0c75a","fromNode":"e531a9a49815828a","fromSide":"right","toNode":"3351e97e7bcd0e70","toSide":"left"}
 	],
 	"metadata":{}
 }
