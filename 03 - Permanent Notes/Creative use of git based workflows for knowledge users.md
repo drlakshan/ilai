@@ -24,3 +24,4 @@
 | Research Literature Synthesis     | Build and reconcile syntheses                         | Branch per review, merge summary      | Zotero + Git, Quarto            |
 | AI Experiment Tracking            | Log trials and outcomes per idea                      | Branch per experiment, tags           | Notebooks + Git, `dvc`          |
 
+[[Branching Learning Hypotheses - Git Workflow for Clinical Research]]

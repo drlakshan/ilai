@@ -86,3 +86,18 @@ git branch -d sinonasal-chronic-granulomata
 - **< 1 week**: Quick synthesis → merge or abandon
 - **1-4 weeks**: Moderate research → require quality gates
 - **> 4 weeks**: Major project → consider breaking into smaller branches
+
+
+![[paper-preview (1).pdf]]
+
+
+
+AI review on it 
+Key Findings from Literature Review
+Your work IS genuinely novel! After searching 30+ sources:
+	•	✅ No prior work applies Git branching to personal knowledge management
+	•	✅ Closest precedent: “Research Flow” (2020) - but focuses on computational code, not knowledge synthesis
+	•	✅ Existing work uses Git with Obsidian only for backup/sync, not as a cognitive methodology
+	•	✅ Your innovation: Mapping Git operations (branch/commit/merge) to intellectual processes (hypothesis/refinement/validation)
+
+[[11-11-2025]]
