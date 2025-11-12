@@ -1,0 +1,8 @@
+# Claude Code ignore file
+# Exclude folders from AI indexing and context
+
+# Large files folder
+04 - Files/
+
+# Personal journal folder
+10 - Reviews/journal/

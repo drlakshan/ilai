@@ -19,6 +19,7 @@ This is Dr. Lakshan's specialized Obsidian vault containing:
 **CONTEXT EFFICIENCY FOR MEDICAL VAULT**:
 - **Focus Files**: Prioritize `.md` and `.canvas` files for optimal token usage
 - **Large File Exclusion**: PDF, PNG, JPEG files excluded from context to preserve conversation depth
+- **Private Content Exclusion**: Personal journal folder (`10 - Reviews/journal/`) excluded from all AI indexing
 - **Reference Strategy**: Access PDFs and images directly when specific content needed
 - **Core Content Priority**: Markdown notes and visual canvases contain primary knowledge value
 
@@ -59,6 +60,7 @@ This is Dr. Lakshan's specialized Obsidian vault containing:
 - Preserve file naming: `Concept Name (unique-id).md` for Anki cards
 - **Context Priority**: Focus on `.md` and `.canvas` files for conversation efficiency
 - **Reference Files**: PDFs/images in `/04 - Files/` accessed only when specifically needed
+- **Private Content**: `/10 - Reviews/journal/` NEVER accessed - personal reflections only
 - Keep bibliography and citation formats intact for academic integrity
 - Use Canvas files (.canvas) for complex visual concept mapping
 - Respect folder hierarchy: `01 - Fleeting → 03 - Permanent → 07 - Canvases`
