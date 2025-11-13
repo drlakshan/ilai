@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"8446b396a1c50a74","x":-400,"y":-40,"width":250,"height":140,"type":"text","text":"Maldives"},
+		{"id":"d374c294f4acab2b","x":-125,"y":-29,"width":250,"height":129,"type":"text","text":"UK --> Stripe Payment\nShankar Address:\n\n134, St Georges Avenue\nNorthampton\nNorthampton \nNN2 6JF\nGB"},
+		{"id":"1a6b1bd02b6c12da","x":-125,"y":120,"width":250,"height":80,"type":"text","text":"Apple Payments\nupdated to Combank"},
+		{"id":"452bb7ee3f3cde9d","x":-125,"y":-140,"width":250,"height":60,"type":"text","text":"UAE"},
+		{"id":"75e0d9fef5072ae7","x":-30,"y":-318,"width":250,"height":60,"type":"text","text":"Gothami - Salary particulars"},
+		{"id":"5cafa8623515b422","x":240,"y":-318,"width":250,"height":60,"type":"text","text":"Employment Certificate"},
+		{"id":"70a94be674757b45","x":240,"y":-240,"width":250,"height":60,"type":"text","text":"BOC NDB HNB Bank statements"},
+		{"id":"daed78da6ab956b0","x":240,"y":-170,"width":250,"height":60,"type":"text","text":"SLT Bills\n"},
+		{"id":"2a53906f70ec9f35","x":240,"y":-89,"width":250,"height":60,"type":"text","text":"Photo Identification"},
+		{"id":"9e711ba9a6160190","x":240,"y":60,"width":250,"height":60,"type":"text","text":"Mangofirm"},
+		{"id":"67604991aa5b5840","x":240,"y":170,"width":250,"height":60,"type":"text","text":"Apsara Information Services"},
+		{"id":"a92e67e2f695cd27","x":240,"y":260,"width":250,"height":100,"type":"text","text":"Substack as an important revenue generation and knowledge dissemination"}
+	],
+	"edges":[
+		{"id":"33b3569220335690","fromNode":"452bb7ee3f3cde9d","fromSide":"top","toNode":"75e0d9fef5072ae7","toSide":"bottom"},
+		{"id":"86160c9769aebadd","fromNode":"452bb7ee3f3cde9d","fromSide":"top","toNode":"5cafa8623515b422","toSide":"bottom"},
+		{"id":"deeeb824fb5366d5","fromNode":"452bb7ee3f3cde9d","fromSide":"top","toNode":"70a94be674757b45","toSide":"bottom"},
+		{"id":"47f1b247f1fb448a","fromNode":"452bb7ee3f3cde9d","fromSide":"top","toNode":"daed78da6ab956b0","toSide":"bottom"},
+		{"id":"24a6aa3185385988","fromNode":"452bb7ee3f3cde9d","fromSide":"top","toNode":"2a53906f70ec9f35","toSide":"bottom"}
+	]
+}
