@@ -31,12 +31,13 @@ This note outlines the current academic commitments related to Artificial Intell
 
 ### COMSAA Lecture
 - **Topic:** TBD
-- **Status:** Not Started
+- **Status:** Practical use cases for Medical Professionals for Enhanced Learning and Education
 - **Deadline:** 2025-11-26
 - **Priority:** Medium
 - **Next Action:** Contact organizers to confirm the specific topic and audience.
 - **Relevant Links:**
-
+	[[COMSAA -26 NOVEMBER 2025 Time -2.30 pm - 4.00 pm UCFM tower]]
+	
 ### Audiology Keynote
 - **Topic:** TBD
 - **Status:** Not Started

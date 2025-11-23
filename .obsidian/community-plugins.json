@@ -1,5 +1,4 @@
 [
-  "remotely-save",
   "obsidian-power-search",
   "calendar",
   "omnisearch",
@@ -8,5 +7,6 @@
   "obsidian-wordy",
   "obsidian-local-rest-api",
   "recent-notes",
-  "obsidian-spaced-repetition"
+  "obsidian-spaced-repetition",
+  "remotely-save"
 ]
