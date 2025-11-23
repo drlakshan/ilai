@@ -2,6 +2,7 @@
 .obsidian/workspace.json
 .obsidian/workspaces.json
 .obsidian/cache
+.obsidian/plugins/
 
 # Operating System files
 .DS_Store
