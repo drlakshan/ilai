@@ -1,3 +1,0 @@
-# Chapter 7: AI as a Tutor - Highlight 1
-
-Benjamin Bloom, an educational psychologist, published a paper in 1984 called "The 2 Sigma Problem." In this paper, Bloom reported that the average student tutored one-to-one performed two standard deviations better than students educated in a conventional classroom environment. This means that the average tutored student scored higher than 98 percent of the students in the control group (though not all studies of tutoring have found as large an impact). Bloom called this the two sigma problem, because he challenged researchers and teachers to find methods of group instruction that could achieve the same effect as one-to-one tutoring, which is often too costly and impractical to implement on a large scale.

@@ -1,3 +1,0 @@
-interesting concept
-Rory Sutherland
-

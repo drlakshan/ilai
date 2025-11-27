@@ -1,5 +1,0 @@
-1.  [[Turbinate pump]] 
-2. [[Maxillary-ethmoid plate]]
-3. [[sphenoid line]]
-4. [[Ting's triangle]]
-5. [[El toro sign]]

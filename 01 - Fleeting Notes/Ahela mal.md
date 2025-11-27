@@ -1,1 +1,0 @@
-![[Ahala Mal.png]]

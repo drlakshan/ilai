@@ -1,5 +1,0 @@
-female
-dark skinned
-
-
-[[Sarcoidosis]]

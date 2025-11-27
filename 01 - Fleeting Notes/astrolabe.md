@@ -1,1 +1,0 @@
-[![Planispheric Astrolabe made of brass, cast, with fretwork rete and surface engraving](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Khalili_Collection_Islamic_Art_sci_0430_back.jpg/330px-Khalili_Collection_Islamic_Art_sci_0430_back.jpg)](https://en.wikipedia.org/wiki/File:Khalili_Collection_Islamic_Art_sci_0430_back.jpg)

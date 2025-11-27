@@ -1,1 +1,0 @@
-# Elected member of telehealth committee

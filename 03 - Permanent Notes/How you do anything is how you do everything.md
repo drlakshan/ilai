@@ -1,2 +1,0 @@
-How you do anything is how you do everything.
-

@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-
-  <style>
-    body {
-      background: #f5f5f5;
-      font-family: Arial, sans-serif;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-    }
-
-    .box {
-      padding: 40px 60px;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-      font-size: 2rem;
-      font-weight: bold;
-      color: #333;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Learner AI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
 </head>
 
 <body>
-  <div class="box">Hello World</div>
+    <div id="global-loader">
+        <div class="spinner"></div>
+    </div>
+    <header id="header-slot"></header>
+    <div class="container">
+        <div id="hero-slot" class="hero"></div>
+        <main id="course-list-slot"></main>
+    </div>
+    <div id="overlay-slot"></div>
+
+    <script src="js/app.js"></script>
 </body>
+
 </html>

@@ -1,1 +1,0 @@
-![[Erabadu Mal.png]]

@@ -1,1 +1,0 @@
-best to populate the top region with presentation findings and plan 

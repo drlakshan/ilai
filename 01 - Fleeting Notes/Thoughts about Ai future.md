@@ -1,7 +1,0 @@
-i love AI I love teaching and I love thinking
-its evident that AI is a very helpful partner in thinking through concepts and teaching. 
-I have also created a niche among Sri Lankan Academics on Ai. I have a pretty significant tangible output in this realm. I am requested of three more opportunities in the near future; Physiological society, COMSAA and International Laryngology 
-I believe that taking up these opportunities may solidify my position in the field 
-in the future it might bring some more opportunities. regardless, this will give a way to find my ikigai, what makes me "Me". If i were to use the inversion technique,(how can I grand scale destroy my take place in the AI landscape and avoid those steps, ), its pefectly clear that i need to embrace these opportunities. The trick may be to optimise the effort and get the maximum outcome from the effort, 
-I think the best way forward is to think through these in an organised pattern with the end at sight, so that i can optimise outcome. currently I think, the talk, a paper and a linkedin/medium article? Lets brainstorm with AI. that was fun. local ai was confirmatory of what I thought about 
-[[brainstorming for learning with Ai.canvas]]

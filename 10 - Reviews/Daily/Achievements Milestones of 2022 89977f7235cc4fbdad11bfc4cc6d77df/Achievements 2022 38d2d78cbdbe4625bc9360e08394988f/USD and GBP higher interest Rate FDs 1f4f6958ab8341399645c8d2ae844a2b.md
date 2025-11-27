@@ -1,1 +1,0 @@
-# USD and GBP higher interest Rate FDs

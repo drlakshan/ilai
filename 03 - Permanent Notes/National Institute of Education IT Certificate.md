@@ -1,1 +1,0 @@
-![[National Certificate in Computer Applications 1994 1.pdf]]

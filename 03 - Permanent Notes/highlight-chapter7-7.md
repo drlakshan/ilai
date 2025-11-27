@@ -1,3 +1,0 @@
-# Chapter 7: AI as a Tutor - Highlight 7
-
-One solution to incorporating more active learning is by "flipping" classrooms. Students would learn new concepts at home, typically through videos or other digital resources, and then apply what they've learned in the classroom through collaborative activities, discussions, or problem-solving exercises. The main idea behind flipped classrooms is to maximize classroom time for active learning and critical thinking, while using at-home learning for content delivery. The value of flipped classrooms seems to be mixed, ultimately depending on whether they encourage active learning or not.

@@ -1,2 +1,0 @@
-[[hypnogogogic hallucinations]]
-[[hypnopompic hallucinations]]

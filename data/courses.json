@@ -1,0 +1,40 @@
+{
+  "courses": [
+    {
+      "id": "medicine",
+      "title": "Medicine",
+      "description": "Embark on a journey through the art and science of healing.",
+      "subCourses": [
+        {
+          "id": "medicine-basic",
+          "title": "Basic",
+          "description": "Foundations of Medical Learning",
+          "topics": [
+            "Learning Concepts",
+            "Memory Concepts",
+            "How We Learn",
+            "Why We Learn",
+            "Resources for Learning",
+            "Appropriate Strategy Based on Resources",
+            "Formulating a Personalised Learning Path",
+            "My Story"
+          ]
+        },
+        {
+          "id": "medicine-advanced",
+          "title": "Advanced",
+          "description": "Leveraging AI in Medicine",
+          "topics": [
+            "Recap of Basic",
+            "How to Leverage AI",
+            "API vs Interfaces",
+            "Utilisation Strategies",
+            "Use Cases: Reading a Text Book",
+            "Use Cases: Answering Questions",
+            "Use Cases: Rehearsing Clinical Scenarios"
+          ]
+        }
+      ]
+    }
+  ]
+}
