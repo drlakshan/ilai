@@ -18,45 +18,80 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function initHamburger() {
-    const hamburger = document.querySelector('.hamburger-menu');
-    const navMenu = document.querySelector('.nav-menu');
+    // Select the hamburger button in the header-content (the opener)
+    const headerHamburgerButton = document.querySelector('.header-content .hamburger-button');
+    // Select the close button inside the mobile-overlay-nav-menu (the closer)
+    const closeButton = document.querySelector('.mobile-overlay-nav-menu .close-button');
+    const mobileOverlayNavMenu = document.querySelector('.mobile-overlay-nav-menu'); // Changed selector
+    const body = document.body;
 
-    if (hamburger && navMenu) {
-        // Toggle menu on hamburger click
-        hamburger.addEventListener('click', (e) => {
+    if (headerHamburgerButton && closeButton && mobileOverlayNavMenu) { // Changed navMenu to mobileOverlayNavMenu
+        const toggleMenu = (open) => {
+            if (open) {
+                mobileOverlayNavMenu.classList.add('active'); // Changed navMenu to mobileOverlayNavMenu
+                headerHamburgerButton.classList.add('active'); // Keep header button active state for consistency
+                closeButton.classList.add('active'); // Apply active state to close button for 'X'
+                body.classList.add('menu-open'); // Add class to body to hide header button
+            } else {
+                mobileOverlayNavMenu.classList.remove('active'); // Changed navMenu to mobileOverlayNavMenu
+                headerHamburgerButton.classList.remove('active');
+                closeButton.classList.remove('active');
+                body.classList.remove('menu-open');
+            }
+        };
+
+        // Event listener for the header hamburger button (opener)
+        headerHamburgerButton.addEventListener('click', (e) => {
             e.stopPropagation();
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
+            toggleMenu(true); // Open the menu
+        });
+
+        // Event listener for the close button inside the mobile-overlay-nav-menu (closer)
+        closeButton.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleMenu(false); // Close the menu
         });
 
         // Close menu when a link is clicked inside the menu
-        navMenu.querySelectorAll('a').forEach(link => {
+        mobileOverlayNavMenu.querySelectorAll('a').forEach(link => { // Changed navMenu to mobileOverlayNavMenu
             link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
+                toggleMenu(false); // Close the menu
             });
         });
 
         // Add a global click listener to close the menu if clicking outside
         document.addEventListener('click', (e) => {
-            if (navMenu.classList.contains('active')) {
-                // Check if the click is outside the navMenu and not on the hamburger
-                if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
-                    hamburger.classList.remove('active');
-                    navMenu.classList.remove('active');
+            if (mobileOverlayNavMenu.classList.contains('active')) { // Changed navMenu to mobileOverlayNavMenu
+                // Check if the click is outside the mobileOverlayNavMenu and not on either hamburger button
+                if (!mobileOverlayNavMenu.contains(e.target) && !headerHamburgerButton.contains(e.target) && !closeButton.contains(e.target)) { // Changed navMenu to mobileOverlayNavMenu
+                    toggleMenu(false); // Close the menu
                 }
             }
         });
     }
 }
-
 async function loadHeaderAndInitMenu() {
     const headerSlot = document.getElementById('header') || document.getElementById('header-slot');
     if (headerSlot) {
         try {
             const response = await fetch('components/header.html');
             const html = await response.text();
-            headerSlot.innerHTML = html;
+
+            // Create a temporary div to parse the HTML string
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+
+            const headerContent = tempDiv.querySelector('.header-content');
+            const mobileOverlayNavMenu = tempDiv.querySelector('.mobile-overlay-nav-menu'); // Changed selector
+
+            if (headerContent) {
+                headerSlot.innerHTML = headerContent.outerHTML; // Insert header-content into the slot
+            }
+
+            if (mobileOverlayNavMenu) {
+                document.body.appendChild(mobileOverlayNavMenu); // Append mobile-overlay-nav-menu directly to the body
+            }
+
             // Now that the header is loaded, initialize its interactive elements
             initHamburger();
         } catch (error) {
