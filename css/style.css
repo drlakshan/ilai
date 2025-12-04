@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
     --bg-color: #0a0a12;
@@ -9,8 +9,6 @@
     --glass-bg: rgba(255, 255, 255, 0.05);
     --glass-border: rgba(255, 255, 255, 0.1);
     --glow-color: rgba(118, 75, 162, 0.5);
-    --font-main: 'Outfit', sans-serif;
-    --font-hero: 'Bebas Neue', sans-serif;
 
     /* Material Design Pastel Colors */
     --md-pastel-purple: #E1BEE7;
@@ -27,6 +25,8 @@
     --form-input-focus: rgba(225, 190, 231, 0.4);
     --form-label-color: #D1C4E9;
     --form-text-color: #E8EAF6;
+    --font-main: 'Inter', sans-serif;
+    --font-hero: 'Bebas Neue', sans-serif;
 }
 
 * {
