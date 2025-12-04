@@ -200,8 +200,38 @@ a.contact-card:hover { transform: translateY(-5px); background: rgba(255, 255, 2
 .form-group input, .form-group textarea { width: 100%; padding: 1rem; background: rgba(0, 0, 0, 0.2); border: 1px solid var(--glass-border); border-radius: 10px; color: var(--text-color); font-family: var(--font-main); font-size: 1rem; transition: border-color 0.3s ease, box-shadow 0.3s ease; }
 .form-group textarea { min-height: 150px; resize: vertical; }
 .form-group input:focus, .form-group textarea:focus { outline: none; border-color: #764ba2; box-shadow: 0 0 15px var(--glow-color); }
-.contact-form button { width: 100%; padding: 1rem; background: var(--primary-gradient); border: none; border-radius: 10px; color: #fff; font-size: 1.2rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; }
-.contact-form button:hover { box-shadow: 0 0 20px var(--glow-color); transform: scale(1.02); }
+.contact-form .external-form-note {
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    color: #c6c6c6;
+    line-height: 1.6;
+}
+.contact-form .external-form-note.subtle {
+    font-size: 0.85rem;
+    color: #9c9c9c;
+}
+.contact-form .external-form-note a {
+    color: #fff;
+    text-decoration: underline;
+}
+.contact-form .form-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    background: var(--primary-gradient);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.contact-form .form-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(118, 75, 162, 0.4);
+}
 .map { margin-top: 2rem; border-radius: 15px; overflow: hidden; border: 1px solid var(--glass-border); }
 
 /* Footer */
