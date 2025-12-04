@@ -163,7 +163,6 @@ function renderCourses(courses) {
         course.subCourses.forEach(subCourse => {
             const card = document.createElement('div');
             card.className = 'course-card';
-            card.onclick = showOverlay;
 
             const cardTitle = document.createElement('h4');
             cardTitle.className = 'course-title';
@@ -187,13 +186,19 @@ function renderCourses(courses) {
                 const more = document.createElement('li');
                 more.className = 'topic-item';
                 more.style.fontStyle = 'italic';
-                more.textContent = `+ ${subCourse.topics.length - 3} more magical topics`;
+                more.textContent = `+ ${subCourse.topics.length - 3} more topics`;
                 topicList.appendChild(more);
             }
+
+            const ctaButton = document.createElement('button');
+            ctaButton.className = 'course-cta';
+            ctaButton.innerHTML = 'Start Learning <span class="cta-arrow">→</span>';
+            ctaButton.onclick = showOverlay;
 
             card.appendChild(cardTitle);
             card.appendChild(cardDesc);
             card.appendChild(topicList);
+            card.appendChild(ctaButton);
             grid.appendChild(card);
         });
 
