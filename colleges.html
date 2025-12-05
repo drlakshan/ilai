@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colleges & Universities - Infinite Learner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="global-loader">
+        <div class="spinner"></div>
+    </div>
+    <header id="header-slot"></header>
+
+    <main class="colleges-page">
+        <div class="container">
+            <div class="page-content">
+                <h1 class="section-title">Colleges & Universities</h1>
+                <p class="section-subtitle" style="text-align: center; margin-bottom: 3rem;">
+                    Institutions I have had the privilege to work with
+                </p>
+
+                <!-- Image Display Section (if you have a slide image) -->
+                <div class="colleges-image-section" id="colleges-image-container" style="display: none;">
+                    <div class="colleges-image-wrapper">
+                        <img id="colleges-slide-image" src="" alt="Colleges and Universities" class="colleges-slide-img">
+                    </div>
+                </div>
+
+                <!-- Grid Display Section -->
+                <div class="colleges-grid" id="colleges-grid">
+                    <!-- Colleges will be dynamically loaded here -->
+                </div>
+
+                <!-- Add College Button (for testing/adding more) -->
+                <div class="add-college-section" style="text-align: center; margin-top: 3rem;">
+                    <button class="cta-primary" onclick="showAddCollegeForm()" style="display: none;" id="add-college-btn">
+                        <i class="fas fa-plus"></i> Add College
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+    <script src="js/colleges.js"></script>
+</body>
+
+</html>
+
