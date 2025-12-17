@@ -48,14 +48,14 @@
     "category": "Project",
     "description": "Started writing about education and AI on Substack.",
     "details": "",
-    "link": "https://lakshen.substack.com/"
+    "link": "https://substack.com/@drlakshan"
   },
   {
     "date": "2025-11-10",
     "title": "Published SSRN Article",
     "category": "Publication",
     "description": "Wrote and published an article on the branching learning hypothesis.",
-    "details": ""
+    "details": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5741222"
   },
     {
     "date": "2025-11-01",
@@ -89,7 +89,7 @@
   },
   {
     "date": "2025-09-01",
-    "title": "Co-authored AI Consensus Document",
+    "title": "Co-authored White Paper on AI in Medicine - Ceylon College of Physicians",
     "category": "Publication",
     "description": "Ceylon College of Physicians Task Force on Artificial Intelligence.",
     "details": "Title: Use of Artificial Intelligence (AI) in Medicine: Opportunities, Challenges, and Ethical Considerations."
@@ -129,13 +129,7 @@
     "description": "Google AI.",
     "details": "Topics: Maximize Productivity with AI, Prompt Engineering, Responsible AI, Machine learning fundamentals, Generative AI concepts."
   },
-  {
-    "date": "2024-01-01",
-    "title": "Started 'Scientific Lakshan Program'",
-    "category": "Milestone",
-    "description": "Began a 19-month personal AI learning journey on Duruthu Poya.",
-    "details": ""
-  },
+
   {
     "date": "2023-03-01",
     "title": "First Explorations with ChatGPT",
