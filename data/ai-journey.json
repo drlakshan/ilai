@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2025-12-15",
+    "title": "Keynote at Research Symposium",
+    "category": "Keynote",
+    "description": "Faculty of Medicine, University of Moratuwa.",
+    "details": "Topic: Becoming an Infinite Learner in the AI Era.",
+    "images": []
+  },
+  {
+    "date": "2025-12-06",
+    "title": "Presentation at APLA & LAFINA Conference",
+    "category": "Presentation",
+    "description": "5th Asia Pacific Laryngology Association and First LAFINA Conference in Bali, Indonesia.",
+    "details": "Topic: Artificial Intelligence and How That Could Relate to Practice of ENT."
+  },
+  {
+    "date": "2025-11-30",
+    "title": "Presentation at AudiCon 2025",
+    "category": "Presentation",
+    "description": "1st International Audiology Conference by the University of Kelaniya.",
+    "details": "Topic: From Sound to Science: Elevating Audiology in Sri Lanka's AI Age."
+  },
+  {
+    "date": "2025-11-26",
+    "title": "Presentation at COMSAA",
+    "category": "Presentation",
+    "description": "Presented on practical use cases of AI for medical professionals.",
+    "details": ""
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Workshop at PSSL",
+    "category": "Workshop",
+    "description": "Physiological society on AI introduction and challenges for medical education.",
+    "details": "Conducted a workshop on using AI at three levels: Basic Prompting, Custom GPT, and NotebookLM."
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Acquired ilai.academy",
+    "category": "Project",
+    "description": "Purchased the domain ilai.academy from Cloudflare.",
+    "details": "Planning to deliver AI education consultancy as a business."
+  },
+  {
+    "date": "2025-11-11",
+    "title": "Launched Infinite Learner Substack",
+    "category": "Project",
+    "description": "Started writing about education and AI on Substack.",
+    "details": "",
+    "link": "https://lakshen.substack.com/"
+  },
+  {
+    "date": "2025-11-10",
+    "title": "Published SSRN Article",
+    "category": "Publication",
+    "description": "Wrote and published an article on the branching learning hypothesis.",
+    "details": ""
+  },
+    {
+    "date": "2025-11-01",
+    "title": "Completed AI for Knowledge Workers",
+    "category": "Course",
+    "description": "University of California, Davis - Coursera.",
+    "details": "Topics: Prompt Engineering Framework, Context Engineering, 4D Framework, CAPITAL Framework, COSTAR Framework, Knowledge work optimization with AI."
+  },
+  {
+    "date": "2025-10-29",
+    "title": "Published Medium Article",
+    "category": "Publication",
+    "description": "Wrote an article on Obsidian as a thinking space.",
+    "details": "",
+    "link": "https://medium.com/@lakshent/obsidian-understanding-the-distinction-thinking-space-versus-second-brain-320f15372d7e"
+  },
+  {
+    "date": "2025-10-01",
+    "title": "Completed Claude Code Course",
+    "category": "Course",
+    "description": "Vanderbilt University - Coursera (Prof. Jules White).",
+    "details": "Learnings: Question Refining Pattern, Software as Translation Tool, Agentic software engineering workflows."
+  },
+    {
+    "date": "2025-10-01",
+    "title": "Started Agentic AI Course",
+    "category": "Course",
+    "description": "DeepLearning.AI (Andrew Ng).",
+    "details": "Key Concepts: Reflection to improve outputs, Agentic vs non-agentic workflows, Parallel processing with agents, Modular architecture benefits.",
+    "link": "https://learn.deeplearning.ai/courses/agentic-ai"
+  },
+  {
+    "date": "2025-09-01",
+    "title": "Co-authored AI Consensus Document",
+    "category": "Publication",
+    "description": "Ceylon College of Physicians Task Force on Artificial Intelligence.",
+    "details": "Title: Use of Artificial Intelligence (AI) in Medicine: Opportunities, Challenges, and Ethical Considerations."
+  },
+    {
+    "date": "2025-08-01",
+    "title": "Completed AI in Education Course",
+    "category": "Course",
+    "description": "University of Pennsylvania - Coursera.",
+    "details": "Topics: Pedagogical applications of ChatGPT, AI integration in teaching, Responsible AI use in academic settings."
+  },
+  {
+    "date": "2025-06-01",
+    "title": "Google Cloud Certified Generative AI Leader",
+    "category": "Certification",
+    "description": "Google Cloud Platform.",
+    "details": "Focus: Generative AI on Google Cloud, Vertex AI applications, Enterprise AI deployment strategies."
+  },
+    {
+    "date": "2025-03-01",
+    "title": "Created first RAG chatbot",
+    "category": "Project",
+    "description": "Developed a RAG chatbot using n8n.",
+    "details": ""
+  },
+  {
+    "date": "2025-01-01",
+    "title": "Delivered Presentation at Journal Club",
+    "category": "Presentation",
+    "description": "University of Colombo Pharmacology Department.",
+    "details": ""
+  },
+  {
+    "date": "2024-08-01",
+    "title": "Completed Google AI Essentials",
+    "category": "Course",
+    "description": "Google AI.",
+    "details": "Topics: Maximize Productivity with AI, Prompt Engineering, Responsible AI, Machine learning fundamentals, Generative AI concepts."
+  },
+  {
+    "date": "2024-01-01",
+    "title": "Started 'Scientific Lakshan Program'",
+    "category": "Milestone",
+    "description": "Began a 19-month personal AI learning journey on Duruthu Poya.",
+    "details": ""
+  },
+  {
+    "date": "2023-03-01",
+    "title": "First Explorations with ChatGPT",
+    "category": "Milestone",
+    "description": "Initial experiments with ChatGPT, marking the beginning of the AI journey.",
+    "details": ""
+  }
+]
