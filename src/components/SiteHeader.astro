@@ -6,9 +6,12 @@ interface Props {
 const { currentPath = '/' } = Astro.props;
 
 const links = [
+	{ href: '/', label: 'Home' },
 	{ href: '/about', label: 'About' },
-	{ href: '/writing', label: 'Writing' },
 	{ href: '/journey', label: 'Journey' },
+	{ href: '/writing', label: 'Writing' },
+	{ href: '/institutions', label: 'Institutions' },
+	{ href: '/work', label: 'Work' },
 	{ href: '/contact', label: 'Contact' },
 ];
 ---
@@ -95,13 +98,12 @@ const links = [
 	@media (max-width: 720px) {
 		.nav-wrap {
 			align-items: flex-start;
-			gap: 0.9rem;
+			gap: 1rem;
 			flex-direction: column;
 		}
 
 		nav {
-			gap: 0.9rem;
-			font-size: 0.92rem;
+			gap: 1rem;
 		}
 	}
 </style>

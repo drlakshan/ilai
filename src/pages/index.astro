@@ -96,6 +96,7 @@ import SiteFooter from '../components/SiteFooter.astro';
 					<span class="text-link">Open contact options →</span>
 				</a>
 			</div>
+			<p class="supporting-note">You can also explore the <a href="/institutions">Institutions</a> page for affiliations, collaborations, and public-facing institutional context.</p>
 		</section>
 	</main>
 
@@ -225,6 +226,17 @@ import SiteFooter from '../components/SiteFooter.astro';
 		margin-top: 0.4rem;
 		font-weight: 700;
 		color: var(--brand);
+	}
+
+	.supporting-note {
+		margin: 1rem 0 0;
+		color: var(--muted);
+		line-height: 1.8;
+	}
+
+	.supporting-note a {
+		color: var(--brand);
+		font-weight: 700;
 	}
 
 	@media (max-width: 900px) {

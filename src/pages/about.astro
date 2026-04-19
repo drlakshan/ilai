@@ -8,43 +8,50 @@ import SiteFooter from '../components/SiteFooter.astro';
 	<SiteHeader currentPath="/about" />
 
 	<main class="container page">
-		<section class="hero card panel hero-grid">
-			<div>
+		<section class="hero-grid section">
+			<div class="hero-copy">
 				<p class="kicker">About</p>
 				<h1>ILAI Academy is the public expression of a deeper professional question: how should serious people use AI well?</h1>
-				<p>
-					Dr. MTD Lakshan is a Consultant ENT and Head & Neck Surgeon, Director and Head of the Research and
-					Education Foundation at Nawaloka Hospitals, Honorary Senior Lecturer in Medical Education at the
-					University of Kelaniya, and founder of ILAI Academy.
+				<p class="lead">
+					Dr. MTD Lakshan is a Consultant ENT and Head &amp; Neck Surgeon, Director and Head of the
+					Research and Education Foundation at Nawaloka Hospitals, Honorary Senior Lecturer in Medical
+					Education at the University of Kelaniya, and founder of ILAI Academy.
 				</p>
-				<p>
-					His work sits at the intersection of clinical care, medical education, institutional development, and
-					AI-enabled thinking. Rather than treating AI as a novelty, he approaches it as a force that must be
-					understood pedagogically, ethically, and operationally.
+				<p class="body-copy">
+					His work sits at the intersection of clinical care, medical education, institutional development,
+					and AI-enabled thinking. Rather than treating AI as a novelty, he approaches it as a force that
+					must be understood pedagogically, ethically, and operationally.
 				</p>
 			</div>
-			<figure class="portrait-card">
-				<img src="/images/profile/dr-mtd-lakshan-2024.jpeg" alt="Dr. MTD Lakshan" class="portrait" />
-				<figcaption>
-					Dr. MTD Lakshan — clinician, educator, and founder of ILAI Academy.
-				</figcaption>
-			</figure>
+
+			<aside class="card profile-card">
+				<img src="/images/profile/dr-mtd-lakshan-2024.jpeg" alt="Dr. MTD Lakshan" class="profile-image" />
+				<p class="profile-caption">Dr. MTD Lakshan — clinician, educator, and founder of ILAI Academy.</p>
+				<ul class="profile-list">
+					<li>Clinical practice in ENT and head &amp; neck surgery</li>
+					<li>Medical education, faculty development, and public speaking</li>
+					<li>Institutional AI policy, governance, and implementation work</li>
+				</ul>
+			</aside>
 		</section>
 
 		<section class="grid two-up section">
 			<article class="card panel">
 				<p class="kicker">Why ILAI exists</p>
+				<h2>A credible public home for serious work on AI in medicine and education.</h2>
 				<p>
-					ILAI Academy was created to provide a credible, coherent public home for thought leadership,
-					teaching, writing, and collaborations around AI in medicine and education.
+					ILAI Academy was created to provide a coherent space for writing, teaching, speaking, and
+					collaboration around AI in medicine, medical education, and institutional life.
 				</p>
 				<p>
-					The emphasis is on first principles, evidence-aware practice, responsible adoption, and preserving the
-					human core of learning and care.
+					The emphasis is on first principles, responsible adoption, and preserving the human core of
+					learning, judgement, and care.
 				</p>
 			</article>
+
 			<article class="card panel">
 				<p class="kicker">Current focus</p>
+				<h2>The work is practical, educational, and institutional.</h2>
 				<ul>
 					<li>AI in medical education and faculty development</li>
 					<li>AI literacy for clinicians and healthcare leaders</li>
@@ -59,19 +66,35 @@ import SiteFooter from '../components/SiteFooter.astro';
 </Layout>
 
 <style>
-	.page { padding: 3.5rem 0 2rem; }
-	.section { padding-bottom: 2rem; }
-	.panel { padding: 2rem; }
-	.hero { max-width: 1020px; }
-	.hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2rem; align-items: center; }
-	.portrait-card {
-		margin: 0;
-		padding: 1rem;
-		border-radius: 24px;
-		background: linear-gradient(180deg, rgba(255, 253, 249, 0.96), rgba(247, 242, 235, 0.82));
-		border: 1px solid rgba(23, 20, 17, 0.08);
+	.page {
+		padding: 3.5rem 0 2rem;
 	}
-	.portrait {
+
+	.section {
+		padding-bottom: 2rem;
+	}
+
+	.hero-grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+		gap: 2rem;
+		align-items: start;
+	}
+
+	.hero-copy {
+		padding-top: 0.5rem;
+	}
+
+	.profile-card,
+	.panel {
+		padding: 1.75rem;
+	}
+
+	.profile-card {
+		background: linear-gradient(180deg, rgba(255, 253, 249, 0.92), rgba(247, 242, 235, 0.82));
+	}
+
+	.profile-image {
 		display: block;
 		width: 100%;
 		aspect-ratio: 5 / 6;
@@ -79,17 +102,78 @@ import SiteFooter from '../components/SiteFooter.astro';
 		object-position: center top;
 		border-radius: 18px;
 	}
-	figcaption {
-		margin-top: 0.85rem;
-		color: var(--muted);
+
+	.profile-caption {
+		margin: 1rem 0 0;
+		font-size: 0.98rem;
+		font-weight: 600;
 		line-height: 1.7;
-		font-size: 0.95rem;
+		color: var(--text);
 	}
-	.kicker { color: var(--brand-2); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; }
-	h1 { font-size: clamp(2.1rem, 5vw, 3.7rem); line-height: 1.05; letter-spacing: -0.04em; margin: 0.5rem 0 1rem; }
-	p, li { color: var(--muted); line-height: 1.85; }
-	.grid { display: grid; gap: 1rem; }
-	.two-up { grid-template-columns: 1fr 1fr; }
-	ul { margin: 0; padding-left: 1.2rem; }
-	@media (max-width: 900px) { .two-up, .hero-grid { grid-template-columns: 1fr; } }
+
+	.profile-list {
+		margin: 1rem 0 0;
+		padding-left: 1.15rem;
+		color: var(--muted);
+		line-height: 1.8;
+	}
+
+	.kicker {
+		color: var(--brand-2);
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		font-size: 0.78rem;
+	}
+
+	h1 {
+		font-size: clamp(2.2rem, 5vw, 4rem);
+		line-height: 1.04;
+		letter-spacing: -0.045em;
+		margin: 0.5rem 0 1rem;
+		max-width: 14ch;
+	}
+
+	h2 {
+		margin: 0.4rem 0 0.8rem;
+		font-size: 1.3rem;
+		line-height: 1.3;
+	}
+
+	.lead,
+	.body-copy,
+	p,
+	li {
+		color: var(--muted);
+		line-height: 1.85;
+	}
+
+	.lead {
+		font-size: 1.05rem;
+	}
+
+	.grid {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.two-up {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	ul {
+		margin: 0;
+		padding-left: 1.2rem;
+	}
+
+	@media (max-width: 900px) {
+		.hero-grid,
+		.two-up {
+			grid-template-columns: 1fr;
+		}
+
+		h1 {
+			max-width: unset;
+		}
+	}
 </style>
