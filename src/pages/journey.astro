@@ -1,0 +1,126 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { journeyEntries, journeyThemes } from '../data/aiJourney';
+
+const years = [...new Set(journeyEntries.map((entry) => entry.year))].sort((a, b) => b - a);
+---
+
+<Layout title="AI Academic Journey | ILAI Academy" description="A public timeline of Dr. MTD Lakshan's formal AI learning, speaking, writing, experiments, and institutional work.">
+	<SiteHeader currentPath="/journey" />
+
+	<main class="container page">
+		<section class="hero">
+			<p class="kicker">AI Academic Journey</p>
+			<h1>A documented pathway from exploration to public work, scholarship, and institutional contribution.</h1>
+			<p class="lead">
+				This page is a deliberately public record of the journey: formal learning, experiments, presentations,
+				writing, policy work, and the gradual shaping of a serious voice in AI for medicine and education.
+			</p>
+		</section>
+
+		<section class="grid theme-grid section">
+			{
+				journeyThemes.map((theme) => (
+					<article class="card panel theme-card">
+						<h2>{theme.title}</h2>
+						<p>{theme.copy}</p>
+					</article>
+				))
+			}
+		</section>
+
+		{
+			years.map((year) => (
+				<section class="section year-block">
+					<div class="year-head">
+						<p class="kicker">{year}</p>
+						<h2>{year === 2026 ? 'Recent momentum' : year === 2025 ? 'Acceleration and public emergence' : year === 2024 ? 'Foundational public work' : 'Early exploration'}</h2>
+					</div>
+					<div class="timeline">
+						{journeyEntries.filter((entry) => entry.year === year).map((entry) => (
+							<article class="card panel timeline-item">
+								<div class="meta">
+									<span class="date">{entry.date}</span>
+									<span class="tag">{entry.category}</span>
+								</div>
+								<h3>{entry.title}</h3>
+								<p class="context">{entry.context}</p>
+								<p>{entry.detail}</p>
+								{entry.link && <a class="text-link" href={entry.link} target="_blank" rel="noreferrer">Open reference →</a>}
+							</article>
+						))}
+					</div>
+				</section>
+			))
+		}
+
+		<section class="card panel section closing">
+			<p class="kicker">Why publish this?</p>
+			<p>
+				Because credibility in this space should come from documented work: learning, teaching, building,
+				writing, and institutional contribution over time. The aim is not to signal novelty, but seriousness.
+			</p>
+			<div class="actions">
+				<a class="button primary" href="https://drlakshan.substack.com/" target="_blank" rel="noreferrer">Read the writing</a>
+				<a class="button secondary" href="/contact">Discuss a collaboration</a>
+			</div>
+		</section>
+	</main>
+
+	<SiteFooter />
+</Layout>
+
+<style>
+	.page { padding: 3.5rem 0 2rem; }
+	.section { margin-top: 1.5rem; }
+	.hero { max-width: 900px; padding-bottom: 0.5rem; }
+	.kicker { color: var(--brand-2); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; }
+	h1 { font-size: clamp(2.4rem, 5vw, 4.4rem); line-height: 1.02; letter-spacing: -0.05em; margin: 0.5rem 0 1rem; }
+	.lead { color: var(--muted); line-height: 1.9; font-size: 1.08rem; max-width: 65ch; }
+	.grid { display: grid; gap: 1rem; }
+	.theme-grid { grid-template-columns: repeat(2, 1fr); }
+	.panel { padding: 1.5rem; }
+	.theme-card h2,
+	.year-head h2,
+	.timeline-item h3 { margin-top: 0; }
+	.theme-card p,
+	.timeline-item p,
+	.closing p { color: var(--muted); line-height: 1.8; }
+	.year-head { margin-bottom: 1rem; }
+	.timeline { display: grid; gap: 1rem; }
+	.timeline-item { position: relative; overflow: hidden; }
+	.timeline-item::before {
+		content: '';
+		position: absolute;
+		inset: 0 auto 0 0;
+		width: 4px;
+		background: linear-gradient(180deg, var(--brand), var(--brand-2));
+		border-radius: 999px;
+	}
+	.timeline-item { padding-left: 1.8rem; }
+	.meta {
+		display: flex;
+		gap: 0.75rem;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: 0.65rem;
+	}
+	.date,
+	.tag {
+		font-size: 0.82rem;
+		font-weight: 700;
+	}
+	.date { color: var(--muted); }
+	.tag {
+		padding: 0.25rem 0.55rem;
+		border-radius: 999px;
+		background: rgba(31, 58, 95, 0.08);
+		color: var(--brand);
+	}
+	.context { font-weight: 600; color: var(--text); }
+	.text-link { display: inline-block; margin-top: 0.5rem; color: var(--brand); font-weight: 700; }
+	.actions { display: flex; gap: 0.9rem; margin-top: 1rem; flex-wrap: wrap; }
+	@media (max-width: 900px) { .theme-grid { grid-template-columns: 1fr; } }
+</style>

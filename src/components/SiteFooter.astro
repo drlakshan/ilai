@@ -1,0 +1,62 @@
+<footer class="site-footer">
+	<div class="container footer-wrap">
+		<div>
+			<p class="eyebrow">ILAI Academy</p>
+			<p class="copy">Thought leadership, practical AI education, and high-trust collaboration for healthcare and education.</p>
+		</div>
+		<div class="links">
+			<a href="/writing">Writing</a>
+			<a href="https://drlakshan.substack.com/" target="_blank" rel="noreferrer">Substack</a>
+			<a href="https://www.linkedin.com/in/mtd-lakshan-78738213/" target="_blank" rel="noreferrer">LinkedIn</a>
+			<a href="https://forms.gle/dmRWwhe3qvPULYH87" target="_blank" rel="noreferrer">Contact form</a>
+		</div>
+	</div>
+</footer>
+
+<style>
+	.site-footer {
+		padding: 1rem 0 3rem;
+	}
+
+	.footer-wrap {
+		display: flex;
+		justify-content: space-between;
+		gap: 1.5rem;
+		padding-top: 1.25rem;
+		border-top: 1px solid var(--line);
+	}
+
+	.eyebrow {
+		text-transform: uppercase;
+		letter-spacing: 0.14em;
+		font-size: 0.76rem;
+		font-weight: 800;
+		color: var(--brand-2);
+		margin: 0 0 0.5rem;
+	}
+
+	.copy {
+		margin: 0;
+		max-width: 56ch;
+		color: var(--muted);
+		line-height: 1.7;
+	}
+
+	.links {
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+
+	.links a {
+		color: var(--muted);
+		font-weight: 600;
+	}
+
+	@media (max-width: 720px) {
+		.footer-wrap {
+			flex-direction: column;
+		}
+	}
+</style>

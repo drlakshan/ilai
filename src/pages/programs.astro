@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Redirecting | ILAI Academy" description="This page has moved.">
+	<meta http-equiv="refresh" content="0;url=/work" />
+	<main class="container page">
+		<p>Redirecting to <a href="/work">/work</a>…</p>
+	</main>
+</Layout>
+
+<style>
+	.page { padding: 4rem 0; }
+	p { color: var(--muted); }
+	a { color: var(--brand); font-weight: 700; }
+</style>

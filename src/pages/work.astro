@@ -1,0 +1,67 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout title="Work | ILAI Academy" description="Speaking, workshops, and collaborations with Dr. MTD Lakshan through ILAI Academy.">
+	<SiteHeader currentPath="/work" />
+
+	<main class="container page">
+		<section class="card panel hero">
+			<p class="kicker">Work</p>
+			<h1>Not courses for sale. A platform for speaking, workshops, and thoughtful collaborations.</h1>
+			<p>
+				ILAI Academy is not being positioned as a mass course business. It is being built as a credible home for
+				public ideas, institutional conversations, invited teaching, and selective collaborations related to AI,
+				medicine, learning, and professional practice.
+			</p>
+		</section>
+
+		<section class="grid three-up section">
+			<article class="card panel">
+				<h2>Speaking</h2>
+				<p>Keynotes, invited talks, panels, and conference contributions on AI in medicine, medical education, healthcare systems, and professional judgement.</p>
+			</article>
+			<article class="card panel">
+				<h2>Workshops</h2>
+				<p>Focused sessions for clinicians, teachers, colleges, universities, hospitals, and professional societies seeking practical AI understanding.</p>
+			</article>
+			<article class="card panel">
+				<h2>Collaborations</h2>
+				<p>Open to discussions on teaching, writing, policy, faculty development, event participation, and strategic advisory work.</p>
+			</article>
+		</section>
+
+		<section class="card panel section">
+			<p class="kicker">Good fit</p>
+			<ul>
+				<li>Medical colleges, faculties, hospitals, and professional societies</li>
+				<li>Conference organisers seeking AI-related keynotes or workshops</li>
+				<li>Institutions working on AI governance, literacy, or implementation</li>
+				<li>Collaborators interested in writing, curriculum, or academic projects</li>
+			</ul>
+			<p>
+				You can also review selected universities, colleges, and professional bodies on the
+				<a class="inline-link" href="/institutions">institutions page</a>.
+			</p>
+		</section>
+	</main>
+
+	<SiteFooter />
+</Layout>
+
+<style>
+	.page { padding: 3.5rem 0 2rem; }
+	.section { margin-top: 1rem; }
+	.panel { padding: 2rem; }
+	.kicker { color: var(--brand-2); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; }
+	h1 { font-size: clamp(2.1rem, 5vw, 3.7rem); line-height: 1.05; letter-spacing: -0.04em; margin: 0.5rem 0 1rem; }
+	h2 { margin-top: 0; }
+	p, li { color: var(--muted); line-height: 1.85; }
+	.grid { display: grid; gap: 1rem; }
+	.three-up { grid-template-columns: repeat(3, 1fr); }
+	ul { margin: 0; padding-left: 1.2rem; }
+	.inline-link { color: var(--brand); font-weight: 700; }
+	@media (max-width: 900px) { .three-up { grid-template-columns: 1fr; } }
+</style>

@@ -1,0 +1,109 @@
+---
+interface Props {
+	currentPath?: string;
+}
+
+const { currentPath = '/' } = Astro.props;
+
+const links = [
+	{ href: '/', label: 'Home' },
+	{ href: '/about', label: 'About' },
+	{ href: '/journey', label: 'Journey' },
+	{ href: '/writing', label: 'Writing' },
+	{ href: '/institutions', label: 'Institutions' },
+	{ href: '/work', label: 'Work' },
+	{ href: '/contact', label: 'Contact' },
+];
+---
+
+<header class="site-header">
+	<div class="container nav-wrap">
+		<a class="brand" href="/">
+			<span class="brand-mark">ILAI</span>
+			<span class="brand-text">Academy</span>
+		</a>
+		<nav>
+			{
+				links.map((link) => (
+					<a href={link.href} class={currentPath === link.href ? 'active' : undefined}>{link.label}</a>
+				))
+			}
+		</nav>
+	</div>
+</header>
+
+<style>
+	.site-header {
+		position: sticky;
+		top: 0;
+		z-index: 10;
+		backdrop-filter: blur(10px);
+		background: rgba(251, 248, 243, 0.72);
+		border-bottom: 1px solid rgba(23, 20, 17, 0.06);
+	}
+
+	.nav-wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem 0;
+	}
+
+	.brand {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.7rem;
+		font-weight: 800;
+		letter-spacing: -0.03em;
+	}
+
+	.brand-mark {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.25rem;
+		height: 2.25rem;
+		border-radius: 999px;
+		background: linear-gradient(135deg, var(--brand), #2b507e);
+		color: white;
+		font-size: 0.75rem;
+		letter-spacing: 0.08em;
+	}
+
+	.brand-text {
+		font-size: 1rem;
+		color: var(--text);
+	}
+
+	nav {
+		display: flex;
+		gap: 1.4rem;
+		color: var(--muted);
+		font-weight: 600;
+		font-size: 0.95rem;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+
+	nav a {
+		padding: 0.2rem 0;
+		border-bottom: 1px solid transparent;
+	}
+
+	nav a.active {
+		color: var(--text);
+		border-color: var(--brand-2);
+	}
+
+	@media (max-width: 720px) {
+		.nav-wrap {
+			align-items: flex-start;
+			gap: 1rem;
+			flex-direction: column;
+		}
+
+		nav {
+			gap: 1rem;
+		}
+	}
+</style>

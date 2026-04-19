@@ -1,0 +1,168 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { institutionGroups } from '../data/institutions';
+---
+
+<Layout title="Institutions | ILAI Academy" description="Selected institutions, colleges, universities, and professional bodies connected to Dr. MTD Lakshan's AI-related teaching, speaking, and collaborative work.">
+	<SiteHeader currentPath="/institutions" />
+
+	<main class="container page">
+		<section class="hero">
+			<p class="kicker">Institutions</p>
+			<h1>Selected institutions and professional bodies connected to this work.</h1>
+			<p class="lead">
+				This page is not meant as an exhaustive ledger. It is a curated view of universities, colleges,
+				professional societies, healthcare institutions, and international settings where AI-related teaching,
+				speaking, writing, or policy conversations have taken place.
+			</p>
+		</section>
+
+		{
+			institutionGroups.map((group) => (
+				<section class="section group-block">
+					<div class="group-head">
+						<p class="kicker">{group.title}</p>
+						<p class="group-intro">{group.intro}</p>
+					</div>
+					<div class="grid cards">
+						{group.items.map((institution) => (
+							<article class="card panel institution-card">
+								<div class="institution-top">
+									<div class:list={["logo-shell", institution.logo && 'has-logo']} data-loaded="false">
+										{institution.logo && (
+											<img
+												src={institution.logo}
+												alt={`${institution.name} logo`}
+												class="logo-image"
+												loading="lazy"
+												onload="this.parentElement.dataset.loaded='true'"
+												onerror="this.remove()"
+											/>
+										)}
+										<div class="badge" aria-hidden="true">{institution.badge}</div>
+									</div>
+									<div class="meta">
+										<span class="tag">{institution.type}</span>
+									</div>
+								</div>
+								<h2>{institution.name}</h2>
+								<p>{institution.note}</p>
+							</article>
+						))}
+					</div>
+				</section>
+			))
+		}
+
+		<section class="card panel section closing">
+			<p class="kicker">Opportunities</p>
+			<h2>If your institution is exploring AI in medicine, education, or professional practice, ILAI Academy is open to conversation.</h2>
+			<p>
+				This may include keynote sessions, workshops, faculty development, strategic dialogue, or thoughtful
+				collaboration around responsible AI use.
+			</p>
+			<div class="actions">
+				<a class="button primary" href="/contact">Open contact options</a>
+				<a class="button secondary" href="/journey">View the journey</a>
+			</div>
+		</section>
+	</main>
+
+	<SiteFooter />
+</Layout>
+
+<style>
+	.page { padding: 3.5rem 0 2rem; }
+	.section { margin-top: 1.5rem; }
+	.hero { max-width: 920px; }
+	.kicker { color: var(--brand-2); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; }
+	h1 { font-size: clamp(2.4rem, 5vw, 4.4rem); line-height: 1.02; letter-spacing: -0.05em; margin: 0.5rem 0 1rem; }
+	.lead,
+	.group-intro,
+	.institution-card p,
+	.closing p { color: var(--muted); line-height: 1.85; }
+	.group-head { max-width: 70ch; margin-bottom: 1rem; }
+	.grid { display: grid; gap: 1rem; }
+	.cards { grid-template-columns: repeat(2, 1fr); }
+	.panel { padding: 1.5rem; }
+	.institution-card h2,
+	.closing h2 { margin-top: 0; }
+	.institution-top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		margin-bottom: 1rem;
+	}
+	.logo-shell {
+		display: grid;
+		place-items: center;
+		min-width: 4rem;
+		width: 4rem;
+		height: 4rem;
+		padding: 0.45rem;
+		border-radius: 20px;
+		background: linear-gradient(180deg, rgba(31, 58, 95, 0.08), rgba(154, 123, 79, 0.08));
+		border: 1px solid rgba(31, 58, 95, 0.08);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	.logo-shell > * {
+		grid-area: 1 / 1;
+	}
+	.logo-image {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: contain;
+		filter: grayscale(100%) saturate(0) contrast(1.05);
+		opacity: 0;
+		transition: opacity 180ms ease;
+	}
+	.logo-shell.has-logo[data-loaded='true'] .logo-image {
+		opacity: 0.9;
+	}
+	.logo-shell.has-logo[data-loaded='true'] .badge {
+		opacity: 0;
+	}
+	.badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		color: var(--brand);
+		font-size: 0.8rem;
+		font-weight: 800;
+		letter-spacing: 0.1em;
+		transition: opacity 180ms ease;
+	}
+	.meta {
+		margin-bottom: 0;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.tag {
+		display: inline-flex;
+		padding: 0.25rem 0.55rem;
+		border-radius: 999px;
+		background: rgba(31, 58, 95, 0.08);
+		color: var(--brand);
+		font-size: 0.82rem;
+		font-weight: 700;
+	}
+	.actions { display: flex; gap: 0.9rem; margin-top: 1rem; flex-wrap: wrap; }
+	@media (max-width: 900px) { .cards { grid-template-columns: 1fr; } }
+	@media (max-width: 520px) {
+		.institution-top {
+			align-items: flex-start;
+			flex-direction: column;
+		}
+
+		.meta {
+			justify-content: flex-start;
+		}
+	}
+</style>

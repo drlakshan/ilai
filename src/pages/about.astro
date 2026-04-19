@@ -1,0 +1,95 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout title="About | ILAI Academy" description="About Dr. MTD Lakshan and ILAI Academy.">
+	<SiteHeader currentPath="/about" />
+
+	<main class="container page">
+		<section class="hero card panel hero-grid">
+			<div>
+				<p class="kicker">About</p>
+				<h1>ILAI Academy is the public expression of a deeper professional question: how should serious people use AI well?</h1>
+				<p>
+					Dr. MTD Lakshan is a Consultant ENT and Head & Neck Surgeon, Director and Head of the Research and
+					Education Foundation at Nawaloka Hospitals, Honorary Senior Lecturer in Medical Education at the
+					University of Kelaniya, and founder of ILAI Academy.
+				</p>
+				<p>
+					His work sits at the intersection of clinical care, medical education, institutional development, and
+					AI-enabled thinking. Rather than treating AI as a novelty, he approaches it as a force that must be
+					understood pedagogically, ethically, and operationally.
+				</p>
+			</div>
+			<figure class="portrait-card">
+				<img src="/images/profile/dr-mtd-lakshan-2024.jpeg" alt="Dr. MTD Lakshan" class="portrait" />
+				<figcaption>
+					Dr. MTD Lakshan — clinician, educator, and founder of ILAI Academy.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section class="grid two-up section">
+			<article class="card panel">
+				<p class="kicker">Why ILAI exists</p>
+				<p>
+					ILAI Academy was created to provide a credible, coherent public home for thought leadership,
+					teaching, writing, and collaborations around AI in medicine and education.
+				</p>
+				<p>
+					The emphasis is on first principles, evidence-aware practice, responsible adoption, and preserving the
+					human core of learning and care.
+				</p>
+			</article>
+			<article class="card panel">
+				<p class="kicker">Current focus</p>
+				<ul>
+					<li>AI in medical education and faculty development</li>
+					<li>AI literacy for clinicians and healthcare leaders</li>
+					<li>Institutional policy, governance, and implementation</li>
+					<li>Writing and speaking on learning, judgement, and responsible AI use</li>
+				</ul>
+			</article>
+		</section>
+	</main>
+
+	<SiteFooter />
+</Layout>
+
+<style>
+	.page { padding: 3.5rem 0 2rem; }
+	.section { padding-bottom: 2rem; }
+	.panel { padding: 2rem; }
+	.hero { max-width: 1020px; }
+	.hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2rem; align-items: center; }
+	.portrait-card {
+		margin: 0;
+		padding: 1rem;
+		border-radius: 24px;
+		background: linear-gradient(180deg, rgba(255, 253, 249, 0.96), rgba(247, 242, 235, 0.82));
+		border: 1px solid rgba(23, 20, 17, 0.08);
+	}
+	.portrait {
+		display: block;
+		width: 100%;
+		aspect-ratio: 5 / 6;
+		object-fit: cover;
+		object-position: center top;
+		border-radius: 18px;
+	}
+	figcaption {
+		margin-top: 0.85rem;
+		color: var(--muted);
+		line-height: 1.7;
+		font-size: 0.95rem;
+	}
+	.kicker { color: var(--brand-2); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; }
+	h1 { font-size: clamp(2.1rem, 5vw, 3.7rem); line-height: 1.05; letter-spacing: -0.04em; margin: 0.5rem 0 1rem; }
+	p, li { color: var(--muted); line-height: 1.85; }
+	.grid { display: grid; gap: 1rem; }
+	.two-up { grid-template-columns: 1fr 1fr; }
+	ul { margin: 0; padding-left: 1.2rem; }
+	@media (max-width: 900px) { .two-up, .hero-grid { grid-template-columns: 1fr; } }
+</style>

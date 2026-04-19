@@ -1,0 +1,210 @@
+export type JourneyEntry = {
+	year: number;
+	date: string;
+	category: 'Talk' | 'Workshop' | 'Policy' | 'Writing' | 'Project' | 'Course' | 'Certification' | 'Research';
+	title: string;
+	context: string;
+	detail: string;
+	link?: string;
+};
+
+export const journeyEntries: JourneyEntry[] = [
+	{
+		year: 2026,
+		date: '18 March 2026',
+		category: 'Talk',
+		title: 'Sri Lanka College of Radiologists',
+		context: 'Learning Radiology in the AI Era: Cognitive Science Meets Machine Learning',
+		detail: 'A presentation connecting AI literacy, medical education, and the evolving cognitive demands of radiology learning.',
+	},
+	{
+		year: 2026,
+		date: '17 March 2026',
+		category: 'Talk',
+		title: 'WHO Sri Lanka conversation on Medical Humanities and AI',
+		context: 'Discussion with Dr Rakesh Pandav and the WHO Sri Lanka team',
+		detail: 'Focused on how AI can support teaching and learning in medical humanities without losing the human core of medicine.',
+	},
+	{
+		year: 2026,
+		date: 'February 2026',
+		category: 'Project',
+		title: 'APMEC Kyoto 2028 work initiated',
+		context: 'Workshop proposal and paper preparation',
+		detail: 'Early-stage academic collaboration and conference development work oriented toward future-facing medical education.',
+	},
+	{
+		year: 2026,
+		date: '22 January 2026',
+		category: 'Policy',
+		title: 'AI Policy work for Nawaloka Hospitals PLC',
+		context: 'Institutional AI policy development',
+		detail: 'Contributed to a formal policy effort translating AI principles into healthcare governance and implementation practice.',
+	},
+	{
+		year: 2026,
+		date: '22 January 2026',
+		category: 'Talk',
+		title: 'NotebookLM for Medical Education',
+		context: 'Lecture to Faculty of Medicine, Universiti Kebangsaan Malaysia',
+		detail: 'Presented a pedagogically-grounded workflow for using NotebookLM in medical education.',
+	},
+	{
+		year: 2026,
+		date: '18 January 2026',
+		category: 'Talk',
+		title: 'ACTSSL Annual Academic Sessions',
+		context: 'Association of Cardiothoracic and Thoracic Surgeons of Sri Lanka',
+		detail: 'Engagement on AI in academic and professional practice within a specialist surgical audience.',
+	},
+	{
+		year: 2025,
+		date: '15 December 2025',
+		category: 'Talk',
+		title: 'Keynote at Research Symposium',
+		context: 'Faculty of Medicine, University of Moratuwa',
+		detail: 'Delivered the keynote “Becoming an Infinite Learner in the AI Era.”',
+	},
+	{
+		year: 2025,
+		date: '6 December 2025',
+		category: 'Talk',
+		title: 'APLA & LAFINA Conference, Bali',
+		context: 'Artificial Intelligence and How That Could Relate to Practice of ENT',
+		detail: 'Explored how AI intersects with clinical ENT practice at an international laryngology meeting.',
+	},
+	{
+		year: 2025,
+		date: '30 November 2025',
+		category: 'Talk',
+		title: 'AudiCon 2025',
+		context: '1st International Audiology Conference, University of Kelaniya',
+		detail: 'Presented “From Sound to Science: Elevating Audiology in Sri Lanka\'s AI Age.”',
+	},
+	{
+		year: 2025,
+		date: '26 November 2025',
+		category: 'Talk',
+		title: 'CoMSAA presentation',
+		context: 'Practical AI use cases for medical professionals',
+		detail: 'Focused on immediate, real-world uses of AI in professional medical work.',
+	},
+	{
+		year: 2025,
+		date: '21 November 2025',
+		category: 'Workshop',
+		title: 'PSSL workshop',
+		context: 'Physiological Society of Sri Lanka',
+		detail: 'Introduced AI in medical education and demonstrated three levels of use: basic prompting, custom GPTs, and NotebookLM.',
+	},
+	{
+		year: 2025,
+		date: '21 November 2025',
+		category: 'Project',
+		title: 'ilai.academy acquired',
+		context: 'Domain and platform direction established',
+		detail: 'Created a dedicated public home for thought leadership, collaboration, and AI education work.',
+	},
+	{
+		year: 2025,
+		date: '11 November 2025',
+		category: 'Writing',
+		title: 'Infinite Learner Substack launched',
+		context: 'Writing on education, AI, and thinking',
+		detail: 'Started a public writing stream for deeper reflections on learning, professional practice, and AI.',
+		link: 'https://drlakshan.substack.com/',
+	},
+	{
+		year: 2025,
+		date: '10 November 2025',
+		category: 'Writing',
+		title: 'SSRN article published',
+		context: 'Branching Learning Hypothesis',
+		detail: 'Published academic writing exploring the branching learning hypothesis.',
+		link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5741222',
+	},
+	{
+		year: 2025,
+		date: '29 October 2025',
+		category: 'Writing',
+		title: 'Medium article published',
+		context: 'Obsidian as a thinking space',
+		detail: 'Wrote about the distinction between a thinking space and a second brain.',
+		link: 'https://medium.com/@lakshent/obsidian-understanding-the-distinction-thinking-space-versus-second-brain-320f15372d7e',
+	},
+	{
+		year: 2025,
+		date: 'September 2025',
+		category: 'Research',
+		title: 'Ceylon College of Physicians AI white paper',
+		context: 'Consensus document co-authorship',
+		detail: 'Co-authored a national-level paper on opportunities, challenges, and ethical considerations in medical AI.',
+	},
+	{
+		year: 2025,
+		date: 'June 2025',
+		category: 'Certification',
+		title: 'Google Cloud Certified Generative AI Leader',
+		context: 'Google Cloud Platform',
+		detail: 'Formal certification focused on enterprise generative AI, deployment strategy, and governance.',
+	},
+	{
+		year: 2025,
+		date: 'March 2025',
+		category: 'Project',
+		title: 'First RAG chatbot built',
+		context: 'n8n-based retrieval workflow',
+		detail: 'A practical turning point from theory into systems-building using retrieval-augmented generation.',
+	},
+	{
+		year: 2025,
+		date: 'January 2025',
+		category: 'Talk',
+		title: 'University of Colombo Pharmacology Department',
+		context: 'Journal club presentation',
+		detail: 'Early formal teaching engagement around AI in academic medicine.',
+	},
+	{
+		year: 2024,
+		date: '2024',
+		category: 'Talk',
+		title: 'A year of foundational public speaking on AI',
+		context: 'University, professional society, and public media engagements',
+		detail: 'Included sessions for Sabaragamuwa teacher training, the Cough Interest Group, University of Kelaniya, Sri Lanka TV and Mass Media, Sri Jayewardenepura University, the Nutrition Society, and the Sri Lanka College of Paediatricians.',
+	},
+	{
+		year: 2024,
+		date: 'August 2024',
+		category: 'Course',
+		title: 'Google AI Essentials completed',
+		context: 'Formal foundational AI coursework',
+		detail: 'A structured early milestone in prompt engineering, responsible use, and AI fundamentals.',
+	},
+	{
+		year: 2023,
+		date: 'March 2023',
+		category: 'Project',
+		title: 'First serious explorations with ChatGPT',
+		context: 'Beginning of the documented AI journey',
+		detail: 'The initial phase of experimentation that later evolved into formal study, public teaching, and institutional work.',
+	},
+];
+
+export const journeyThemes = [
+	{
+		title: 'Formal learning',
+		copy: 'Coursework and certification across Google AI Essentials, UPenn AI in Education, UC Davis AI for Knowledge Workers, Vanderbilt courses with Jules White, DeepLearning.AI, and Google Cloud certification.',
+	},
+	{
+		title: 'Public teaching and speaking',
+		copy: 'Talks and workshops across universities, medical colleges, professional societies, and international meetings — always aiming to translate AI into clinically and educationally meaningful practice.',
+	},
+	{
+		title: 'Writing and thought leadership',
+		copy: 'Substack essays, Medium writing, SSRN work, white papers, and conference-linked scholarship focused on learning, AI, governance, and professional judgement.',
+	},
+	{
+		title: 'Building and experimentation',
+		copy: 'RAG chatbots, NotebookLM workflows, Vertex AI exploration, agentic systems, LangChain/LangGraph studies, and practical workflow design for real-world use.',
+	},
+];

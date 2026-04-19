@@ -1,0 +1,341 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout
+	title="ILAI Academy | AI, medicine, learning, and professional judgement"
+	description="ILAI Academy is the public platform of Dr. MTD Lakshan — exploring AI in medicine, education, and institutional life with practical clarity and intellectual seriousness."
+>
+	<SiteHeader currentPath="/" />
+
+	<main>
+		<section class="hero container">
+			<div class="hero-copy">
+				<p class="eyebrow">AI, medicine, learning, and professional judgement</p>
+				<h1>A public home for serious thinking about AI in clinical and educational life.</h1>
+				<p class="lead">
+					ILAI Academy is the platform of Dr. MTD Lakshan — Consultant ENT and Head & Neck Surgeon, medical
+					educator, and institutional leader — exploring how AI can be used with clarity, responsibility,
+					and pedagogical depth.
+				</p>
+				<div class="actions">
+					<a class="button primary" href="/writing">Start with the writing</a>
+					<a class="button secondary" href="/journey">See the journey</a>
+				</div>
+			</div>
+
+			<div class="hero-panel card">
+				<div class="panel-badge">Recent signals</div>
+				<h2>From public writing and invited talks to policy work and institutional dialogue.</h2>
+				<ul>
+					<li>WHO Sri Lanka discussion on medical humanities and AI</li>
+					<li>Sri Lanka College of Radiologists lecture on learning radiology in the AI era</li>
+					<li>AI policy contribution for Nawaloka Hospitals PLC</li>
+				</ul>
+				<div class="mini-grid">
+					<div>
+						<strong>Writing</strong>
+						<span>Substack, essays, SSRN, public intellectual work</span>
+					</div>
+					<div>
+						<strong>Public work</strong>
+						<span>Talks, workshops, collaborations, institutional conversations</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container content-section split">
+			<div>
+				<p class="kicker">About</p>
+				<h2 class="section-title">A surgeon and medical educator working to translate AI into wiser professional practice.</h2>
+				<p class="section-copy">
+					This is not a generic technology site. It is a deliberately shaped public front door for work at the
+					intersection of medicine, education, institutional development, and AI — grounded in first principles,
+					real-world use, and respect for the human demands of judgement.
+				</p>
+			</div>
+			<div class="card profile-card">
+				<img src="/images/profile/dr-mtd-lakshan-2024.jpeg" alt="Dr. MTD Lakshan" class="profile-image" />
+				<p class="profile-caption">Dr. MTD Lakshan — clinician, educator, and founder of ILAI Academy.</p>
+				<p class="profile-quote">
+					AI should not erode thought. It should sharpen judgement, deepen learning, and expand human care.
+				</p>
+			</div>
+		</section>
+
+		<section class="container content-section">
+			<p class="kicker">Work</p>
+			<h2 class="section-title">How this work usually appears in the world</h2>
+			<div class="grid three-up">
+				<article class="card feature">
+					<h3>Speaking</h3>
+					<p>Keynotes, invited lectures, panels, and conference sessions that help professional audiences think clearly about AI in medicine and education.</p>
+				</article>
+				<article class="card feature">
+					<h3>Workshops</h3>
+					<p>Focused, high-signal sessions for clinicians, faculty, and organisations seeking practical AI literacy without hype or superficiality.</p>
+				</article>
+				<article class="card feature">
+					<h3>Collaborations</h3>
+					<p>Institutional dialogue, writing, curriculum input, policy thinking, and selective partnerships around responsible AI adoption.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="container content-section split alt-split">
+			<div class="card insight-card">
+				<p class="kicker">Writing</p>
+				<h2 class="section-title">Writing is where the ideas are tested in public.</h2>
+				<p class="section-copy">
+					Substack, essays, and formal pieces are used here not as content marketing, but as a disciplined way
+					of thinking through AI, learning, cognition, medical education, and the conditions for wise adoption.
+				</p>
+				<div class="actions compact">
+					<a class="button primary" href="/writing">Explore the writing</a>
+					<a class="button secondary" href="https://drlakshan.substack.com/" target="_blank" rel="noreferrer">Visit Substack</a>
+				</div>
+			</div>
+			<div>
+				<p class="kicker">Journey</p>
+				<h2 class="section-title">A visible record of work, not just a claim to expertise.</h2>
+				<p class="section-copy">
+					The AI journey page brings together formal learning, experiments, publications, talks, workshops,
+					and policy-facing work as a public record of sustained engagement over time.
+				</p>
+				<a class="text-link" href="/journey">View the full AI academic journey →</a>
+			</div>
+		</section>
+
+		<section class="container content-section">
+			<p class="kicker">Approach</p>
+			<h2 class="section-title">Principles that keep the work grounded</h2>
+			<div class="grid three-up steps">
+				<div class="card step"><strong>01</strong><h3>Judgement first</h3><p>AI should extend professional thinking, not replace responsibility, discernment, or clinical judgement.</p></div>
+				<div class="card step"><strong>02</strong><h3>Pedagogy matters</h3><p>Educational use of AI should align with how people learn, remember, practise, and become competent.</p></div>
+				<div class="card step"><strong>03</strong><h3>Institutional realism</h3><p>Adoption only matters if it can survive governance, context, workflow friction, and the realities of real organisations.</p></div>
+			</div>
+		</section>
+
+		<section class="container cta">
+			<div class="card cta-card">
+				<div>
+					<p class="kicker">Conversation</p>
+					<h2>If you need a speaker, workshop lead, collaborator, or simply a more thoughtful AI conversation, start here.</h2>
+					<p>
+						ILAI Academy is being built as a calm, credible home for those discussions in medicine, education,
+						and institutional life.
+					</p>
+				</div>
+				<a class="button primary" href="/contact">Open contact options</a>
+			</div>
+		</section>
+	</main>
+
+	<SiteFooter />
+</Layout>
+
+<style>
+	.hero {
+		display: grid;
+		grid-template-columns: 1.2fr 0.8fr;
+		gap: 2.5rem;
+		padding: 6rem 0 4rem;
+		align-items: center;
+	}
+
+	.eyebrow,
+	.kicker,
+	.panel-badge {
+		text-transform: uppercase;
+		letter-spacing: 0.14em;
+		font-size: 0.76rem;
+		font-weight: 800;
+		color: var(--brand-2);
+	}
+
+	h1 {
+		font-size: clamp(2.8rem, 6vw, 5.2rem);
+		line-height: 0.96;
+		letter-spacing: -0.05em;
+		margin: 0.5rem 0 1rem;
+	}
+
+	.lead {
+		font-size: 1.1rem;
+		line-height: 1.9;
+		color: var(--muted);
+		max-width: 60ch;
+	}
+
+	.actions {
+		display: flex;
+		gap: 0.9rem;
+		margin-top: 1.5rem;
+		flex-wrap: wrap;
+	}
+
+	.actions.compact {
+		margin-top: 1rem;
+	}
+
+	.hero-panel,
+	.quote-card,
+	.profile-card,
+	.feature,
+	.step,
+	.cta-card,
+	.insight-card {
+		padding: 1.75rem;
+	}
+
+	.hero-panel h2 {
+		margin: 0.5rem 0 1rem;
+		font-size: 1.55rem;
+		line-height: 1.2;
+	}
+
+	.hero-panel ul {
+		padding-left: 1.2rem;
+		color: var(--muted);
+		line-height: 1.8;
+	}
+
+	.mini-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+		margin-top: 1.5rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--line);
+	}
+
+	.mini-grid div,
+	.step {
+		display: grid;
+		gap: 0.35rem;
+	}
+
+	.mini-grid span,
+	.feature p,
+	.step p,
+	.cta-card p {
+		color: var(--muted);
+		line-height: 1.7;
+	}
+
+	.content-section {
+		padding: 2rem 0 1rem;
+	}
+
+	.split {
+		display: grid;
+		grid-template-columns: 1.15fr 0.85fr;
+		gap: 1.5rem;
+		align-items: center;
+	}
+
+	.alt-split {
+		align-items: stretch;
+	}
+
+	.quote-card {
+		font-size: 1.35rem;
+		line-height: 1.7;
+		font-weight: 600;
+		background: linear-gradient(180deg, rgba(255, 253, 249, 0.9), rgba(247, 242, 235, 0.82));
+	}
+
+	.profile-card {
+		background: linear-gradient(180deg, rgba(255, 253, 249, 0.92), rgba(247, 242, 235, 0.82));
+	}
+
+	.profile-image {
+		display: block;
+		width: 100%;
+		aspect-ratio: 5 / 4;
+		object-fit: cover;
+		object-position: center top;
+		border-radius: 18px;
+	}
+
+	.profile-caption {
+		margin: 0.9rem 0 0;
+		font-size: 0.95rem;
+		font-weight: 600;
+		color: var(--text);
+	}
+
+	.profile-quote {
+		margin: 0.8rem 0 0;
+		font-size: 1.1rem;
+		line-height: 1.7;
+		font-weight: 600;
+		color: var(--text);
+	}
+
+	.grid {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.three-up {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.feature h3,
+	.step h3 {
+		margin-bottom: 0;
+		font-size: 1.1rem;
+	}
+
+	.step strong {
+		font-size: 0.95rem;
+		color: var(--brand);
+	}
+
+	.section-title {
+		font-size: clamp(1.8rem, 2vw, 2.6rem);
+		line-height: 1.15;
+		margin: 0 0 0.75rem;
+	}
+
+	.section-copy {
+		font-size: 1.05rem;
+		line-height: 1.75;
+		color: var(--muted);
+		max-width: 64ch;
+	}
+
+	.text-link {
+		display: inline-block;
+		margin-top: 1rem;
+		font-weight: 700;
+		color: var(--brand);
+	}
+
+	.cta {
+		padding: 2.5rem 0 4rem;
+	}
+
+	.cta-card {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1.5rem;
+		background: linear-gradient(180deg, rgba(255, 253, 249, 0.92), rgba(248, 244, 238, 0.8));
+	}
+
+	@media (max-width: 900px) {
+		.hero,
+		.split,
+		.three-up,
+		.cta-card {
+			grid-template-columns: 1fr;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+	}
+</style>

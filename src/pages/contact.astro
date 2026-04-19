@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout title="Contact | ILAI Academy" description="Contact options for speaking, workshops, and collaborations with ILAI Academy.">
+	<SiteHeader currentPath="/contact" />
+
+	<main class="container page">
+		<section class="card panel hero">
+			<p class="kicker">Contact</p>
+			<h1>Launch-fast contact, without unnecessary complexity.</h1>
+			<p>
+				For this first public version, the simplest path is best. If you would like to discuss a talk, workshop,
+				panel, teaching opportunity, or collaboration, use one of the options below.
+			</p>
+		</section>
+
+		<section class="grid three-up section">
+			<a class="card panel action-card" href="https://forms.gle/dmRWwhe3qvPULYH87" target="_blank" rel="noreferrer">
+				<h2>Google Form</h2>
+				<p>Best option for a straightforward enquiry.</p>
+			</a>
+			<a class="card panel action-card" href="https://www.linkedin.com/in/mtd-lakshan-78738213/" target="_blank" rel="noreferrer">
+				<h2>LinkedIn</h2>
+				<p>Useful for professional networking and collaboration outreach.</p>
+			</a>
+			<a class="card panel action-card" href="https://drlakshan.substack.com/" target="_blank" rel="noreferrer">
+				<h2>Substack</h2>
+				<p>Follow the public writing and get a sense of the intellectual direction.</p>
+			</a>
+		</section>
+
+		<section class="card panel section">
+			<p class="kicker">Typical enquiries</p>
+			<ul>
+				<li>Conference talks and keynote invitations</li>
+				<li>Medical education workshops and faculty development</li>
+				<li>Healthcare AI policy or implementation conversations</li>
+				<li>Writing, curriculum, and institutional collaborations</li>
+			</ul>
+		</section>
+	</main>
+
+	<SiteFooter />
+</Layout>
+
+<style>
+	.page { padding: 3.5rem 0 2rem; }
+	.section { margin-top: 1rem; }
+	.panel { padding: 2rem; }
+	.kicker { color: var(--brand-2); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; }
+	h1 { font-size: clamp(2.1rem, 5vw, 3.7rem); line-height: 1.05; letter-spacing: -0.04em; margin: 0.5rem 0 1rem; }
+	h2 { margin-top: 0; }
+	p, li { color: var(--muted); line-height: 1.85; }
+	.grid { display: grid; gap: 1rem; }
+	.three-up { grid-template-columns: repeat(3, 1fr); }
+	.action-card { transition: 180ms ease; }
+	.action-card:hover { transform: translateY(-2px); }
+	ul { margin: 0; padding-left: 1.2rem; }
+	@media (max-width: 900px) { .three-up { grid-template-columns: 1fr; } }
+</style>
