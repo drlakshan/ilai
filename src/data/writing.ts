@@ -29,6 +29,9 @@ export const writingPlatforms: WritingPlatform[] = [
 ];
 
 export const featuredWriting: FeaturedWriting[] = [
+	{"title": "From algorithm accuracy to clinical accountability", "type": "Public reflection", "publication": "Substack · 9 August 2026", "description": "A reflection following the delivered 6 August WHO-SEARO / WCO-DPRK webinar: intended use, source checking, and accountability in health systems. The engagement is not WHO endorsement of ILAI.", "url": "https://drlakshan.substack.com/p/from-algorithm-accuracy-to-clinical"},
+	{"title": "Medicolegal aspects of the use of artificial intelligence in healthcare: challenges, current regulations, and future directions", "type": "Co-authored journal article", "publication": "AI and Ethics · 22 July 2026", "description": "Published online 22 July 2026. DOI: 10.1007/s43681-026-01248-3. Publisher link only; no manuscript republication.", "url": "https://doi.org/10.1007/s43681-026-01248-3"},
+	{"title": "The Infinite Learner Manifesto for the AI Age", "type": "Public essay", "publication": "Substack · 30 May 2026", "description": "Principles for attention, metacognition, deliberate practice, and attempting before outsourcing. A statement of learning practice, not evidence of a validated intervention.", "url": "https://drlakshan.substack.com/p/the-infinite-learner-manifesto-for"},
 	{
 		title: 'Branching Learning Hypothesis',
 		type: 'Academic writing',

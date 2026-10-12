@@ -9,6 +9,12 @@ export type JourneyEntry = {
 };
 
 export const journeyEntries: JourneyEntry[] = [
+	{"year": 2026, "date": "5 September 2026", "category": "Talk", "title": "Becoming an Infinite Learner Powered by AI - A Surgeon's Cut", "context": "Sri Lanka Surgical Congress 2026 · College of Surgeons of Sri Lanka", "detail": "Delivered an invited symposium lecture as a resource person, connecting AI use with learning and professional judgement."},
+	{"year": 2026, "date": "5 September 2026", "category": "Talk", "title": "Learning as an ENT Surgeon in the AI Era", "context": "SAARC ENT Congress · AI Symposium", "detail": "Delivered an invited lecture on learning and professional development in ENT in the AI era."},
+	{"year": 2026, "date": "6 August 2026", "category": "Talk", "title": "Evidence-based applications of AI and deployment in secondary and tertiary health care settings", "context": "WHO-SEARO / WCO-DPRK · DPRK Webinar Series on AI in Health", "detail": "Delivered an invited webinar session on secondary and diagnostics integration. The public reflection below was published on 9 August. A speaking invitation does not imply WHO endorsement of ILAI.", "link": "https://drlakshan.substack.com/p/from-algorithm-accuracy-to-clinical"},
+	{"year": 2026, "date": "22 July 2026", "category": "Writing", "title": "Medicolegal aspects of the use of artificial intelligence in healthcare: challenges, current regulations, and future directions", "context": "Co-authored article · AI and Ethics · DOI 10.1007/s43681-026-01248-3", "detail": "Published online 22 July 2026. Read the publisher record; this site does not reproduce the manuscript.", "link": "https://doi.org/10.1007/s43681-026-01248-3"},
+	{"year": 2026, "date": "8 July 2026", "category": "Talk", "title": "The AI-Enabled Chest Clinician", "context": "Sri Lanka College of Pulmonologists · Non-Respiratory Lecture Series, Session 1", "detail": "Delivered an invited interactive live virtual session on bridging medicine and artificial intelligence. This event record does not claim measured learning gains."},
+	{"year": 2026, "date": "27 May 2026", "category": "Talk", "title": "Learning with AI", "context": "Grand Rounds · Nawaloka Hospitals Research and Education Foundation (NHREF)", "detail": "Delivered a Grand Rounds lecture on learning with AI. This is a historical teaching record, not a statement of current NHREF headship."},
 	{
 		year: 2026,
 		date: '18 March 2026',
@@ -29,9 +35,9 @@ export const journeyEntries: JourneyEntry[] = [
 		year: 2026,
 		date: 'February 2026',
 		category: 'Project',
-		title: 'APMEC Kyoto 2028 work initiated',
-		context: 'Workshop proposal and paper preparation',
-		detail: 'Early-stage academic collaboration and conference development work oriented toward future-facing medical education.',
+		title: 'APMEC 2027 Kyoto — The Mindful AI Learner proposal',
+		context: 'Workshop proposal in development · future conference',
+		detail: 'Proposal development for The Mindful AI Learner: Integrating Evidence-Based Learning Science with AI Tools Without Compromising Cognitive Depth. Programme status is not stated here pending reconciliation of organiser records; this is not a delivered workshop.',
 	},
 	{
 		year: 2026,

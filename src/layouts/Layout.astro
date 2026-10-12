@@ -6,8 +6,10 @@ interface Props {
 
 const {
 	title = 'ILAI Academy | AI for Medical Education and Clinical Practice',
-	description = 'ILAI Academy helps clinicians, educators, and healthcare leaders use AI safely, thoughtfully, and effectively.',
+	description = 'ILAI Academy helps clinicians, educators, and healthcare leaders use AI deliberately to develop understanding, capability and judgement.',
 } = Astro.props;
+
+const revision = process.env.WORKERS_CI_COMMIT_SHA || process.env.CF_PAGES_COMMIT_SHA || process.env.GITHUB_SHA || 'local-build';
 ---
 
 <!doctype html>
@@ -17,6 +19,8 @@ const {
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="deployment-revision" content={revision} />
+		<link rel="canonical" href={new URL(Astro.url.pathname, "https://ilai.academy")} />
 		<meta name="description" content={description} />
 		<title>{title}</title>
 	</head>

@@ -61,7 +61,6 @@ export const institutionGroups: InstitutionGroup[] = [
 			{
 				name: 'Ceylon College of Physicians',
 				badge: 'CCP',
-				logo: '/images/institutions/ceylon-college-physicians.png',
 				type: 'Medical college',
 				note: 'AI-related consensus and professional discourse in medicine.',
 			},
@@ -96,7 +95,6 @@ export const institutionGroups: InstitutionGroup[] = [
 			{
 				name: 'Association of Cardiothoracic and Thoracic Surgeons of Sri Lanka',
 				badge: 'ACTS',
-				logo: '/images/institutions/actssl.png',
 				type: 'Professional association',
 				note: 'Academic-session engagement on AI and specialist professional development.',
 			},
@@ -125,19 +123,17 @@ export const institutionGroups: InstitutionGroup[] = [
 				badge: 'NH',
 				logo: '/images/institutions/nawaloka-hospitals.webp',
 				type: 'Healthcare institution',
-				note: 'Leadership and policy-facing work including AI governance and institutional implementation thinking.',
+				note: 'Clinical practice and a separate director role, with past contribution to AI policy. Educational and advisory perspectives do not imply ownership of hospital data-governance operations.',
 			},
 			{
 				name: 'Nawaloka Hospitals Research and Education Foundation',
 				badge: 'NHRF',
-				logo: '/images/institutions/nawaloka-hospitals-research-education-foundation.png',
 				type: 'Research and education foundation',
-				note: 'A central base for educational, scholarly, and AI-related initiatives.',
+				note: 'Past foundation leadership and teaching contributions, including the 27 May 2026 Learning with AI Grand Rounds. No current headship or operational ownership is implied.',
 			},
 			{
 				name: 'Army Hospital / Military medicine academic sessions',
 				badge: 'ARMY',
-				logo: '/images/institutions/army-hospital.png',
 				type: 'Healthcare and training context',
 				note: 'AI in education and training with relevance to military medicine and beyond.',
 			},
@@ -150,14 +146,12 @@ export const institutionGroups: InstitutionGroup[] = [
 			{
 				name: 'WHO Sri Lanka',
 				badge: 'WHO',
-				logo: '/images/institutions/who-sri-lanka.svg',
 				type: 'International health organisation',
-				note: 'Discussion on how AI may support teaching and learning in medical humanities.',
+				note: 'March 2026 discussion on medical humanities and AI; a separate invited WHO-SEARO / WCO-DPRK webinar was delivered on 6 August 2026. These engagements do not imply WHO endorsement, partnership, or validation of ILAI.',
 			},
 			{
 				name: 'Asia Pacific Laryngology Association / LAFINA',
 				badge: 'APLA',
-				logo: '/images/institutions/apla-lafina.png',
 				type: 'International academic meeting',
 				note: 'International conference presentation connecting AI with ENT practice.',
 			},
