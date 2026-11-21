@@ -16,6 +16,7 @@ const required = {
 let internal = 0, images = 0;
 for (const route of routes) {
   const html = read(route);
+  assert.equal(html.match(/<link rel="canonical" href="([^"]+)"/)?.[1], `https://infinitelearnerai.com${route}`, `${route}: incorrect canonical URL`);
   for (const text of required[route]) assert.ok(html.includes(text), `${route}: missing ${text}`);
   for (const [, url] of html.matchAll(/(?:href|src)="(\/[^"]*)"/g)) {
     const pathname = url.split(/[?#]/)[0];
@@ -34,6 +35,6 @@ for (const route of routes) {
 }
 const sitemap = readFileSync('dist/sitemap.xml', 'utf8');
 assert.equal([...sitemap.matchAll(/<loc>/g)].length, routes.length);
-for (const route of routes) assert.ok(sitemap.includes(`https://ilai.academy${route}</loc>`));
-assert.ok(readFileSync('dist/robots.txt', 'utf8').includes('Sitemap: https://ilai.academy/sitemap.xml'));
+for (const route of routes) assert.ok(sitemap.includes(`https://infinitelearnerai.com${route}</loc>`));
+assert.ok(readFileSync('dist/robots.txt', 'utf8').includes('Sitemap: https://infinitelearnerai.com/sitemap.xml'));
 console.log(JSON.stringify({ passed: true, pages: routes.length, internalReferences: internal, imageReferences: images, sitemapUrls: routes.length, privacyScan: 'passed' }, null, 2));
