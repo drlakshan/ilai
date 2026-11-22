@@ -1,7 +1,7 @@
 export type JourneyEntry = {
 	year: number;
 	date: string;
-	category: 'Talk' | 'Workshop' | 'Policy' | 'Writing' | 'Project' | 'Course' | 'Certification' | 'Research';
+	category: 'Talk' | 'Workshop' | 'Policy' | 'Writing' | 'Project' | 'Course' | 'Certification' | 'Research' | 'Podcast';
 	title: string;
 	context: string;
 	detail: string;
@@ -9,6 +9,15 @@ export type JourneyEntry = {
 };
 
 export const journeyEntries: JourneyEntry[] = [
+	{
+		year: 2026,
+		date: '16 November 2026 · published',
+		category: 'Podcast',
+		title: 'Building Health AI: A Clinician’s Guide to AI Agents in Low-Resource Settings',
+		context: 'Dialogues in Health AI · Episode 4 · NAAMII AI Research',
+		detail: 'A conversation with host Dr. Kiran Raj Pandey about AI agents, accountability, education and local models. The podcast is co-developed by NAAMII and the WHO South-East Asia Regional Office (WHO SEARO). This is the publication date, not a recording date; participation does not imply WHO endorsement of ILAI.',
+		link: 'https://www.youtube.com/watch?v=08Iezt6Un1E',
+	},
 	{"year": 2026, "date": "5 November 2026", "category": "Research", "title": "Deep learning screening of otoscopic images for ENT referral: development, validation and deployment of NHREF OtoScan", "context": "medRxiv preprint · Version 1 · First and corresponding author", "detail": "Posted 5 November 2026. Not peer-reviewed; this preprint is not evidence of clinical approval or established clinical effectiveness. The public record below provides the manuscript and authorship details.", "link": "https://doi.org/10.64898/2026.11.04.26367286"},
 	{"year": 2026, "date": "1 November 2026", "category": "Talk", "title": "Capable or appear Capable", "context": "COMSAA reunion · Avani Kalutara", "detail": "Delivered the reunion lecture, with delivery confirmed on 1 November. The prepared-deck title and focus distinguish genuine capability and judgement from convincing AI-generated output; no measured learning outcomes are claimed."},
 	{"year": 2026, "date": "29 October 2026", "category": "Talk", "title": "AI in Clinical Audiology and Otology", "context": "University of Kelaniya · Faculty of Medicine, Ragama", "detail": "Delivered the symposium lecture on potential applications of AI in clinical assessment, diagnosis and management. Delivery confirmed on 29 October; this teaching record does not establish clinical validation or institutional adoption."},

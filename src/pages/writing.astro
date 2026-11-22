@@ -2,15 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import PodcastFeature from '../components/PodcastFeature.astro';
 import { featuredWriting, writingPlatforms } from '../data/writing';
 ---
 
-<Layout title="Writing | ILAI Academy" description="Public writing by Dr. MTD Lakshan across Substack, LinkedIn, SSRN, and essays on AI, learning, medicine, and professional judgement.">
+<Layout title="Writing & Media | ILAI Academy" description="Public writing and podcast conversations with Dr. MTD Lakshan on AI, learning, medicine, and professional judgement.">
 	<SiteHeader currentPath="/writing" />
 
 	<main class="container page">
 		<section class="hero">
-			<p class="kicker">Writing</p>
+			<p class="kicker">Writing &amp; media</p>
 			<h1>Writing in public as a way of thinking in public.</h1>
 			<p class="lead">
 				This page gathers the main writing channels and selected pieces connected to ILAI Academy. The aim is
@@ -19,6 +20,8 @@ import { featuredWriting, writingPlatforms } from '../data/writing';
 			</p>
 		</section>
 
+
+		<PodcastFeature />
 
 		<section class="section">
 			<div class="section-head">

@@ -1,0 +1,39 @@
+<section class="podcast card" id="podcast" aria-labelledby="podcast-title">
+	<div class="podcast-copy">
+		<p class="kicker">Featured podcast · Dialogues in Health AI · Episode 4</p>
+		<h2 id="podcast-title">Building Health AI</h2>
+		<p class="subtitle">A clinician’s guide to AI agents in low-resource settings</p>
+		<p>Dr. M.T.D. Lakshan joins host Dr. Kiran Raj Pandey to discuss AI agents, accountability, research and education, and building with local models—while keeping human judgement in charge.</p>
+		<p class="credits">Dialogues in Health AI is co-developed by NAAMII and the WHO South-East Asia Regional Office (WHO SEARO). Published by NAAMII AI Research on <time datetime="2026-11-16">16 November 2026</time>.</p>
+	</div>
+	<div class="video-frame">
+		<iframe
+			src="https://www.youtube-nocookie.com/embed/08Iezt6Un1E"
+			title="Building Health AI — Dialogues in Health AI, episode 4, with Dr. M.T.D. Lakshan"
+			width="960"
+			height="540"
+			loading="lazy"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allow="encrypted-media; fullscreen; picture-in-picture"
+			allowfullscreen
+		></iframe>
+	</div>
+	<div class="podcast-footer">
+		<a class="button primary" href="https://www.youtube.com/watch?v=08Iezt6Un1E" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+		<p>The embedded player uses YouTube’s privacy-enhanced mode. If it cannot load here, watch directly on YouTube. This appearance does not imply WHO endorsement of ILAI.</p>
+	</div>
+</section>
+
+<style>
+	.podcast { padding: clamp(1rem, 3vw, 2rem); margin: 1.5rem 0 2rem; }
+	.podcast-copy { max-width: 78ch; }
+	.kicker { color: var(--brand-2); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.76rem; }
+	h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.15; margin: 0.5rem 0; }
+	p { color: var(--muted); line-height: 1.8; }
+	.subtitle { font-size: 1.15rem; color: var(--text); margin-top: 0; }
+	.credits { font-size: 0.94rem; }
+	.video-frame { aspect-ratio: 16 / 9; width: 100%; overflow: hidden; border-radius: 16px; background: #171411; margin-top: 1.5rem; }
+	iframe { display: block; width: 100%; height: 100%; border: 0; }
+	.podcast-footer { margin-top: 1rem; }
+	.podcast-footer p { font-size: 0.85rem; max-width: 85ch; margin-bottom: 0; }
+</style>

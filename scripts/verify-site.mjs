@@ -13,6 +13,20 @@ const required = {
   '/work/': ['Talks, workshops and selective collaboration', 'Prepared briefing', 'not a delivered board workshop', 'A separate AI presentation to the Nawaloka Hospitals board was confirmed delivered in October 2026', 'From a paper or podcast to learning', 'Critical evidence appraisal', 'Discuss a talk or workshop'],
   '/contact/': ['Enquiry form', 'signed-in email', 'do not include patient information'],
 };
+for (const route of ['/', '/writing/']) {
+  const html = read(route);
+  const frames = [...html.matchAll(/<iframe\b[^>]*>/g)];
+  assert.equal(frames.length, 1, `${route}: exactly one podcast player`);
+  for (const attribute of ['src="https://www.youtube-nocookie.com/embed/08Iezt6Un1E"', 'loading="lazy"', 'title="Building Health AI', 'allowfullscreen', 'referrerpolicy="strict-origin-when-cross-origin"']) {
+    assert.ok(frames[0][0].includes(attribute), `${route}: missing player attribute ${attribute}`);
+  }
+  assert.ok(!frames[0][0].includes('autoplay'), `${route}: no autoplay`);
+  for (const text of ['Watch on YouTube', 'https://www.youtube.com/watch?v=08Iezt6Un1E', '16 November 2026', 'NAAMII', 'WHO South-East Asia Regional Office', 'Dr. Kiran Raj Pandey', 'does not imply WHO endorsement']) {
+    assert.ok(html.includes(text), `${route}: missing podcast context ${text}`);
+  }
+}
+assert.ok(read('/journey/').includes('16 November 2026 · published'));
+assert.ok(read('/journey/').includes('https://www.youtube.com/watch?v=08Iezt6Un1E'));
 let internal = 0, images = 0;
 for (const route of routes) {
   const html = read(route);
