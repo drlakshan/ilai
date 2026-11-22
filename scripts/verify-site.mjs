@@ -7,10 +7,10 @@ const read = (route) => readFileSync(resolve('dist', `.${route}index.html`), 'ut
 const required = {
   '/': ['Use AI to become more capable', 'develop their own understanding, capability and judgement'],
   '/about/': ['Director at Nawaloka Hospitals', 'past leadership', 'Human → AI → human', 'not a validated intervention'],
-  '/journey/': ['5 September 2026', '6 August 2026', '22 July 2026', '8 July 2026', '27 May 2026', 'APMEC 2027 Kyoto', 'proposal in development'],
-  '/writing/': ['9 August 2026', '22 July 2026', '30 May 2026', 'from-algorithm-accuracy-to-clinical', 'the-infinite-learner-manifesto-for', '10.1007/s43681-026-01248-3'],
+  '/journey/': ['5 November 2026', 'NHREF OtoScan', 'Not peer-reviewed', 'First and corresponding author', '1 November 2026', 'Capable or appear Capable', '29 October 2026', 'AI in Clinical Audiology and Otology', 'delivery confirmed 27 October', 'AI presentation to the Nawaloka Hospitals board', '5 September 2026', '6 August 2026', '22 July 2026', '8 July 2026', '27 May 2026', 'APMEC 2027 Kyoto', 'proposal in development'],
+  '/writing/': ['NHREF OtoScan', 'Not peer-reviewed', '5 November 2026', 'Version 1', '10.64898/2026.11.04.26367286', '9 August 2026', '22 July 2026', '30 May 2026', 'from-algorithm-accuracy-to-clinical', 'the-infinite-learner-manifesto-for', '10.1007/s43681-026-01248-3'],
   '/institutions/': ['Past foundation leadership', 'do not imply WHO endorsement', 'Initial badges are intentional'],
-  '/work/': ['Talks, workshops and selective collaboration', 'Prepared briefing', 'not a delivered board workshop', 'From a paper or podcast to learning', 'Critical evidence appraisal', 'Discuss a talk or workshop'],
+  '/work/': ['Talks, workshops and selective collaboration', 'Prepared briefing', 'not a delivered board workshop', 'A separate AI presentation to the Nawaloka Hospitals board was confirmed delivered in October 2026', 'From a paper or podcast to learning', 'Critical evidence appraisal', 'Discuss a talk or workshop'],
   '/contact/': ['Enquiry form', 'signed-in email', 'do not include patient information'],
 };
 let internal = 0, images = 0;
